@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CZS6-001-2016-443199",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE PASAJES AEREOS NACIONALES PARA  LOS FUNCIONARIOS DE LA COORDINACION ZONAL 6 SALUD.",
+  "institution": "COORDINACION ZONAL 6 - SALUD",
+  "supplier": "Empresa Pública TAME Línea Aérea del Ecuador \"TAME EP\"",
+  "amount": "22783.390000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2016-01-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CZS6-001-2016-443199",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000427787-42986",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO MUNICIPAL DEL CANTÓN SUCÚA",
+  "supplier": "RIERA CHIMBORAZO REINA ISABEL",
+  "amount": "174.720000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-02-04T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000427787-42986",
+  "locality": "SUCUA",
+  "region": "MORONA SANTIAGO"
+}

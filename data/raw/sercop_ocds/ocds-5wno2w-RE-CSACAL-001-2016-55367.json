@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CSACAL-001-2016-55367",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisición de Reactivos para el Contador Hematológico (Equipo Cerrado) del Centro de Salud A-Calceta",
+  "institution": "CENTRO DE SALUD A - CALCETA",
+  "supplier": "ROCHE ECUADOR S.A.",
+  "amount": "2225.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-10-17T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CSACAL-001-2016-55367",
+  "locality": "BOLIVAR",
+  "region": "MANABI"
+}

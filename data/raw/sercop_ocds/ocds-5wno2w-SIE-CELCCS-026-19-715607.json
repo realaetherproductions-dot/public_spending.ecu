@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-026-19-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisición de Materiales y Equipo para Contingencias  Ambientales de la Unidad de Negocio Coca Codo Sinclair",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "CORPORACION PARA LOS RECURSOS NATURALES CORENA S.A.",
+  "amount": "8756.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2019-08-02T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-026-19-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

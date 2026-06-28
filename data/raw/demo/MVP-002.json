@@ -1,0 +1,12 @@
+{
+  "external_id": "MVP-002",
+  "data_origin": "demo",
+  "is_demo": true,
+  "title": "Servicio de consultoria especializada",
+  "institution": "Municipio Piloto",
+  "supplier": "Consultora Demo Cia. Ltda.",
+  "procedure_type": "Contratacion directa",
+  "amount": "55000.00",
+  "award_date": "2026-02-20",
+  "source_url": null
+}

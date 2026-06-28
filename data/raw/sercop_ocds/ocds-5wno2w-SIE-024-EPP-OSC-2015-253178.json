@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-024-EPP-OSC-2015-253178",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "SALUD OCUPACIONAL EP PETROECUADOR ZONAS CENTRO NORTE, SUR, SUR OCCIDENTE Y ORIENTE",
+  "institution": "Empresa Pública de hidrocarburos del Ecuador EP PETROECUADOR",
+  "supplier": "HOSPITAL DE LOS VALLES S. A. HODEVALLES",
+  "amount": "588000.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-07-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-024-EPP-OSC-2015-253178",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

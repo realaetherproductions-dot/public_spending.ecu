@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-LCC-CELCCS-128-18-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "AUDITORÍAS AMBIENTALES DE CUMPLIMIENTO DE LA CENTRAL  HIDROELÉCTRICA COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "MALACATUS CONSULTING & TRAINING PMC CIA LTDA",
+  "amount": "133000.000000",
+  "procedure_type": "Lista corta",
+  "award_date": "2018-11-28T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-LCC-CELCCS-128-18-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

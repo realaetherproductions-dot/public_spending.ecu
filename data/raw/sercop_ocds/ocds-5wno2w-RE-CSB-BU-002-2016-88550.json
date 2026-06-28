@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CSB-BU-002-2016-88550",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE REPUESTOS PARA EL EQUIPO DE RAYOS X DEL CENTRO DE SALUD B -BUCAY",
+  "institution": "CENTRO DE SALUD B - BUCAY",
+  "supplier": "E.O.A. SERVICIO S.A.",
+  "amount": "7707.670000",
+  "procedure_type": "Repuestos o Accesorios",
+  "award_date": "2016-08-03T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CSB-BU-002-2016-88550",
+  "locality": "GENERAL ANTONIO ELIZALDE",
+  "region": "GUAYAS"
+}

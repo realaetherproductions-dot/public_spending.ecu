@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCBS-HPGJD-001-2015-15643",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE MATERIALES DE ASEO PARA EL HOSPITAL PROVINCIAL GENERAL JULIUS DOEPFNER ÁREA DE SALUD NRO. 1",
+  "institution": "HOSPITAL GENERAL JULIUS DOEPFNER",
+  "supplier": "MACAS ORTEGA KELVIN AGUSTIN",
+  "amount": "11127.710000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2015-02-28T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCBS-HPGJD-001-2015-15643",
+  "locality": "ZAMORA",
+  "region": "ZAMORA CHINCHIPE"
+}

@@ -1,0 +1,11 @@
+{
+  "external_id": "ocds-5wno2w-CE-20200001763677-17993",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería Hospitalaria ROPA DE TRABAJO",
+  "institution": "Institucion desconocida",
+  "supplier": "Proveedor no identificado",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2020-01-22T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20200001763677-17993"
+}

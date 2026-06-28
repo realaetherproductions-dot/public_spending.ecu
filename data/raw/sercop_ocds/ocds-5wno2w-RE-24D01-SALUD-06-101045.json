@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-24D01-SALUD-06-101045",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "MEDICINA Y PRODUCTOS FARMACEUITICOS",
+  "institution": "DIRECCION DISTRITAL 24D01- SANTA ELENA - SALUD",
+  "supplier": "ECUAQUIMICA ECUATORIANA DE PRODUCTOS QUIMICOS C.A.",
+  "amount": "38952.200000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-05-08T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-24D01-SALUD-06-101045",
+  "locality": "SANTA ELENA",
+  "region": "SANTA ELENA"
+}

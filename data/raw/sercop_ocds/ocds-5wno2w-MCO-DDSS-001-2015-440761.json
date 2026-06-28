@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCO-DDSS-001-2015-440761",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADESENTAMIENTO DE LA VIVIENDA MEDICADEL CENTRO DE SALUD ISINLIVI",
+  "institution": "DIRECCION DISTRITAL 05D05 - SIGCHOS - SALUD",
+  "supplier": "CHAUCA NUÑEZ DIEGO ARMANDO",
+  "amount": "34347.262600",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2015-10-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCO-DDSS-001-2015-440761",
+  "locality": "SIGCHOS",
+  "region": "COTOPAXI"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-105-17-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "COMPRA DE REPUESTOS PARA VALVULAS DEL SISTEMA OLEOHIDRAULICO DE LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "ZAMBRANO CARRILLO GOLDER EDUARDO",
+  "amount": "188790.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2017-10-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-105-17-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

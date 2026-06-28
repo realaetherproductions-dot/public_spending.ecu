@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963883-530093",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA",
+  "institution": "DIRECCION DISTRITAL 03D01 AZOGUES BIBLIAN DELEG EDUCACION",
+  "supplier": "Collaguazo Chuqui Elvia Clotilde",
+  "amount": "8846.145000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-22T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963883-530093",
+  "locality": "AZOGUES",
+  "region": "CAÑAR"
+}

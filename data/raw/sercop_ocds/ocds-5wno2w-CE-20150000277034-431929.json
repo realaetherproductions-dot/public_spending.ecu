@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000277034-431929",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "REGISTRO DE LA PROPIEDAD DEL GOBIERNO MUNICIPAL DEL CANTON EL TAMBO",
+  "supplier": "ALMACHE BERNAL MARIA ANGELINA",
+  "amount": "6.720000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-06-29T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000277034-431929",
+  "locality": "EL TAMBO",
+  "region": "CAÑAR"
+}

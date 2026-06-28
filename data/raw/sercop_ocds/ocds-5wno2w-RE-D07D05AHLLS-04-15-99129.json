@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D07D05AHLLS-04-15-99129",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ABASTECIMIENTO DE COMBUSTIBLE (DIESEL, SUPER, EXTRA) PARA LOS VEHICULOS DE LOS HOSPITALES, UNIDADES OPERATIVAS Y DIRECCION DISTRITAL 07D05 ARENILLAS-HUAQUILLAS-LAS LAJAS SALUD",
+  "institution": "DIRECCION DISTRITAL 07D05-ARENILLAS-HUAQUILLAS-LAS LAJAS-SALUD",
+  "supplier": "Empresa Pública de hidrocarburos del Ecuador EP PETROECUADOR",
+  "amount": "5357.130000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2015-07-02T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D07D05AHLLS-04-15-99129",
+  "locality": "HUAQUILLAS",
+  "region": "EL ORO"
+}

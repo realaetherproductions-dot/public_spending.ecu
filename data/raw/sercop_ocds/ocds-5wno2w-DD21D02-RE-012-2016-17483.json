@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-DD21D02-RE-012-2016-17483",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÒN DE SEGUROS PARA LOS VEHICULOS DE LA DIRECCION DISTRITAL DE SALUD 21 D 02 LAGO AGRIO",
+  "institution": "DIRECCION DISTRITAL 21D02 LAGO AGRIO-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "6728.040000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-09-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-DD21D02-RE-012-2016-17483",
+  "locality": "LAGO AGRIO",
+  "region": "SUCUMBIOS"
+}

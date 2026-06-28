@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D09D15-042-2015-152128",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE REACTIVOS PARA EL TERCER CUATRIMESTRE PARA LA DIRECCION DISTRITAL 09D15 EMPALME- SALUD",
+  "institution": "DIRECCION DISTRITAL 09D15-EL EMPALME-SALUD",
+  "supplier": "OPTIMEDIC S.A.",
+  "amount": "5730.230000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-10-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D09D15-042-2015-152128",
+  "locality": "EMPALME",
+  "region": "GUAYAS"
+}

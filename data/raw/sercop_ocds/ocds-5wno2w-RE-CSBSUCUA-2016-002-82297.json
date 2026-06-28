@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CSBSUCUA-2016-002-82297",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE DISPOSITIVOS DE LABORATORIO PARA EL CENTRO DE SALUD 309 SUCUA",
+  "institution": "CENTRO DE SALUD B - SUCÚA",
+  "supplier": "ROCHE ECUADOR S.A.",
+  "amount": "2750.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-05-31T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CSBSUCUA-2016-002-82297",
+  "locality": "SUCUA",
+  "region": "MORONA SANTIAGO"
+}

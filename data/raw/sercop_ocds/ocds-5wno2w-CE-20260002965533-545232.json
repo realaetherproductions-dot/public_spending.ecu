@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002965533-545232",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  PUNTO DE SERVICIO INSTITUCIONAL DE 24 HORAS DE LUNES A DOMINGO PERMANENTE [MENSUAL] CON ARMA DE FUEGO LETAL",
+  "institution": "DIRECCIÓN DISTRITAL 08D03 - MUISNE-ATACAMES-EDUCACIÓN",
+  "supplier": "ALTA SEGURIDAD PRIVADA ALPRISEG CIA LTDA",
+  "amount": "207410.180160",
+  "procedure_type": "Catálogo electrónico - Gran compra mejor oferta",
+  "award_date": "2026-01-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002965533-545232",
+  "locality": "ATACAMES",
+  "region": "ESMERALDAS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-05D01-004-2015-2489",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "COMPRA DE INSUMOS E IMPLEMENTOS MEDICOS PARA UTILIZAR EN LA DIRECCION DISTRITAL 05D01 LATACUNGA  SALUD",
+  "institution": "DIRECCION DISTRITAL 05D01-LATACUNGA-SALUD",
+  "supplier": "CARRION ROJAS EDGAR VICENTE",
+  "amount": "12239.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-02-25T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-05D01-004-2015-2489",
+  "locality": "LATACUNGA",
+  "region": "COTOPAXI"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCBS-D13D04-002-2016-150858",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MATERIALES DE ASEO QUE NO CONSTAN EN CATALOGO ELECTRONICO PARA LA DIRECCION DISTRITAL 13D04 SALUD",
+  "institution": "DIRECCION DISTRITAL DE SALUD N 13D04 24 DE MAYO - SANTA ANA - OLMEDO",
+  "supplier": "PAREDES SANCHEZ SONIA PATRICIA",
+  "amount": "1930.000000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2016-09-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCBS-D13D04-002-2016-150858",
+  "locality": "SANTA ANA",
+  "region": "MANABI"
+}

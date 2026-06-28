@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-001-DD09D02-2015-101435",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE INSUMOS MÉDICOS Y ODONTOLÓGICOS PARA EL DISTRITO DE SALUD 09D02",
+  "institution": "DIRECCION DISTRITAL NO 09D02 - XIMENA 2 -SALUD",
+  "supplier": "CABALLERO ALVARADO DIANA PAMELA",
+  "amount": "39200.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-03-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-001-DD09D02-2015-101435",
+  "locality": "GUAYAQUIL",
+  "region": "GUAYAS"
+}

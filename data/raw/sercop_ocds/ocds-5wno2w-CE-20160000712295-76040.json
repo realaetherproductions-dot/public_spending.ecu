@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000712295-76040",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 14D03 - LOGROÑO - SUCUA - SALUD",
+  "supplier": "GUZMAN VARGAS MIRIAM GUILLERMINA",
+  "amount": "139579.502400",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-30T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000712295-76040",
+  "locality": "SUCUA",
+  "region": "MORONA SANTIAGO"
+}

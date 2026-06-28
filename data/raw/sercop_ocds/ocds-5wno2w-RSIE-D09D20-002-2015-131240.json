@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RSIE-D09D20-002-2015-131240",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS ODONTOLOGICOS PARA LA DIRECCION DISTRITAL No.09D20 SALITRE - SALUD",
+  "institution": "DIRECCION DISTRITAL 09D20- SALITRE- SALUD",
+  "supplier": "FAXARE S.A.",
+  "amount": "14955.740000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-03-24T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RSIE-D09D20-002-2015-131240",
+  "locality": "SALITRE",
+  "region": "GUAYAS"
+}

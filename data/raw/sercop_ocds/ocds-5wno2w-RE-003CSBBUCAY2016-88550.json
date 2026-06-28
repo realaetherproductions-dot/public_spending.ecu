@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-003CSBBUCAY2016-88550",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Servicio de Tele-radiologia para el Centro de Salud B - Bucay",
+  "institution": "CENTRO DE SALUD B - BUCAY",
+  "supplier": "SERVICIO Y EQUIPAMIENTO SERQUIP CIA. LTDA.",
+  "amount": "34008.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-10-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-003CSBBUCAY2016-88550",
+  "locality": "GENERAL ANTONIO ELIZALDE",
+  "region": "GUAYAS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000709613-585868",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL",
+  "supplier": "BAZAN PEÑAHERRERA FRANCISCA MARIUXI",
+  "amount": "46252.080000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-23T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000709613-585868",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

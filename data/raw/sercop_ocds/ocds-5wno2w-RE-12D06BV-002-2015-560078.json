@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-12D06BV-002-2015-560078",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS DE LABORATORIO PARA EL DISTRITO 12D06 BUENA FE-VALENCIA-SALUD",
+  "institution": "DIRECCION DISTRITAL 12D06-BUENA FE-VALENCIA-SALUD",
+  "supplier": "RAPIDIAGNOSTICS S.A.",
+  "amount": "10932.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-03-04T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-12D06BV-002-2015-560078",
+  "locality": "VALENCIA",
+  "region": "LOS RIOS"
+}

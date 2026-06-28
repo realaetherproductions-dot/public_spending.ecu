@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DNS-003-2015-3282",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ABASTECIMIENTO DE COMBUSTIBLE PARA LOS VEHÍCULOS DE LA DIRECCION NACIONAL DE SALUD DE LA POLICÍA NACIONAL",
+  "institution": "MINISTERIO DEL INTERIOR - DIRECCION NACIONAL DE SALUD DE LA POLICIA NACIONAL",
+  "supplier": "Empresa Pública de hidrocarburos del Ecuador EP PETROECUADOR",
+  "amount": "18642.840000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2015-05-07T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DNS-003-2015-3282",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

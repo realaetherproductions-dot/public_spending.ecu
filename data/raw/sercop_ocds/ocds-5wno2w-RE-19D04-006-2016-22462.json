@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-19D04-006-2016-22462",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisicion de Reactivos de Laboratorio para equipo Marca ABX, para el Hospital Yantzaza de la DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD",
+  "institution": "DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD",
+  "supplier": "SIMED S. A.",
+  "amount": "1426.720000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-12-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-19D04-006-2016-22462",
+  "locality": "YANTZAZA (YANZATZA)",
+  "region": "ZAMORA CHINCHIPE"
+}

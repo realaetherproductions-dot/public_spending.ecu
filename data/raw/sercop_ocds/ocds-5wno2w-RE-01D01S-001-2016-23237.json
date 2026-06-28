@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-01D01S-001-2016-23237",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "PRESTACION DEL SERVICIO DE CORRESPONDENCIA PARA LA DIRECCION DISTRITAL 01D01 SALUD",
+  "institution": "DIRECCION DISTRITAL 01D01 PARROQUIAS URBANAS: MACHANGARA A BELLAVISTA Y PARROQUIAS RURALES: NULTI A SAYAUSI - SALUD",
+  "supplier": "EMPRESA PUBLICA CORREOS DEL ECUADOR CDE E.P.",
+  "amount": "384.730000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2016-07-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-01D01S-001-2016-23237",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

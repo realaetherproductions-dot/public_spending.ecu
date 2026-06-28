@@ -1,0 +1,8 @@
+{
+  "external_id": "TST1",
+  "title": "Compra de suministros",
+  "institution": "GAD Quito",
+  "supplier": "Prov A",
+  "amount": "7500.00",
+  "source_url": "https://example.org/TST1"
+}

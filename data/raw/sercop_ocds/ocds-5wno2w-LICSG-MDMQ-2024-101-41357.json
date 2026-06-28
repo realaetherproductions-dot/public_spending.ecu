@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-LICSG-MDMQ-2024-101-41357",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ocds-5wno2w-LICSG-MDMQ-2024-101-41357",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO DEL DISTRITO METROPOLITANO DE QUITO",
+  "supplier": "Proveedor no identificado",
+  "amount": null,
+  "procedure_type": null,
+  "award_date": "2024-02-15T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-LICSG-MDMQ-2024-101-41357",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

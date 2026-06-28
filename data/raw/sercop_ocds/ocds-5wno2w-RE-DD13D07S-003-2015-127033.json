@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD13D07S-003-2015-127033",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MEDICAMENTOS PARA LA DIRECCION DISTRITAL 13D07 CHONE FLAVIO ALFARO SALUD",
+  "institution": "DIRECCION DISTRITAL 13D07-CHONE-FLAVIO ALFARO-SALUD",
+  "supplier": "ETICAL LABORATORIOS ETICAL S.A",
+  "amount": "12600.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-03-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD13D07S-003-2015-127033",
+  "locality": "CHONE",
+  "region": "MANABI"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000616223-537258",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 22D02 ORELLANA - LORETO SALUD",
+  "supplier": "S.A.L.A.M. DEL ECUADOR SERVICIOS DE ALIMENTACION EDGAR MENA MENA S.A.",
+  "amount": "53625.600000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-08-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000616223-537258",
+  "locality": "FRANCISCO DE ORELLANA",
+  "region": "ORELLANA"
+}

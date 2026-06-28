@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCBS-D19D02-001-2015-570241",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE INSUMOS MÉDICOS, PARA EL DISTRITO 19D02-CENTINELA DEL CÓNDOR-NANGARITZA-PAQUISHA-SALUD",
+  "institution": "DIRECCION DISTRITAL 19D02 CENTINELA DEL CONDOR-NANGARITZA-PAQUISHA-SALUD",
+  "supplier": "MAYORGA MONTENEGRO FRANKLIN EDUARDO",
+  "amount": "10997.000000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2015-03-30T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCBS-D19D02-001-2015-570241",
+  "locality": "PAQUISHA",
+  "region": "ZAMORA CHINCHIPE"
+}

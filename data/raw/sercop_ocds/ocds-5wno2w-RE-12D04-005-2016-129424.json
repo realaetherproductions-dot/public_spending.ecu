@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-12D04-005-2016-129424",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE PÓLIZA DE SEGUROS PARA LOS BIENES MUEBLE E INMUEBLES DE LA DIRECCIÓN DISTRITAL 12D04-QUINSALOMA-VENTANAS-SALUD",
+  "institution": "DIRECCION DISTRITAL 12D04 - QUINSALOMA - VENTANAS - SALUD",
+  "supplier": "ROCAFUERTE SEGUROS S.A.",
+  "amount": "9938.090000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-10-24T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-12D04-005-2016-129424",
+  "locality": "VENTANAS",
+  "region": "LOS RIOS"
+}

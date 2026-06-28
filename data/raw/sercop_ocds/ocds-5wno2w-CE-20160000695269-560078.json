@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000695269-560078",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 12D06-BUENA FE-VALENCIA-SALUD",
+  "supplier": "ASOCIACION DE LIMPIEZA Y RECOLECCIÓN DE DESECHOS  SOLIDOS CIUDAD LIMPIA POR UN FUTURO MEJOR ASOREDELIME",
+  "amount": "70654.464000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000695269-560078",
+  "locality": "VALENCIA",
+  "region": "LOS RIOS"
+}

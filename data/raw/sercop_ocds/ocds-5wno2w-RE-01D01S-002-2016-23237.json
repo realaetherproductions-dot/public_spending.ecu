@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-01D01S-002-2016-23237",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MEDICAMENTOS PARA EL SEGUNDO CUATRIMESTRE PARA LA DIRECCION DISTRITAL 01D01-SALUD",
+  "institution": "DIRECCION DISTRITAL 01D01 PARROQUIAS URBANAS: MACHANGARA A BELLAVISTA Y PARROQUIAS RURALES: NULTI A SAYAUSI - SALUD",
+  "supplier": "EMPRESA PUBLICA FARMACIAS MUNICIPALES SOLIDARIAS FARMASOL EP",
+  "amount": "6862.980000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2016-08-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-01D01S-002-2016-23237",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

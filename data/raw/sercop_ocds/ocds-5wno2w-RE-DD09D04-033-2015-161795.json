@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD09D04-033-2015-161795",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "?ADQUISICIÓN DE REACTIVOS DE LABORATORIO PARA LA DIRECCIÓN DISTRITAL 09D04 - FEBRES CORDERO - SALUD?",
+  "institution": "DIRECCION DISTRITAL 09D04 - FEBRES CORDERO - SALUD",
+  "supplier": "COMERCIAL JORGE MIELES ZAMBRANO JOMIEZA CIA. LTDA.",
+  "amount": "25238.200000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-07-22T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD09D04-033-2015-161795",
+  "locality": "GUAYAQUIL",
+  "region": "GUAYAS"
+}

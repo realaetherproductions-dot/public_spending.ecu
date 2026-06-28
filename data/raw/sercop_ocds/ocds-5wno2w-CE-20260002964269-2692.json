@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002964269-2692",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  PUNTO DE SERVICIO INSTITUCIONAL DE 24 HORAS DE LUNES A DOMINGO PERMANENTE [MENSUAL] CON ARMA DE FUEGO LETAL",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO MUNICIPAL FRANCISCO DE ORELLANA",
+  "supplier": "L&M DE SEGURIDAD PRIVADA CIA LTDA",
+  "amount": "190125.998480",
+  "procedure_type": "Catálogo electrónico - Gran compra mejor oferta",
+  "award_date": "2026-01-22T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002964269-2692",
+  "locality": "FRANCISCO DE ORELLANA",
+  "region": "ORELLANA"
+}

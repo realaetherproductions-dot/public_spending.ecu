@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CEP-GADMAR-2026-003-38602",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ocds-5wno2w-RE-CEP-GADMAR-2026-003-38602",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO MUNICIPAL DEL CANTON ARENILLAS",
+  "supplier": "Proveedor no identificado",
+  "amount": null,
+  "procedure_type": null,
+  "award_date": "2026-03-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CEP-GADMAR-2026-003-38602",
+  "locality": "ARENILLAS",
+  "region": "EL ORO"
+}

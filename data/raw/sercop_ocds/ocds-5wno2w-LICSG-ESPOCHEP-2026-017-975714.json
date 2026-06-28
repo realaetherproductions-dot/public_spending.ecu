@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-LICSG-ESPOCHEP-2026-017-975714",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ocds-5wno2w-LICSG-ESPOCHEP-2026-017-975714",
+  "institution": "EMPRESA PUBLICA ESPOCH",
+  "supplier": "Proveedor no identificado",
+  "amount": null,
+  "procedure_type": null,
+  "award_date": "2026-05-08T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-LICSG-ESPOCHEP-2026-017-975714",
+  "locality": "RIOBAMBA",
+  "region": "CHIMBORAZO"
+}

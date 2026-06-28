@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000632837-72127",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "DIRECCION DISTRITAL DE SALUD NO. 08D05",
+  "supplier": "ASOCIACIÓN DE SERVICIOS DE ALIMENTACIÓN Y LIMPIEZA LA SAZON DEL CAMPO \"ASAZCAMP\"",
+  "amount": "43939.476000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-09-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000632837-72127",
+  "locality": "SAN LORENZO",
+  "region": "ESMERALDAS"
+}

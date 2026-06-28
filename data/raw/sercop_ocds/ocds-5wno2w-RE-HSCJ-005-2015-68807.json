@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-HSCJ-005-2015-68807",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE REACTIVOS PARA EL AREA DE LABORATORIO DE ESTA CASA DE SALUD",
+  "institution": "HOSPITAL SAGRADO CORAZON DE JESUS",
+  "supplier": "SIMED S. A.",
+  "amount": "12266.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-11-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-HSCJ-005-2015-68807",
+  "locality": "QUEVEDO",
+  "region": "LOS RIOS"
+}

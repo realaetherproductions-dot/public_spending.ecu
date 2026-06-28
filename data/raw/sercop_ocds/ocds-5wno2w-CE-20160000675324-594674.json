@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000675324-594674",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "HOSPITAL GENERAL DOCENTE DE CALDERON",
+  "supplier": "PUMISACHO PAREDES CARMEN FERNANDA",
+  "amount": "2067.777600",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-11-10T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000675324-594674",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

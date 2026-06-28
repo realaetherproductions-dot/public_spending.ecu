@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-REPU-CELCCS-115-17-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE REPUESTOS DEL SISTEMA DE BAJA TENSIÓN DE LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "ABB ECUADOR S.A.",
+  "amount": "439994.800000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2017-10-17T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-REPU-CELCCS-115-17-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

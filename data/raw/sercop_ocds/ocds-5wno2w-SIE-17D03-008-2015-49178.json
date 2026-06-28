@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-17D03-008-2015-49178",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE HIERRO + ACIDO FOLICO PARA LA DIRECCIÓN DISTRITAL 17D03 -EL CONDADO A CALACALI- SALUD EN LA CIUDAD DE QUITO",
+  "institution": "DIRECCION DISTRITAL 17D03",
+  "supplier": "CEDIMED CIA. LTDA.",
+  "amount": "62242.410000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-03-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-17D03-008-2015-49178",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCBS-DDS01-004-2016-51561",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "MANTENIMIENTO Y REPARACION  DE EQUIPOS MEDICOS DEL DISTRITO DE SALUD Y HOSPITAL BASICO BABA",
+  "institution": "DIRECCION DISTRITAL 12D01 - BABA - BABAHOYO - MONTALVO - SALUD",
+  "supplier": "BARBOTO CARRANZA GUSTAVO AGAPO",
+  "amount": "16000.000000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2016-04-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCBS-DDS01-004-2016-51561",
+  "locality": "BABAHOYO",
+  "region": "LOS RIOS"
+}

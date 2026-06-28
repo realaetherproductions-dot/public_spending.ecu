@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000702564-88059",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "HOSPITAL MIGUEL H. ALCIVAR",
+  "supplier": "ASOCIACIÓN DE SERVICIO DE ALIMENTACIÓN  DE CALIDAD PARA UNA VIDA SANA \"ASOSERALISAN\"",
+  "amount": "75713.100000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000702564-88059",
+  "locality": "SUCRE",
+  "region": "MANABI"
+}

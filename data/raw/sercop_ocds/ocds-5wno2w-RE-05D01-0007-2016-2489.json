@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-05D01-0007-2016-2489",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE PLACAS RADIOGRAFICAS NECESARIAS PARA EL SERVICIO DE IMAGEN DE LAS UNIDADES DE SALUD PERTENECIENTES AL DISTRITO 05D01 LATACUNGA",
+  "institution": "DIRECCION DISTRITAL 05D01-LATACUNGA-SALUD",
+  "supplier": "ORIMEC ORIENTAL MEDICAL DEL ECUADOR C.A.",
+  "amount": "596.490000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-11-09T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-05D01-0007-2016-2489",
+  "locality": "LATACUNGA",
+  "region": "COTOPAXI"
+}

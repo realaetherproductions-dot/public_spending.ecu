@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-063-17-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE EQUIPO CONTRAINCENDIOS PARA LA UNIDAD DE NEGOCIO CELEC EP COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "DIAZ PAREDES CARLOS ELIAS",
+  "amount": "9217.880000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2017-08-16T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-063-17-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

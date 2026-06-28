@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCO-CELCCS-032-17-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Obra de adecuación para el Archivo Central de la Unidad de Negocio Coca Codo Sinclair",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "IGLESIAS PALACIOS CARLOS GEOVANNY",
+  "amount": "19990.500000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2017-05-23T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCO-CELCCS-032-17-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

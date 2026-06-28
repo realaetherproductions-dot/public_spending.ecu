@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RESEG-CELMAT-013-17-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Contratación del programa de seguros para los bienes e instalaciones de CELEC EP-Central Hidroeléctrica Coca Codo Sinclair, para la vigencia 2017-2018",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "8058940.660000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2017-10-02T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RESEG-CELMAT-013-17-238940",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

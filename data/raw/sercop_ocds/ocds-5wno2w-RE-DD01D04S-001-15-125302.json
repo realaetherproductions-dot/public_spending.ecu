@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD01D04S-001-15-125302",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACION DE POLIZA DE SEGUROS PARA BIENES DE LA DIRECCION DISTRITAL 01D04-CHORDELEG-GUALACEO-SALUD",
+  "institution": "DIRECCION DISTRITAL 01D04 - CHORDELEG - GUALACEO - SALUD",
+  "supplier": "ROCAFUERTE SEGUROS S.A.",
+  "amount": "8415.110000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2015-04-10T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD01D04S-001-15-125302",
+  "locality": "GUALACEO",
+  "region": "AZUAY"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD06D02-002-2016-575768",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Este procedimiento precontractual tiene como propósito principal la  ?CONTRATACIÓN DE PÓLIZA DE SEGURO DE FIDELIDAD TIPO BLANKETH PARA LA DIRECCION DISTRITAL 06D02 ALAUSI CHUNCHI SALUD? que celebran las instituciones del sistema financiero y seguros,",
+  "institution": "DIRECCION DISTRITAL 06D02 ALAUSI CHUNCHI SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "6278.730000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-08-04T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD06D02-002-2016-575768",
+  "locality": "ALAUSI",
+  "region": "CHIMBORAZO"
+}

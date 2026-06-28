@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-11D04-001-2016-42201",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "EL OBJETO DEL PROCESO ES LA CONTRATACIÓN DE PÓLIZA DE ASEGURAMIENTO  DE BIENES MUEBLES E INMUEBLES CONTRA INCENDIO Y ROTURA DE MAQUINARIA, DEL DISTRITO 11D04 SALUD DE ACUERDO AL LISTADO PROPORCIONADO  LISTADO PROPORCIONADO POR ACTIVOS FIJOS",
+  "institution": "DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "24056.710000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-10-20T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-11D04-001-2016-42201",
+  "locality": "PUYANGO",
+  "region": "LOJA"
+}

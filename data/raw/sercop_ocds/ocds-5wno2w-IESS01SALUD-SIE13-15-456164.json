@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-IESS01SALUD-SIE13-15-456164",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Servicio de Tratamiento y seguimiento de Casos Sociales para el CAAM del IESS Cuenca",
+  "institution": "INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL",
+  "supplier": "CORDOVA AUQUILLA ROSA HORTENCIA",
+  "amount": "19400.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-12-18T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-IESS01SALUD-SIE13-15-456164",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELTRA-003-15-240699",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE MEDICAMENTOS E INSUMOS MÉDICOS PARA LAS UNIDADES DE SALUD Y BOTIQUINES DE CELEC EP TRANSELECTRIC",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "DAVILA LLERENA MARIA DE LOS ANGELES",
+  "amount": "18500.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-05-20T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELTRA-003-15-240699",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

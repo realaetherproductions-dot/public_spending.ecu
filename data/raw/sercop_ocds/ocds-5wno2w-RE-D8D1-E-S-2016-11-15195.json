@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D8D1-E-S-2016-11-15195",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE REACTIVO PARA EQUIPO MYTHIC 22 PARA EL DISTRITO 08D01 ESMERALDAS SALUD",
+  "institution": "DIRECCION DISTRITAL 08D01 - ESMERALDAS - RIOVERDE-SALUD",
+  "supplier": "DEMATEC EQUIPOS DE LABORATORIO CIA. LTDA.",
+  "amount": "17865.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-10-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D8D1-E-S-2016-11-15195",
+  "locality": "ESMERALDAS",
+  "region": "ESMERALDAS"
+}

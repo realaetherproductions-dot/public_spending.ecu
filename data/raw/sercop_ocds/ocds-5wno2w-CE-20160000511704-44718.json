@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000511704-44718",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO ILUSTRE MUNICIPALIDAD DEL CANTON DAULE",
+  "supplier": "RUIZ SANTANA WENDY NARCISA",
+  "amount": "2083.200000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-04-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000511704-44718",
+  "locality": "DAULE",
+  "region": "GUAYAS"
+}

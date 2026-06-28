@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RS1E-D09D18-007-2015-131189",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE MEDICAMENTOS PARA EL PROGRAMA DESNUTRICION CERO DE LA DIRECCION DISTRITAL DE SALUD 09D18 CRN EL. MARCELINO MARIDUEÑA - NARANJITO",
+  "institution": "DIRECCION DISTRITAL 09D18 - CRNEL. MARCELINO MARIDUEÑA - NARANJITO - SALUD",
+  "supplier": "FERNANDEZ ESCOBAR FREDDY ANTONIO",
+  "amount": "20240.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-07-15T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RS1E-D09D18-007-2015-131189",
+  "locality": "NARANJITO",
+  "region": "GUAYAS"
+}

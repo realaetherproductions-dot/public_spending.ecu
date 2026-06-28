@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963044-2711",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIOS DE LIMPIEZA Y MANTENIMIENTO DE VIVIENDAS O DE EDIFICIOS COMERCIALES, ADMINISTRATIVOS E INDUSTRIALE, LIMPIEZA Y ENCERADO DE PISOS",
+  "institution": "HOSPITAL GENERAL PUYO",
+  "supplier": "ASOCIACIÓN DE SERVICIOS DE LIMPIEZA BRISAS DEL MAR \"ASOLIBMA\"",
+  "amount": "13083.274000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-18T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963044-2711",
+  "locality": "PASTAZA",
+  "region": "PASTAZA"
+}

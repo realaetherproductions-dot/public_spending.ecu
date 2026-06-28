@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000362950-8531",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "HOSPITAL DELFINA TORRES DE CONCHA",
+  "supplier": "QUIÑONEZ MAFLA GAVIS MARINA",
+  "amount": "192.000000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-10-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000362950-8531",
+  "locality": "ESMERALDAS",
+  "region": "ESMERALDAS"
+}

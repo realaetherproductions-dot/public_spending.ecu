@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DIRSAN-002-2015-2662",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MATERIALES DE LABORATORIO PARA LAS UNIDADES DE SALUD",
+  "institution": "DIRECCION DE SANIDAD DE LA ARMADA",
+  "supplier": "MCG DIAGNOSTICA S.A.",
+  "amount": "7406.770000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-03-10T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DIRSAN-002-2015-2662",
+  "locality": "GUAYAQUIL",
+  "region": "GUAYAS"
+}

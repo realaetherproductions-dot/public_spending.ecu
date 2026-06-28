@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000704805-8531",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "HOSPITAL DELFINA TORRES DE CONCHA",
+  "supplier": "MERA RODRIGUEZ ERIK DAVID",
+  "amount": "18849.558000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-14T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000704805-8531",
+  "locality": "ESMERALDAS",
+  "region": "ESMERALDAS"
+}

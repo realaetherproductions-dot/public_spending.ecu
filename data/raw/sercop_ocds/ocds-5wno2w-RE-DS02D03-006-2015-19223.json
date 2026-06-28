@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DS02D03-006-2015-19223",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACION DE POLIZA DE FIDELIDAD DE LOS EMPLEDASO DEL DISTRITO DE SALUD 02D03-CHIMBO SAN MIGUEL SALUD 2015-2016",
+  "institution": "DIRECCION DISTRITAL 02D03 -CHIMBO - SAN MIGUEL -SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "9556.480000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2015-10-22T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DS02D03-006-2015-19223",
+  "locality": "SAN MIGUEL",
+  "region": "BOLIVAR"
+}

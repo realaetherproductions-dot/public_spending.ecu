@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963038-114173",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE PARA CENTROS DE DESARROLLO INFANTIL CDI",
+  "institution": "JUNTA PARROQUIAL DE CHARAPOTO",
+  "supplier": "ASOCIACION DE SERVICIOS DE ALIMENTACION THAIS URETA ASOSERATHAU",
+  "amount": "18683.406000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-16T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963038-114173",
+  "locality": "SUCRE",
+  "region": "MANABI"
+}

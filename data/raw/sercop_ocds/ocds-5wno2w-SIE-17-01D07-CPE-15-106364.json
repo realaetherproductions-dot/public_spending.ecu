@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-17-01D07-CPE-15-106364",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "“LA ADQUISICION DE INSUMOS MEDICOS PARA ESTABLECIMIENTOS DE LA DIRECCION DISTRITAL 01D07-CPE-SALUD.”",
+  "institution": "DIRECCION DISTRITAL 01D07-CAMILO PONCE ENRIQUEZ-SALUD",
+  "supplier": "CARRION ROJAS LUIS ENRIQUE",
+  "amount": "18897.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-07-24T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-17-01D07-CPE-15-106364",
+  "locality": "CAMILO PONCE ENRIQUEZ",
+  "region": "AZUAY"
+}

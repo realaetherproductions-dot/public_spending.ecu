@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD06D04-04-2015-114341",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE REACTIVOS E INSUMOS PARA EL ANALIZADOR AUTOMATICO DE HEMATOLOGÍA SYSMEX KX21N DEL DEPARTAMENTO DE LABORATORIO CLÍNICO DEL HOSPITAL BÁSICO GUAMOTE DE LA DIRECCIÓN DISTRITAL 06D04 COLTA GUAMOTE SALUD",
+  "institution": "DIRECCION DISTRITAL 06D04 COLTA GUAMOTE SALUD",
+  "supplier": "FAMPROJECT CIA. LTDA.",
+  "amount": "6916.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-11-04T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD06D04-04-2015-114341",
+  "locality": "COLTA",
+  "region": "CHIMBORAZO"
+}

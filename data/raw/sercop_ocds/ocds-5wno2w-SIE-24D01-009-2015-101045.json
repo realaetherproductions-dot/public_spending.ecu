@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-24D01-009-2015-101045",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS MEDICOS PARA EL CENTRO AMBULATORIO DE ESPECIALIDAD JOSE MARTÍ DE LA DIRECCION DISTRITAL 24D01 SANTA ELENA SALUD.",
+  "institution": "DIRECCION DISTRITAL 24D01- SANTA ELENA - SALUD",
+  "supplier": "LABORATORIOS PORTUGAL S.A. PORTULABSA",
+  "amount": "41690.560000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-03-20T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-24D01-009-2015-101045",
+  "locality": "SANTA ELENA",
+  "region": "SANTA ELENA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000323094-96550",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "UNIDAD DE ATENCIÓN AMBULATORIA DE CAYAMBE",
+  "supplier": "ABATA CHUQUITARCO NANCY GUADALUPE",
+  "amount": "1191.680000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-08-28T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000323094-96550",
+  "locality": "CAYAMBE",
+  "region": "PICHINCHA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-24D01-003-2016-101045",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE PÓLIZAS DE FIDELIDAD TIPO BLANKET PARA EL PERSONAL DE LA DIRECCIÓN DISTRITAL 24D01 SANTA ELENA - SALUD",
+  "institution": "DIRECCION DISTRITAL 24D01- SANTA ELENA - SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "12918.270000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-08-16T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-24D01-003-2016-101045",
+  "locality": "SANTA ELENA",
+  "region": "SANTA ELENA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000337375-324040",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "EMPRESA PUBLICA VIAL PROVINCIAL DE LOS RIOS ",
+  "supplier": "ALBIÑO BORJA GINA LUCRECIA",
+  "amount": "26.880000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-09-14T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000337375-324040",
+  "locality": "QUEVEDO",
+  "region": "LOS RIOS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002965574-533126",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA",
+  "institution": "DIRECCION DISTRITAL18D01-PARROQUIAS URBANAS:(LA PENINSULA A SAN FRANCISCO) Y PARROQUIAS RURALES: (AUGUSTO N. MARTINEZ A ATAHUALPA)-EDUCACION",
+  "supplier": "ASOCIACION DE SERVICIOS DE LIMPIEZA Y AFINES NUEVO MILLENIUM EL GALPON ASOSERLAM",
+  "amount": "11743.800000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002965574-533126",
+  "locality": "AMBATO",
+  "region": "TUNGURAHUA"
+}

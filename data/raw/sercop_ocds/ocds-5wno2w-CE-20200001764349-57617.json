@@ -1,0 +1,11 @@
+{
+  "external_id": "ocds-5wno2w-CE-20200001764349-57617",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "Institucion desconocida",
+  "supplier": "Proveedor no identificado",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2020-01-23T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20200001764349-57617"
+}

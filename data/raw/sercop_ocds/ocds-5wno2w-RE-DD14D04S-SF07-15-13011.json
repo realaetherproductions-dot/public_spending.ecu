@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD14D04S-SF07-15-13011",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE PÓLIZA DE SEGUROS DE FIDELIDAD PARA FUNCIONARIOS DE LA DIRECCIÓN DISTRITAL 14D04 GUALAQUIZA SAN JUAN BOSCO SALUD",
+  "institution": "DIRECCIÓN DISTRITAL 14D04 GUALAQUIZA SAN JUAN BOSCO SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "6085.680000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2015-07-03T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD14D04S-SF07-15-13011",
+  "locality": "GUALAQUIZA",
+  "region": "MORONA SANTIAGO"
+}

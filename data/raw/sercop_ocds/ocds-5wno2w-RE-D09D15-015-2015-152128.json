@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D09D15-015-2015-152128",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE PELICULAS AGFA PARA EL ARTEA DE RAYOS X DE LA DIRECCIÓN DISTRITAL 09D15-EL EMPALME-SALUD",
+  "institution": "DIRECCION DISTRITAL 09D15-EL EMPALME-SALUD",
+  "supplier": "ECUADOR OVERSEAS AGENCIES C.A.",
+  "amount": "1080.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-03-16T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D09D15-015-2015-152128",
+  "locality": "EMPALME",
+  "region": "GUAYAS"
+}

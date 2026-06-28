@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963738-64933",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ASPIRADO Y LAVADO DE ALFOMBRAS",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO MUNICIPAL DEL CANTON JUNIN",
+  "supplier": "ASOCIACION DE SERVICIOS DE LIMPIEZA SOL Y ARENA ASOSOLARE",
+  "amount": "2943.540000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963738-64933",
+  "locality": "JUNIN",
+  "region": "MANABI"
+}

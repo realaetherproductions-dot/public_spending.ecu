@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-08D04-PF-05-2016-167462",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Contratar una póliza de seguro de fidelidad, para las/os funcionarias/os de la Dirección Distrital 08D04 Quininde Salud.",
+  "institution": "DIRECCION DISTRITAL 08D04 - QUININDE - SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "10709.666600",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-06-28T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-08D04-PF-05-2016-167462",
+  "locality": "QUININDE",
+  "region": "ESMERALDAS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000368878-131189",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA, DESINFECCIÓN Y MANEJO DE DESECHOS PARA UNIDADES DE SALUD INCLUIDO MATERIAL",
+  "institution": "DIRECCION DISTRITAL 09D18 - CRNEL. MARCELINO MARIDUEÑA - NARANJITO - SALUD",
+  "supplier": "OLAYA TORRES DARWIN LEONARDO",
+  "amount": "7341.600000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-10-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000368878-131189",
+  "locality": "NARANJITO",
+  "region": "GUAYAS"
+}

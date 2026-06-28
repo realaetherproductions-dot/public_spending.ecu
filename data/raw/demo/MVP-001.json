@@ -1,0 +1,13 @@
+{
+  "external_id": "MVP-001",
+  "data_origin": "demo",
+  "is_demo": true,
+  "title": "Adquisicion de equipos informaticos",
+  "institution": "Municipio Piloto",
+  "supplier": "Proveedor Demo S.A.",
+  "supplier_tax_id": "1790000000001",
+  "procedure_type": "Subasta inversa electronica",
+  "amount": "12000.00",
+  "award_date": "2026-01-15",
+  "source_url": "https://example.org/contratos/MVP-001"
+}

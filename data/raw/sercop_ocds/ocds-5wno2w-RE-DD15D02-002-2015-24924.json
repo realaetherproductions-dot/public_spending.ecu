@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD15D02-002-2015-24924",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE  DISPOSITIVOS RADIOLÓGICOS PARA EL ÁREA DE RAYOS X DE LA  DIRECCION DISTRITAL 15D02-EL CHACO-QUIJOS-SALUD.",
+  "institution": "DIRECCION DISTRITAL 15D02 - EL CHACO - QUIJOS - SALUD",
+  "supplier": "ORIMEC ORIENTAL MEDICAL DEL ECUADOR C.A.",
+  "amount": "3385.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-02-02T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD15D02-002-2015-24924",
+  "locality": "QUIJOS",
+  "region": "NAPO"
+}

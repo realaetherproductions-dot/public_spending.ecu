@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-003-DD09D02-2015-101435",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE HIERRO 60MG + ACIDO FOLICO 400MCG PARA LA DIRECCION DISTRITAL 09D02 - XIMENA 2 - SALUD",
+  "institution": "DIRECCION DISTRITAL NO 09D02 - XIMENA 2 -SALUD",
+  "supplier": "LIMERICKPHARMA CIA. LTDA.",
+  "amount": "21600.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-03-31T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-003-DD09D02-2015-101435",
+  "locality": "GUAYAQUIL",
+  "region": "GUAYAS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000476668-117858",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA, DESINFECCIÓN Y MANEJO DE DESECHOS PARA UNIDADES DE SALUD INCLUIDO MATERIAL",
+  "institution": "DIRECCION DISTRITAL 07D04-BALSAS-MARCABELI-PIÑAS-SALUD",
+  "supplier": "TORRES ROMERO MARIA DEL CISNE",
+  "amount": "3032.400000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-03-07T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000476668-117858",
+  "locality": "PIÑAS",
+  "region": "EL ORO"
+}

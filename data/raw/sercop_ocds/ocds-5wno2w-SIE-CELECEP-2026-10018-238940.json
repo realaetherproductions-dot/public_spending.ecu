@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELECEP-2026-10018-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CCS SUMINISTRO DE INSUMOS ABRASIVOS PARA CORTE DESBASTE Y ACABADO DE COMPONENTES METALICOS EN LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "CASTILLO HERMANOS S.A.",
+  "amount": "119990.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2026-03-11T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELECEP-2026-10018-238940",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

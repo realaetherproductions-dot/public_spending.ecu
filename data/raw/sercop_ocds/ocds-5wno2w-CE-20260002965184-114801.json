@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002965184-114801",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – ALMUERZOS DURANTE DÍAS LABORABLES PARA ENTIDADES QUE CUENTEN CON EQUIPO PROPIO DE COCINA.",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO PARROQUIAL RURAL DE JUAN BENIGNO VELA",
+  "supplier": "PAREDES PAREDES MARIA ELENA",
+  "amount": "846.400000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002965184-114801",
+  "locality": "AMBATO",
+  "region": "TUNGURAHUA"
+}

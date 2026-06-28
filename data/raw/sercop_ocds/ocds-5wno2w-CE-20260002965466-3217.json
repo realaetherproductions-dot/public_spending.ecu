@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002965466-3217",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE MANTENIMIENTO DE DESBROCE DE LA FRANJA DE SERVIDUMBRE",
+  "institution": "ELECTRO GENERADORA DEL AUSTRO S.A.",
+  "supplier": "PIÑA QUIROLA MICHAEL STEEVEN",
+  "amount": "6944.896000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002965466-3217",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

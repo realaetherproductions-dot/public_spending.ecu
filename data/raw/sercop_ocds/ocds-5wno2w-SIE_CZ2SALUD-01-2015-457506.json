@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE_CZ2SALUD-01-2015-457506",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE EQUIPOS BIOMEDICOS PARA EL SISTEMA DE MEDICINA TRANSFUSIONAL PARA EL HOSPITAL JOSE MARIA VELASCO IBARRA DE TENA",
+  "institution": "COORDINACION ZONAL 2-SALUD",
+  "supplier": "DENTALES PABLO HERMAN S.A.",
+  "amount": "99760.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-04-17T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE_CZ2SALUD-01-2015-457506",
+  "locality": "TENA",
+  "region": "NAPO"
+}

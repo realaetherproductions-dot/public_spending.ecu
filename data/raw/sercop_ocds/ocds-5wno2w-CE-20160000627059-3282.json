@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000627059-3282",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "MINISTERIO DEL INTERIOR - DIRECCION NACIONAL DE SALUD DE LA POLICIA NACIONAL",
+  "supplier": "NOGUERA LEON ALBA JANETH",
+  "amount": "23249.160000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-09-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000627059-3282",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

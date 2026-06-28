@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-030A-2022-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CCS SERVICIO DE ANALISIS DE LABORATORIO DE MUESTRAS DE AGUA Y SEDIMENTOS DE LAS ESTRUCTURAS HIDRAULICAS DE LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "Proveedor no identificado",
+  "amount": "41128.350000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2023-02-10T06:09:36-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-030A-2022-238940",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

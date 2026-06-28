@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELECEP-2024-10107-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CCS ADQUISICION INSUMOS Y CONSUMIBLES PARA EL LABORATORIO DE CONTROL QUIMICO DE LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "Proveedor no identificado",
+  "amount": "29154.230000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2024-09-26T13:31:57-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELECEP-2024-10107-238940",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

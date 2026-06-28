@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CDC-CELCCS-008-17-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Contratación de Auditoría financiera a la ejecución del CONVENIO SG 101-2014 entre Coca Codo Sinclair EP Y Empresa Eléctrica Quito S.A. Central Hidroeléctrica Coca Codo Sinclair",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "GLOBALAUDITORS CIA LTDA",
+  "amount": "12000.000000",
+  "procedure_type": "Contratacion directa",
+  "award_date": "2017-04-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CDC-CELCCS-008-17-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-09D11-001-2016-130414",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE SEGUROS, DE CAUCIONES PARA EL PERSONAL DE LA DIRECCION DISTRITAL 09D11 ALFREDO BAQUERIZO MORENO – SIMON BOLIVAR - SALUD.",
+  "institution": "DIRECCION DISTRITAL 09D11-ALFREDO BAQUERIZO MORENO-SIMON BOLIVAR -SALUD",
+  "supplier": "ROCAFUERTE SEGUROS S.A.",
+  "amount": "3797.980000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-01-28T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-09D11-001-2016-130414",
+  "locality": "SIMON BOLIVAR",
+  "region": "GUAYAS"
+}

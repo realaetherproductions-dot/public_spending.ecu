@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-09D07-010-2015-65888",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MOBILIARIO DE OFICINA PARA CENTRO DE SALUD TIPO C",
+  "institution": "DIRECCION DISTRITAL 09D07-PASCUALES-1-SALUD",
+  "supplier": "SIGUENZA JARAMILLO MARCOS XAVIER",
+  "amount": "53250.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-07-23T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-09D07-010-2015-65888",
+  "locality": "GUAYAQUIL",
+  "region": "GUAYAS"
+}

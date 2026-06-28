@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DS09D13-002-15-10232",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE REACTIVOS E INSUMOS PARA LABORATORIO DE LA DIRECCIÓN DISTRITAL 09D13 BALZAR COLIMES PALESTINA SALUD.",
+  "institution": "DIRECCION DISTRITAL 09D13-BALZAR-COLIMES-PALESTINA-SALUD",
+  "supplier": "FRISONEX FRISON IMPORTADORA EXPORTADORA CIA. LTDA.",
+  "amount": "3731.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-02-11T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DS09D13-002-15-10232",
+  "locality": "BALZAR",
+  "region": "GUAYAS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D09D15-016-2015-152128",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "\"ADQUISICIÓN DE PÓLIZAS DE SEGUROS CONTRA LA INFIDELIDAD DE EMPLEADOS DE LA  DIRECCIÓN DISTRITAL 09D15-EL EMPALME-SALUD \"",
+  "institution": "DIRECCION DISTRITAL 09D15-EL EMPALME-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "4926.540000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2015-03-24T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D09D15-016-2015-152128",
+  "locality": "EMPALME",
+  "region": "GUAYAS"
+}

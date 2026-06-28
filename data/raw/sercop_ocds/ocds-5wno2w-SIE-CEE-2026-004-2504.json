@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CEE-2026-004-2504",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATO DE SERVICIO DE IMPRESIÓN Y FOTOCOPIADO PARA EL CEE",
+  "institution": "CUERPO DE INGENIEROS DEL EJERCITO",
+  "supplier": "BONUS TECH S.A.S.",
+  "amount": "89400.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2026-04-24T13:44:28-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CEE-2026-004-2504",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

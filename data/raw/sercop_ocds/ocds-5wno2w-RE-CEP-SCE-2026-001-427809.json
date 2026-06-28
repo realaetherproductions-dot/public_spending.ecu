@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CEP-SCE-2026-001-427809",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ocds-5wno2w-RE-CEP-SCE-2026-001-427809",
+  "institution": "SUPERINTENDENCIA DE COMPETENCIA ECONOMICA",
+  "supplier": "Proveedor no identificado",
+  "amount": null,
+  "procedure_type": null,
+  "award_date": "2026-06-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CEP-SCE-2026-001-427809",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

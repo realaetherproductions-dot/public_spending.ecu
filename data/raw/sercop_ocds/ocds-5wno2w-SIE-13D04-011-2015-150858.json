@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-13D04-011-2015-150858",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MEDICINA PARA EL SEGUNDO CUATRIMESTRE PARA LA DIRECCION DISTRITAL DE SALUD 13D04 SANTA ANA 24 DE MAYO Y OLMEDO",
+  "institution": "DIRECCION DISTRITAL DE SALUD N 13D04 24 DE MAYO - SANTA ANA - OLMEDO",
+  "supplier": "ONCOFARM S.A.",
+  "amount": "14600.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-06-29T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-13D04-011-2015-150858",
+  "locality": "SANTA ANA",
+  "region": "MANABI"
+}

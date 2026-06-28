@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCBS-CELCCS-001-15-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Mantenimiento preventivo y correctivo de Vehículos Toyota de la Unidad de Negocio Coca Codo Sinclair",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "CASABACA S.A.",
+  "amount": "50000.000000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2015-10-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCBS-CELCCS-001-15-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

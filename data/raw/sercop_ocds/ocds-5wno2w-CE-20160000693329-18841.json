@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000693329-18841",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCIÓN DISTRITAL 11D03-PALTAS-SALUD",
+  "supplier": "VALAREZO TENORIO LIBIA PAOLA",
+  "amount": "237047.040000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-02T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000693329-18841",
+  "locality": "PALTAS",
+  "region": "LOJA"
+}

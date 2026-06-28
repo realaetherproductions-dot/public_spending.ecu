@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D14D01MS-006-2016-334440",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACION DE POLIZA DE SEGURO PARA EL VEHICULO DE LA DIRECCION DISTRITAL 14D01 MORONA SALUD DEL CANTON MORONA PROVINCIA DE MORONA SANTIAGO",
+  "institution": "DIRECCION DISTRITAL 14D01-MORONA-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "734.130000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2016-09-09T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D14D01MS-006-2016-334440",
+  "locality": "MORONA",
+  "region": "MORONA SANTIAGO"
+}

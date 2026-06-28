@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-047A-2023-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CCS SERVICIO DE CALIBRACIÓN Y CERTIFICACIÓN DE VÁLVULAS PSV DE LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "METROLOGIC S.A.",
+  "amount": "19907.980000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2023-05-15T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-047A-2023-238940",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

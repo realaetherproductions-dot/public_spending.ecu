@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD05D04-06-2015-99635",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS Y REACTIVOS DE LABORATORIO PARA LAS UNIDADES OPERATIVAS DE LA DIRECCION DISTRITAL 05D04 PUJILI-SAQUISILI-SALUD",
+  "institution": "DIRECCION DISTRITAL 05D04 -PUJILI-SAQUISILI-SALUD",
+  "supplier": "FAMPROJECT CIA. LTDA.",
+  "amount": "7916.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-11-04T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD05D04-06-2015-99635",
+  "locality": "SAQUISILI",
+  "region": "COTOPAXI"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-03D02-003-562910",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS ODONTOLOGICOS PARA  LA DIRECCION DISTRITAL 03D02 CAÑAR TAMBO SUSCAL SALUD",
+  "institution": "DIRECCION DISTRITAL 03D02 CAÑAR-EL TAMBO- SUSCAL-SALUD",
+  "supplier": "RECOR DENTAL Y QUIMEDIC CIA. LTDA",
+  "amount": "10044.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-02-24T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-03D02-003-562910",
+  "locality": "CAÑAR",
+  "region": "CAÑAR"
+}

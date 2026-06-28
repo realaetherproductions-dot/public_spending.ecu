@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000308438-30951",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "UNIVERSIDAD DE CUENCA",
+  "supplier": "CASTILLO VALDEZ SILVIA GLADIS",
+  "amount": "212.800000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-08-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000308438-30951",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

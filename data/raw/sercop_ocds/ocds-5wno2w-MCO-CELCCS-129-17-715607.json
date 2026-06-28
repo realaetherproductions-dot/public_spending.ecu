@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCO-CELCCS-129-17-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "REPARACIÓN DEL PISO DE LA BODEGA DE LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "ASOCIACION DE SERVICIOS DE MANTENIMIENTO MULTIPLES RIOS ORIENTALES ¿ASOSERMURO¿",
+  "amount": "100800.000000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2017-10-30T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCO-CELCCS-129-17-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

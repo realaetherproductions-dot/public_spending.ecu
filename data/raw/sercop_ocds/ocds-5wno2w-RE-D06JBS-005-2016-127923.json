@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D06JBS-005-2016-127923",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "SERVICIO DE MANTENIMIENTO PREVENTIVO DEL EQUIPO CONTADOR HEMATOLÓGICO BC2800 MINDRAY DEL HOSPITAL DR. ANÍBAL  GONZÁLEZ ÁLAVA DE LA DIRECCIÓN DISTRITAL 13D06 JUNÍN-BOLÍVAR-SALUD",
+  "institution": "DIRECCION DISTRITAL 13D06 - JUNIN - BOLIVAR - PICHINCHA -SALUD",
+  "supplier": "MEDILABOR S.A.",
+  "amount": "501.500000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-10-17T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D06JBS-005-2016-127923",
+  "locality": "BOLIVAR",
+  "region": "MANABI"
+}

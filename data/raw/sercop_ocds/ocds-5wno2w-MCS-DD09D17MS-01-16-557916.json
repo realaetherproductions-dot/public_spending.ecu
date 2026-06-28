@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCS-DD09D17MS-01-16-557916",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "SERVICIO DE MANTENIMIENTO  CORRECTIVO Y PREVENTIVO DE LOS VEHICULOS DEL DISTRITO 09D17 MILAGRO SALUD",
+  "institution": "DIRECCION DISTRITAL 09D17 - MILAGRO - SALUD",
+  "supplier": "DISRAVF S.A.",
+  "amount": "18032.380000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2016-04-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCS-DD09D17MS-01-16-557916",
+  "locality": "MILAGRO",
+  "region": "GUAYAS"
+}

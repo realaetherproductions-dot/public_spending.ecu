@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DDS15D01-2015-01-24750",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE INSUMOS DE LABORATORIO PARA LA DIRECCIÓN DISTRITAL 15D01 SALUD EN APOYO TECNOLÓGICO",
+  "institution": "DIRECCION DISTRITAL 15D01-ARCHIDONA-CARLOS JULIO AROSEMENA TOLA-TENA-SALUD",
+  "supplier": "ARTURO OBANDO RAUL GERMAN",
+  "amount": "14640.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-02-10T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DDS15D01-2015-01-24750",
+  "locality": "TENA",
+  "region": "NAPO"
+}

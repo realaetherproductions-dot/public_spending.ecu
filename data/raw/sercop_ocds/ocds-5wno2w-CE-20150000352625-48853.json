@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000352625-48853",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA, DESINFECCIÓN Y MANEJO DE DESECHOS PARA UNIDADES DE SALUD INCLUIDO MATERIAL",
+  "institution": "HOSPITAL GENERAL TEOFILO DAVILA",
+  "supplier": "OLAYA TORRES DARWIN LEONARDO",
+  "amount": "21277.872000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-09-28T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000352625-48853",
+  "locality": "MACHALA",
+  "region": "EL ORO"
+}

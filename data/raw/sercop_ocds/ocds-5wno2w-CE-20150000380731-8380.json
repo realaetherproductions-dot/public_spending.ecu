@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000380731-8380",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "HOSPITAL HOMERO CASTANIER CRESPO ",
+  "supplier": "LALA DUTAN ENMA SACRAMENTO",
+  "amount": "3800.000000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-10-30T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000380731-8380",
+  "locality": "AZOGUES",
+  "region": "CAÑAR"
+}

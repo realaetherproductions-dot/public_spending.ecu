@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-004-16-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE SUMINISTROS Y TONERS DE IMPRESIÓN PARA LA UNIDAD DE NEGOCIO COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "CYBERBOX CIA. LTDA.",
+  "amount": "49999.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2016-04-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-004-16-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

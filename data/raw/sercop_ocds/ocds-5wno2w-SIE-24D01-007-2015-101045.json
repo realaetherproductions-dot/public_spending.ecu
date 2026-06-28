@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-24D01-007-2015-101045",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS MEDICOS GENERALES PARA LAS UNIDADES OPERATIVAS DE LA DIRECCION DISTRITAL 24D01 SANTA ELENA - SALUD",
+  "institution": "DIRECCION DISTRITAL 24D01- SANTA ELENA - SALUD",
+  "supplier": "QUIMIS CHOEZ PEDRO PABLO",
+  "amount": "37000.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-03-18T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-24D01-007-2015-101045",
+  "locality": "SANTA ELENA",
+  "region": "SANTA ELENA"
+}

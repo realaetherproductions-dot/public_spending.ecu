@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D8D1-E-S-2016-08-15195",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACION DE POLIZA DE SEGURO PARA EL PARQUE AUTOMOTOR DEL DISTRITO 08D01 ESMERALDAS SALUD",
+  "institution": "DIRECCION DISTRITAL 08D01 - ESMERALDAS - RIOVERDE-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "13245.290000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-09-01T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D8D1-E-S-2016-08-15195",
+  "locality": "ESMERALDAS",
+  "region": "ESMERALDAS"
+}

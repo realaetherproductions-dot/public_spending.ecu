@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCO-D13D12-005-2015-131451",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adecuaciones en el departamento de rayos x del Hospital Natalia Huerta de Niemes del Distrito 13D12 Rocafuerte Tosagua Salud",
+  "institution": "DIRECCION DISTRITAL 13D12-ROCAFUERTE-TOSAGUA-SALUD",
+  "supplier": "MUÑOZ MOREIRA JINNSON FRANCISCO",
+  "amount": "11706.940000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2015-11-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCO-D13D12-005-2015-131451",
+  "locality": "ROCAFUERTE",
+  "region": "MANABI"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963043-1234634",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ASPIRADO Y LAVADO DE ALFOMBRAS",
+  "institution": "FUNDACION CONSTRUYENDO SUEÑOS F.C.S.",
+  "supplier": "ASOCIACION DE SERVICIOS DE LIMPIEZA LIMPIO Y BRILLANTE REGIONAL ASOSERLIBRIRE",
+  "amount": "1.817000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-18T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963043-1234634",
+  "locality": "MANTA",
+  "region": "MANABI"
+}

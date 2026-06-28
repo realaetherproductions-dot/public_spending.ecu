@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-12D03-013-2015-560052",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS MÉDICOS Y MATERIAL FUNGIBLE PARA EL SEGUNDO CUATRIMESTRE DEL DISTRITO 12D03 QUEVEDO-MOCACHE-SALUD",
+  "institution": "DIRECCION DISTRITAL 12D03 QUEVEDO - MOCACHE SALUD",
+  "supplier": "CERORIESGO S.A.",
+  "amount": "138000.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-06-09T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-12D03-013-2015-560052",
+  "locality": "QUEVEDO",
+  "region": "LOS RIOS"
+}

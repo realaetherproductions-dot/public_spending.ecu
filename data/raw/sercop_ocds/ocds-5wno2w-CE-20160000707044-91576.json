@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000707044-91576",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "HOSPITAL PSIQUIATRICO JULIO ENDARA",
+  "supplier": "URGILES CHICAIZA LEONIDAS EMILIO",
+  "amount": "487491.177600",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000707044-91576",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

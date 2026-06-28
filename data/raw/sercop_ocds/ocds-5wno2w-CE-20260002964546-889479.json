@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002964546-889479",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  PUNTO DE SERVICIO INSTITUCIONAL DE 24 HORAS DE LUNES A DOMINGO PERMANENTE [MENSUAL] CON ARMA DE FUEGO LETAL",
+  "institution": "HOSPITAL DE ESPECIALIDADES PORTOVIEJO",
+  "supplier": "OLWS SEGURITY TOTAL OLWSETOTAL CIA.LTDA.",
+  "amount": "466672.905360",
+  "procedure_type": "Catálogo electrónico - Gran compra mejor oferta",
+  "award_date": "2026-01-23T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002964546-889479",
+  "locality": "PORTOVIEJO",
+  "region": "MANABI"
+}

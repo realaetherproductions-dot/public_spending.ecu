@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-01D01S-021-2015-23237",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisición de Insumos de Odontologia para el Distrito de Salud 01D01-Cuenca.",
+  "institution": "DIRECCION DISTRITAL 01D01 PARROQUIAS URBANAS: MACHANGARA A BELLAVISTA Y PARROQUIAS RURALES: NULTI A SAYAUSI - SALUD",
+  "supplier": "RIVAS CARRION JOHN PATRICIO",
+  "amount": "23694.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-06-03T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-01D01S-021-2015-23237",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-COTBS-DDS17D09-07-16-95496",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS Y MATERIALES DE USO MÉDICO PARA LA DIRECCION DISTRITAL 17D09 TUMBACO A TABABELA SALUD",
+  "institution": "DIRECCION DISTRITAL 17D09 TUMBACO A TABABELA SALUD",
+  "supplier": "PRODUCTOS Y DISTRIBUCIONES MEDICAS ANDINO PRODIMEDA CIA. LTDA.",
+  "amount": "35459.780000",
+  "procedure_type": "Cotización",
+  "award_date": "2016-05-10T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-COTBS-DDS17D09-07-16-95496",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

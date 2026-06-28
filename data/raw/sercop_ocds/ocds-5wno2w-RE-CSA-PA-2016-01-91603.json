@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CSA-PA-2016-01-91603",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE REACTIVOS E INSUMOS PARA EL AREA DE LABORATORIO DEL IESS CENTRO DE SALUD A PAJAN",
+  "institution": "CENTRO DE SALUD A - PAJAN",
+  "supplier": "FRISONEX FRISON IMPORTADORA EXPORTADORA CIA. LTDA.",
+  "amount": "7478.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-05-17T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CSA-PA-2016-01-91603",
+  "locality": "PAJAN",
+  "region": "MANABI"
+}

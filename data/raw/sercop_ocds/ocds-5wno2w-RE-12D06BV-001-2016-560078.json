@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-12D06BV-001-2016-560078",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE PÓLIZAS DE SEGURO PARA LOS VEHÍCULOS, BIENES MUEBLES Y BIENES INMUEBLES QUE PERTENECEN A LA DIRECCIÓN DISTRITAL 12D06 BUENA FÉ-VALENCIA-SALUD",
+  "institution": "DIRECCION DISTRITAL 12D06-BUENA FE-VALENCIA-SALUD",
+  "supplier": "ROCAFUERTE SEGUROS S.A.",
+  "amount": "23053.770000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-04-01T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-12D06BV-001-2016-560078",
+  "locality": "VALENCIA",
+  "region": "LOS RIOS"
+}

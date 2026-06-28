@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-17D01-STPP-01-15-96577",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "TRANSPORTE DEL PERSONAL DE LA DIRECCION DISTRITAL 17D01 - NANEGAL A GUALEA - SALUD",
+  "institution": "DIRECCION DISTRITAL 17D01 - NANEGAL A GUALEA - SALUD",
+  "supplier": "TRANSPORTE ESCOLAR TOURESTUDIANTIL S. A.",
+  "amount": "47500.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-01-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-17D01-STPP-01-15-96577",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

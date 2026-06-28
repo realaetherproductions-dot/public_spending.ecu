@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-09D19-013-2015-18608",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS MEDICOS PARA LA DIRECCION DISTRITAL 09D19 DAULE - NOBOL SANTA LUCIA - SALUD.",
+  "institution": "DIRECCION DISTRITAL 09D19 - DAULE - NOBOL - SANTA LUCIA - SALUD",
+  "supplier": "BRIONES MAGALLANES ELVIRA ELINA",
+  "amount": "27900.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-06-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-09D19-013-2015-18608",
+  "locality": "DAULE",
+  "region": "GUAYAS"
+}

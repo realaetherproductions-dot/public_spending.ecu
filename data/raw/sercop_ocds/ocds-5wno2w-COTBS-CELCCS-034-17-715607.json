@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-COTBS-CELCCS-034-17-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "MANTENIMIENTO CORRECTIVO DE  VEHICULOS DE LA UNIDAD DE NEGOCIO COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "CERAUTO CENTRO DE RECONSTRUCCION AUTOMOTRIZ CIA. LTDA.",
+  "amount": "160000.000000",
+  "procedure_type": "Cotización",
+  "award_date": "2017-05-29T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-COTBS-CELCCS-034-17-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

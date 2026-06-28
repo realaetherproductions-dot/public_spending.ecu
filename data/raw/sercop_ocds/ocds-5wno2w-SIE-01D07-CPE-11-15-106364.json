@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-01D07-CPE-11-15-106364",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS MEDICOS PARA LA DIRECCION DISTRITAL 01D07-CPE-SALUD",
+  "institution": "DIRECCION DISTRITAL 01D07-CAMILO PONCE ENRIQUEZ-SALUD",
+  "supplier": "ANDINO LEIVA DE COMERCIO S.A ALCOMERSA",
+  "amount": "23700.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-03-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-01D07-CPE-11-15-106364",
+  "locality": "CAMILO PONCE ENRIQUEZ",
+  "region": "AZUAY"
+}

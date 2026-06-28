@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000707996-585868",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL",
+  "supplier": "ASOCIACION DE LIMPIEZA Y RECOLECCIÓN DE DESECHOS  SOLIDOS CIUDAD LIMPIA POR UN FUTURO MEJOR ASOREDELIME",
+  "amount": "54720.000000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-20T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000707996-585868",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CDRA-CAAB-001-2015-2808",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE UN TUBO DE RAYOS X, PARA EL EQUIPO MARCA: AMRAD, MODELO: INDICO 100, REQUERIDO POR EL SERVICIO DE RAYOS X DEL IESS SEGURO DE SALUD CENTRO A. A. \"EL BATÁN\"",
+  "institution": "CENTRO CLINICO QUIRURGICO AMBULATORIO HOSPITAL DEL DIA EL BATAN",
+  "supplier": "GOMEZ NARANJO JHONATHAN ALEXANDER",
+  "amount": "8500.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-08-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CDRA-CAAB-001-2015-2808",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

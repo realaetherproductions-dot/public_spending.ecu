@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002962333-41357",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – ALMUERZOS DURANTE DÍAS LABORABLES PARA ENTIDADES QUE NO CUENTEN CON EQUIPO PROPIO DE COCINA.",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO DEL DISTRITO METROPOLITANO DE QUITO",
+  "supplier": "ALMEIDA ZAMORA JONATHAN ALEJANDRO",
+  "amount": "9430.920000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-09T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002962333-41357",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

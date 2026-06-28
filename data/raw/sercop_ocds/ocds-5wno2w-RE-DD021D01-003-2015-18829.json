@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD021D01-003-2015-18829",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE REACTIVOS  E INSUMOS PARA EL CUAGULOMETRO DIAGNOSTICA STAGO ST4, PERTENECIENTE A LA DIRECCIÓN DISTRITAL 02D01 GUARANDA SALUD",
+  "institution": "DIRECCION DISTRITAL 02D01- GUARANDA-SALUD",
+  "supplier": "DEMATEC EQUIPOS DE LABORATORIO CIA. LTDA.",
+  "amount": "1193.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-03-31T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD021D01-003-2015-18829",
+  "locality": "GUARANDA",
+  "region": "BOLIVAR"
+}

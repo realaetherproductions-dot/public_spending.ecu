@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963916-533718",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA",
+  "institution": "DIRECCION DISTRITAL 14D06 - LIMON INDANZA - SANTIAGO TIWINTZA - EDUCACION",
+  "supplier": "GUTIERREZ VILLAZHAÑAY ELSA MARLENE",
+  "amount": "9573.750000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-22T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963916-533718",
+  "locality": "LIMON INDANZA",
+  "region": "MORONA SANTIAGO"
+}

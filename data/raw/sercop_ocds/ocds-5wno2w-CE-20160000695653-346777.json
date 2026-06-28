@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000695653-346777",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL DE SALUD NO. 09D21",
+  "supplier": "ASOCIACION DE EMPRENDEDORES EN SERVICIOS Y MANTENIMIENTO ADONAY",
+  "amount": "45964.800000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000695653-346777",
+  "locality": "SAN JACINTO DE YAGUACHI",
+  "region": "GUAYAS"
+}

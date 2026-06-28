@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000591802-512934",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "HOSPITAL GENERAL SANTO DOMINGO",
+  "supplier": "TORRES GALARZA LOURDES NARCIZA",
+  "amount": "18219.138000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-07-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000591802-512934",
+  "locality": "SANTO DOMINGO",
+  "region": "SANTO DOMINGO DE LOS TSACHILAS"
+}

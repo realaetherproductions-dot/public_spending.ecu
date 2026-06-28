@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-19D04-024-2015-22462",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS ODONTOLOGICOS, PARA LA DIRECCION DISTRITAL 19D04-EL PANGUI-YANZATZA-SALUD",
+  "institution": "DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD",
+  "supplier": "INMEBERIT S.A.",
+  "amount": "12200.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-08-03T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-19D04-024-2015-22462",
+  "locality": "YANTZAZA (YANZATZA)",
+  "region": "ZAMORA CHINCHIPE"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCO-HSCJ-002-2015-68807",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADECUACIONES DE ESTADISTICA Y CONSULTA EXTERNA DE ESTA CASA DE SALUD",
+  "institution": "HOSPITAL SAGRADO CORAZON DE JESUS",
+  "supplier": "PEREZ MATA JULIO RAUL",
+  "amount": "8273.210000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2015-02-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCO-HSCJ-002-2015-68807",
+  "locality": "QUEVEDO",
+  "region": "LOS RIOS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-17D03-2015-021-49178",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE RECTIVOS E INSUMOS DE LABORATORIO PARA LA DIRECCION DISTRITAL 17D03 EL CONDADO A CALACALI SALUD EN LA CIUDAD DE QUITO",
+  "institution": "DIRECCION DISTRITAL 17D03",
+  "supplier": "DISTRIBUIDORA DE REACTIVOS Y EQUIPOS DE LABORATORIO BUISAR CIA. LTDA.",
+  "amount": "40349.650000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-08-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-17D03-2015-021-49178",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

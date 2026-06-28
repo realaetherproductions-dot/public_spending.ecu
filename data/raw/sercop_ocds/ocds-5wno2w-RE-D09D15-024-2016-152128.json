@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-D09D15-024-2016-152128",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE POLIZA DE INCENDIO Y EQUIPOS ELECTRONICOS DE LOS BIENES DE LA DIRECCION DISTRITAL 09D15 EMPALME SALUD",
+  "institution": "DIRECCION DISTRITAL 09D15-EL EMPALME-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "35729.320000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-06-30T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-D09D15-024-2016-152128",
+  "locality": "EMPALME",
+  "region": "GUAYAS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCO-DD22D02-06-2015-537258",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "SERVICIO DE ADECENTAMIENTO DEL CENTRO DE SALUD POMPEYA A CARGO DE LA DIRECCION DISTRITAL 22D02 ORELLANA LORETO SALUD",
+  "institution": "DIRECCION DISTRITAL 22D02 ORELLANA - LORETO SALUD",
+  "supplier": "Povedada Vega Cristian Armando",
+  "amount": "45582.590000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2015-10-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCO-DD22D02-06-2015-537258",
+  "locality": "FRANCISCO DE ORELLANA",
+  "region": "ORELLANA"
+}

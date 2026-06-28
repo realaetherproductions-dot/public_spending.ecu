@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD14D02S-04-2016-16218",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Asegurar al personal de la Dirección Distrital 14D02-Huamboya-Pablo Sexto-Palora-Salud",
+  "institution": "DIRECCION DISTRITAL 14D02-HUAMBOYA-PABLO SEXTO-PALORA-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "5990.090000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2016-10-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD14D02S-04-2016-16218",
+  "locality": "PALORA",
+  "region": "MORONA SANTIAGO"
+}

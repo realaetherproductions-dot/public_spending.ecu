@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-12D04-013-2015-129424",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisición de medicinas, para el Hospital Básico Jaime Roldós Aguilera i los Circuitos de Salud de la Dirección Distrital 12D04-Quinsaloma-Ventanas-Salud.",
+  "institution": "DIRECCION DISTRITAL 12D04 - QUINSALOMA - VENTANAS - SALUD",
+  "supplier": "MORALES VARAS NELSON GUILLERMO",
+  "amount": "7066.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-03-02T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-12D04-013-2015-129424",
+  "locality": "VENTANAS",
+  "region": "LOS RIOS"
+}

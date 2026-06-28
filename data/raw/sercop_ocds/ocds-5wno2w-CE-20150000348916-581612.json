@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000348916-581612",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "EMPRESA PÚBLICA DE CENTROS DE ENTRENAMIENTO PARA EL ALTO RENDIMIENTO CEAR EP",
+  "supplier": "Almeida Bailon Gisella Jazmin",
+  "amount": "7956.480000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-09-24T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000348916-581612",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

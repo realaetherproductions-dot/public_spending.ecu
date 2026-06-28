@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD07D02-002-2016-16346",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE LA PÓLIZA DE SEGUROS DE LOS VEHÍCULOS DE LA DIRECCION DISTRITAL 07D02 – MACHALA – SALUD",
+  "institution": "DIRECCION DISTRITAL 07D02-MACHALA-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "16745.180000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2016-06-09T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD07D02-002-2016-16346",
+  "locality": "MACHALA",
+  "region": "EL ORO"
+}

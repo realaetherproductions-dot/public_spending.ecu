@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000450098-117858",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "DIRECCION DISTRITAL 07D04-BALSAS-MARCABELI-PIÑAS-SALUD",
+  "supplier": "FEIJOO RAMIREZ FABIOLA ELIZABETH",
+  "amount": "2679.850000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-02-18T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000450098-117858",
+  "locality": "PIÑAS",
+  "region": "EL ORO"
+}

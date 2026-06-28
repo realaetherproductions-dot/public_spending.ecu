@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000400989-100431",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "DIRECCION PROVINCIAL DEL CONSEJO DE LA JUDICATURA PICHINCHA",
+  "supplier": "FUNDACION PARA LA ASISTENCIA Y REHABILITACION DE PERSONAS PRIVADAS DE LA LIBERTAD FUNPAR",
+  "amount": "2688.000000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-12-01T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000400989-100431",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

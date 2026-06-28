@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000483647-2550",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "MINISTERIO DE EDUCACION",
+  "supplier": "LIMONES LOPEZ AIDA MARIA",
+  "amount": "3225.600000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-03-11T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000483647-2550",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

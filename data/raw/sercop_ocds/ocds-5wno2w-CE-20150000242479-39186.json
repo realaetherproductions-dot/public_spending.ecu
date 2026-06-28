@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000242479-39186",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "CENTRO DE RESPONSABILIDAD SOCIAL Y SOLIDARIA MUNICIPAL JORGE CAJAS GARZÓN DEL CANTÓN SHUSHUFINDI",
+  "supplier": "VALLADARES SAMANIEGO BERNARDA ALEJANDRINA",
+  "amount": "403.200000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-05-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000242479-39186",
+  "locality": "SHUSHUFINDI",
+  "region": "SUCUMBIOS"
+}

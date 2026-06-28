@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002962996-111496",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE PARA CENTROS DE DESARROLLO INFANTIL CDI",
+  "institution": "JUNTA PARROQUIAL WLFRIDO LOOR MOREIRA",
+  "supplier": "ASOCIACIÓN DE SERVICIO DE ALIMENTACIÓN DE DISCAPACITADOS MAICITO ASOSERDISMAI",
+  "amount": "5973.606000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-16T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002962996-111496",
+  "locality": "EL CARMEN",
+  "region": "MANABI"
+}

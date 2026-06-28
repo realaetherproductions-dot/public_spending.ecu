@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000712237-131240",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 09D20- SALITRE- SALUD",
+  "supplier": "ASOCIACIÓN DE SERVICIOS DE LIMPIEZA PERFECTA Y COMPROBADA \"ASOLIMPEC\"",
+  "amount": "76639.920000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-30T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000712237-131240",
+  "locality": "SALITRE",
+  "region": "GUAYAS"
+}

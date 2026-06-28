@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000426735-15857",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "HOSPITAL JOSE MARIA VELASCO IBARRA DE TENA",
+  "supplier": "FLORES IBARRA ZOILA ISABEL",
+  "amount": "1254.400000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-02-04T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000426735-15857",
+  "locality": "TENA",
+  "region": "NAPO"
+}

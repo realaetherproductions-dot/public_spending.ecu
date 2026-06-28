@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000631895-2580",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "HOSPITAL SAN LUIS DE OTAVALO",
+  "supplier": "ASOCIACION DE SERVICIOS DE ALIMENTACION Y LIMPIEZA MUJERES SOÑADORASPOR UN FUTURO MEJOR",
+  "amount": "21320.804400",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-09-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000631895-2580",
+  "locality": "OTAVALO",
+  "region": "IMBABURA"
+}

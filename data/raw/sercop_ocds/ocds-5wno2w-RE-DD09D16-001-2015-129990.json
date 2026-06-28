@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD09D16-001-2015-129990",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Este procedimiento precontractual tiene como propósito la adquisicon de reactivos de laboratorio para nuestra unidad de salud",
+  "institution": "DIRECCION DISTRITAL 09D16 - EL TRIUNFO -GNAL ANTONIO ELIZALDE - SALUD",
+  "supplier": "VIBAG C.A.",
+  "amount": "9534.330000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-03-23T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD09D16-001-2015-129990",
+  "locality": "EL TRIUNFO",
+  "region": "GUAYAS"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCBS-MSP-002-2016-2455",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "SERVICIO DE ESTIBAJE PARA LAS IMPORTACIONES DEL MINISTERIO DE SALUD PÚBLICA",
+  "institution": "MINISTERIO DE SALUD PUBLICA MATRIZ",
+  "supplier": "MOLINA SORIA MARITZA STEFANIA",
+  "amount": "22600.000000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2016-10-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCBS-MSP-002-2016-2455",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

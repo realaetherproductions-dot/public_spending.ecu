@@ -1,0 +1,8 @@
+{
+  "external_id": "ANO-002",
+  "title": "Compra de suministros",
+  "institution": "Municipio Test",
+  "supplier": "Proveedor Normal A",
+  "amount": "1000.00",
+  "source_url": "https://example.org/ANO-002"
+}

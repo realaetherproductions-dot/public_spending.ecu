@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DS02D03-2015-005-19223",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE SEGUROS DE VEHÍCULOS DEL  DISTRITO DE SALUD 02D03 SALUD",
+  "institution": "DIRECCION DISTRITAL 02D03 -CHIMBO - SAN MIGUEL -SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "7329.800000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2015-08-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DS02D03-2015-005-19223",
+  "locality": "SAN MIGUEL",
+  "region": "BOLIVAR"
+}

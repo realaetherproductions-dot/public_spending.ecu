@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CAALL-001-2016-3283",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisición de Sustancias Químicas Reactantes para realizar las pruebas Químicas en equipo automatizado, ubicado en el Laboratorio Clínico del IESS Seguro de Salud CAA La Libertad.",
+  "institution": "CENTRO DE ESPECIALIDADES LA LIBERTAD",
+  "supplier": "SIMED S. A.",
+  "amount": "2902.600000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2016-02-25T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CAALL-001-2016-3283",
+  "locality": "LA LIBERTAD",
+  "region": "SANTA ELENA"
+}

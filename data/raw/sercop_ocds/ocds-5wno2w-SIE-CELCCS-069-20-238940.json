@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-069-20-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CCS ADQUISICION DE ROPA DE TRABAJO PARA EL PERSONAL DE LA UNIDAD DE NEGOCIO COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "VISUALCORP S.A.",
+  "amount": "136320.950000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2020-06-10T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-069-20-238940",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

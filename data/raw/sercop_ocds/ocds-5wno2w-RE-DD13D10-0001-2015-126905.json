@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD13D10-0001-2015-126905",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACIÓN DE LA POLIZA DE FIDELIDAD TIPO BLANKET PARA EL PERSONAL CAUCIONADO DE LA DIRECCIÓN DISTRITAL 13D10- JAMA-PEDERNALES-SALUD",
+  "institution": "DIRECCION DISTRITAL 13D10-JAMA-PEDERNALES-SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "10508.250000",
+  "procedure_type": "Contratación de Seguros",
+  "award_date": "2015-06-19T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD13D10-0001-2015-126905",
+  "locality": "PEDERNALES",
+  "region": "MANABI"
+}

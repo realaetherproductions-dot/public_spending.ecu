@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000631719-18340",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 19D03-CHINCHIPE-PALANDA-SALUD",
+  "supplier": "ASOCIACION DE SERVICIOS COMPLEMENTARIOS DE INMIGRANTES CHINCHIPENSES ASOCHINCHIPENSE",
+  "amount": "13104.072000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-09-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000631719-18340",
+  "locality": "CHINCHIPE",
+  "region": "ZAMORA CHINCHIPE"
+}

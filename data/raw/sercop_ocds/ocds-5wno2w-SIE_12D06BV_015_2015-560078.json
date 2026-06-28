@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE_12D06BV_015_2015-560078",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE INSUMOS FUNGIBLES PARA LA DIRECCION DISTRTAL 12D06 BUENA FE-VALENCIA-SALUD",
+  "institution": "DIRECCION DISTRITAL 12D06-BUENA FE-VALENCIA-SALUD",
+  "supplier": "TENEN SANCHEZ VERONICA ELIZABETH",
+  "amount": "27500.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-05-22T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE_12D06BV_015_2015-560078",
+  "locality": "VALENCIA",
+  "region": "LOS RIOS"
+}

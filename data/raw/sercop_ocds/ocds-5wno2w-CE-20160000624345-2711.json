@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000624345-2711",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "HOSPITAL PROVINCIAL",
+  "supplier": "ASOCIACIÓN DE SERVICIOS DE LIMPIEZA AGUILA DORADA \"ASOLIMAD\"",
+  "amount": "56901.732000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-08-31T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000624345-2711",
+  "locality": "PASTAZA",
+  "region": "PASTAZA"
+}

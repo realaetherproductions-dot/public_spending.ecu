@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-MCB-DALCOG-008-CP-16-15404",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisición de medicinas y productos farmacéuticos para los consultorios generales y puestos de salud FAE",
+  "institution": "DIRECCION DE LA ADMINISTRACION CENTRAL",
+  "supplier": "CISNEROS BENENAULA EDGAR ENRIQUE",
+  "amount": "14630.220000",
+  "procedure_type": "Menor Cuantía",
+  "award_date": "2016-09-13T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-MCB-DALCOG-008-CP-16-15404",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

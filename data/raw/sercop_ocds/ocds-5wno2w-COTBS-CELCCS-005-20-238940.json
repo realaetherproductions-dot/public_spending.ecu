@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-COTBS-CELCCS-005-20-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CCS SERVICIO DE MANTENIMIENTO MULTIMARCA PARA EL PARQUE AUTOMOTOR DE LA UNIDAD DE NEGOCIO COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "ECUA AUTO S.A. ECAUSA",
+  "amount": "218743.090000",
+  "procedure_type": "Cotización",
+  "award_date": "2020-11-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-COTBS-CELCCS-005-20-238940",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

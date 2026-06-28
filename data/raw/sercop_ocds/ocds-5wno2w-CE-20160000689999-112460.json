@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000689999-112460",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 09D06 TARQUI 2 SALUD",
+  "supplier": "COOPERATIVA DE SERVICIOS DE LIMPIEZA Y OTROS ALFA Y OMEGA COOPALMEGA",
+  "amount": "157101.120000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-11-29T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000689999-112460",
+  "locality": "GUAYAQUIL",
+  "region": "GUAYAS"
+}

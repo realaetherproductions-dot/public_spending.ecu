@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE20-08D06-MED-2015-114607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MEDICINA PARA LA DIRECCIÓN DISTRITAL 08D06 RIOVERDE SALUD EN LA PROVINCIA DE ESMERALDAS",
+  "institution": "DIRECCION DISTRITAL 08D06 - RIO VERDE - SALUD",
+  "supplier": "REPRESENTACIONES MOLINA HERRERA M.H. CIA. LTDA.",
+  "amount": "6424.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-06-11T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE20-08D06-MED-2015-114607",
+  "locality": "RIOVERDE",
+  "region": "ESMERALDAS"
+}

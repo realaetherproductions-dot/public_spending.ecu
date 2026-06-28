@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-CELCCS-086-18-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE REPUESTOS PARA LOS SISTEMAS DE CONTROL DE LA RED INDUSTRIAL DEL SISTEMA SCADA PARA LA CENTRAL COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "ELSYSTEC S.A.",
+  "amount": "78000.000000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2018-10-03T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-CELCCS-086-18-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

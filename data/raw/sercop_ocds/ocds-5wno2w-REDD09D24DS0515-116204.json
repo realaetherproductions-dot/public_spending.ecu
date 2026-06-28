@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-REDD09D24DS0515-116204",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "MANTENIMIENTO CORRECTIVO QUE INCLUYE REPUESTOS PARA UNA AMBULANCIA KIA PREGGIO ?GXI-0316? A CARGO DE LA DIRECCIÓN DISTRITAL 09D24-DURAN-SALUD",
+  "institution": "DIRECCION DISTRITAL 09D24 - DURAN - SALUD",
+  "supplier": "KMOTOR S.A. KMOT",
+  "amount": "8685.890000",
+  "procedure_type": "Repuestos o Accesorios",
+  "award_date": "2015-08-17T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-REDD09D24DS0515-116204",
+  "locality": "DURAN",
+  "region": "GUAYAS"
+}

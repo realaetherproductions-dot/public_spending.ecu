@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20150000363702-452927",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+  "institution": "HOSPITAL MOVIL  NO. 2",
+  "supplier": "ACURIO ACURIO DIEGO ALEJANDRO",
+  "amount": "3693.312000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2015-10-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000363702-452927",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

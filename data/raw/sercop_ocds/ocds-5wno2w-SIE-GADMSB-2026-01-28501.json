@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-GADMSB-2026-01-28501",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ocds-5wno2w-SIE-GADMSB-2026-01-28501",
+  "institution": "GOBIERNO AUTONOMO DESCENTRALIZADO MUNICIPAL DEL CANTON SIMON BOLIVAR",
+  "supplier": "Proveedor no identificado",
+  "amount": null,
+  "procedure_type": null,
+  "award_date": "2026-01-16T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-GADMSB-2026-01-28501",
+  "locality": "SIMON BOLIVAR",
+  "region": "GUAYAS"
+}

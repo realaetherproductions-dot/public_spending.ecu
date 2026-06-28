@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963039-136003",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ASPIRADO Y LAVADO DE ALFOMBRAS",
+  "institution": "UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ",
+  "supplier": "ASOCIACION DE SERVICIOS DE LIMPIEZA COOPROPIETARIOS REY SAUL ASOSERLIMCORESA",
+  "amount": "981180.000000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-16T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963039-136003",
+  "locality": "JIPIJAPA",
+  "region": "MANABI"
+}

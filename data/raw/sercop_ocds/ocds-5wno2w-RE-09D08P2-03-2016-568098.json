@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-09D08P2-03-2016-568098",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Contratación de seguros para vehículos de la Dirección Distrital 09d08 Pascuales 2 Salud",
+  "institution": "DIRECCION DISTRITAL 09D08 PASCUALES 2 SALUD",
+  "supplier": "SEGUROS SUCRE S.A.",
+  "amount": "8306.120000",
+  "procedure_type": "Contratos entre Entidades Públicas o sus subsidiarias",
+  "award_date": "2016-05-25T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-09D08P2-03-2016-568098",
+  "locality": "GUAYAQUIL",
+  "region": "GUAYAS"
+}

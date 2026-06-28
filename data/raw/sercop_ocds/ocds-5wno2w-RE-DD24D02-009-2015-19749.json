@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD24D02-009-2015-19749",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MEDICAMENTOS PARA CONSUMO INTERNO PARA LA DIRECCIÓN DISTRITAL 24D02 LA LIBERTAD SALINAS – SALUD.",
+  "institution": "DIRECCION DISTRITAL 24D02-LA LIBERTAD-SALINAS-SALUD",
+  "supplier": "RODDOME PHARMACEUTICAL S.A.",
+  "amount": "8850.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-05-21T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD24D02-009-2015-19749",
+  "locality": "SALINAS",
+  "region": "SANTA ELENA"
+}

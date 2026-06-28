@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002963445-29813",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ENTREGA DE ALIMENTOS PREPARADOS",
+  "institution": "COMPAÑIA DE ECONOMIA MIXTA AUSTROGAS",
+  "supplier": "COOPERATIVA DE PRODUCCION AGRICOLA, GANADERA Y SERVICIOS DE ALIMENTACION PARA VIVIR MEJOR PROGRASERVIV",
+  "amount": "16422.000000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-20T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002963445-29813",
+  "locality": "CUENCA",
+  "region": "AZUAY"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002964373-42414",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIOS DE LIMPIEZA Y MANTENIMIENTO DE VIVIENDAS O DE EDIFICIOS COMERCIALES, ADMINISTRATIVOS E INDUSTRIALE, LIMPIEZA Y ENCERADO DE PISOS",
+  "institution": "INSTITUTO DE ESTUDIOS HISTORICOS DE LA POLICIA NACIONAL",
+  "supplier": "PAIDA SACTA MIGUEL ANGEL",
+  "amount": "12461.400000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-23T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002964373-42414",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000596593-54538",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "HOSPITAL FRANCISCO DE ORELLANA",
+  "supplier": "ASOCIACIÓN DE SERVICIOS DE LIMPIEZA Y LOGÍSTICA GRUPO AMAZON ASOSERAMA",
+  "amount": "35163.072000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-07-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000596593-54538",
+  "locality": "FRANCISCO DE ORELLANA",
+  "region": "ORELLANA"
+}

@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-LICS-DD06D01-01-2015-121872",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "CONTRATACION DE SEGURO VEHICULAR PARA LA UNIDAD MEDICA ESCOLAR DE LA DIRECCION DISTRITAL 06D01-CHAMBO-RIOBAMBA-SALUD",
+  "institution": "DIRECCION DISTRITAL 06D01-CHAMBO-RIOBAMBA-SALUD",
+  "supplier": "ASEGURADORA DEL SUR C. A.",
+  "amount": "14117.640000",
+  "procedure_type": "Licitación de Seguros",
+  "award_date": "2015-04-10T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-LICS-DD06D01-01-2015-121872",
+  "locality": "RIOBAMBA",
+  "region": "CHIMBORAZO"
+}

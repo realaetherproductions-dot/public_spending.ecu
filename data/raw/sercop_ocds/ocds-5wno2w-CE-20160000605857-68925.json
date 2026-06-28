@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000605857-68925",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL DE SALUD NO. 17D10",
+  "supplier": "QUIMBIULCO NAVAS EDISON LEONIDAS",
+  "amount": "8207.658000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-08-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000605857-68925",
+  "locality": "CAYAMBE",
+  "region": "PICHINCHA"
+}

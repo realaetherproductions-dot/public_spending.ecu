@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002964834-534258",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIOS DE LIMPIEZA Y MANTENIMIENTO DE VIVIENDAS O DE EDIFICIOS COMERCIALES, ADMINISTRATIVOS E INDUSTRIALE, LIMPIEZA Y ENCERADO DE PISOS",
+  "institution": "DIRECCION DISTRITAL 21D03 - CUYABENO PUTUMAYO",
+  "supplier": "ASOCIACION DE SERVICIOS LIMPIEZA AMAZONICA  ASOLIMAMAZON",
+  "amount": "13351.500000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002964834-534258",
+  "locality": "CUYABENO",
+  "region": "SUCUMBIOS"
+}

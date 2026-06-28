@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000696308-152128",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 09D15-EL EMPALME-SALUD",
+  "supplier": "ASOCIACIÓN DE SERVICIOS DE LIMPIEZA JOSSELYN PARA TODOS \"ASOLIJOST\"",
+  "amount": "91929.600000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-06T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000696308-152128",
+  "locality": "EMPALME",
+  "region": "GUAYAS"
+}

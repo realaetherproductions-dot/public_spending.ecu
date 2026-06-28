@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-SIE-12D05-007-2015-553435",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICION DE MICRONUTRIENTE PARA LA DIRECCION DISTRITAL 12D05 PALENQUE VINCES SALUD",
+  "institution": "DIRECCION DISTRITAL 12D05-PALENQUE-VINCES-SALUD",
+  "supplier": "REPRESENTACIONES MOLINA HERRERA M.H. CIA. LTDA.",
+  "amount": "25933.600000",
+  "procedure_type": "Subasta Inversa Electrónica",
+  "award_date": "2015-05-12T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-SIE-12D05-007-2015-553435",
+  "locality": "VINCES",
+  "region": "LOS RIOS"
+}

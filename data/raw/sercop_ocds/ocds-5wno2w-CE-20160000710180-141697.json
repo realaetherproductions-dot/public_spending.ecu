@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000710180-141697",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE – PARA PACIENTES Y PERSONAL DE HOSPITALES Y UNIDADES DE SALUD",
+  "institution": "HOSPITAL OBSTETRICO \"ANGELA LOAYZA DE OLLAGUE\"",
+  "supplier": "ASOCIACION DE SERVICIOS DE ALIMENTACION NUTRICION ES SALUD ASONUTSAL",
+  "amount": "86682.750000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-27T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000710180-141697",
+  "locality": "SANTA ROSA",
+  "region": "EL ORO"
+}

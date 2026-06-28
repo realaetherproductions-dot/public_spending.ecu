@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20160000694432-557916",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE LIMPIEZA HOSPITALARIA PARA UNIDADES DE SALUD DE PRIMER Y SEGUNDO NIVEL",
+  "institution": "DIRECCION DISTRITAL 09D17 - MILAGRO - SALUD",
+  "supplier": "ASOCIACIÓN DE SERVICIOS DE LIMPIEZA PERFECTA Y COMPROBADA \"ASOLIMPEC\"",
+  "amount": "27664.152000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2016-12-05T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20160000694432-557916",
+  "locality": "MILAGRO",
+  "region": "GUAYAS"
+}

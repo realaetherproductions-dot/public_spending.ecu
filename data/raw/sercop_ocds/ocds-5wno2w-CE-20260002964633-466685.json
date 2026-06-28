@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002964633-466685",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ASPIRADO Y LAVADO DE ALFOMBRAS",
+  "institution": "DIRECCION DISTRITAL 13D 07-CHONE-FLAVIO ALFARO - MIES",
+  "supplier": "ASOCIACION DE SERVICIOS DE LIMPIEZA LIMPIO Y BRILLANTE REGIONAL ASOSERLIBRIRE",
+  "amount": "18428.014000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002964633-466685",
+  "locality": "CHONE",
+  "region": "MANABI"
+}

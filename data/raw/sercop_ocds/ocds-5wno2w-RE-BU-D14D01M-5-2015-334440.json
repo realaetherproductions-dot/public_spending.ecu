@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-BU-D14D01M-5-2015-334440",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "PROVISIÓN DE REACTIVOS DE LABORATORIO PARA EL DISTRITO 14D01 MORONA SALUD, DEL CANTÓN MORONA, PROVINCIA DE MORONA SANTIAGO",
+  "institution": "DIRECCION DISTRITAL 14D01-MORONA-SALUD",
+  "supplier": "FRISONEX FRISON IMPORTADORA EXPORTADORA CIA. LTDA.",
+  "amount": "749.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-11-25T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-BU-D14D01M-5-2015-334440",
+  "locality": "MORONA",
+  "region": "MORONA SANTIAGO"
+}

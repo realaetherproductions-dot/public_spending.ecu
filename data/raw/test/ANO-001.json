@@ -1,0 +1,8 @@
+{
+  "external_id": "ANO-001",
+  "title": "Consultoria de alto monto",
+  "institution": "Municipio Test",
+  "supplier": "Proveedor Caro S.A.",
+  "amount": "500000.00",
+  "source_url": "https://example.org/ANO-001"
+}

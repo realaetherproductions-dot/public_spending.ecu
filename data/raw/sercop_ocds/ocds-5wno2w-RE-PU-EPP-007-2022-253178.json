@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-PU-EPP-007-2022-253178",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ocds-5wno2w-RE-PU-EPP-007-2022-253178",
+  "institution": "Empresa Pública de hidrocarburos del Ecuador EP PETROECUADOR",
+  "supplier": "Proveedor no identificado",
+  "amount": null,
+  "procedure_type": null,
+  "award_date": "2022-04-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-PU-EPP-007-2022-253178",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

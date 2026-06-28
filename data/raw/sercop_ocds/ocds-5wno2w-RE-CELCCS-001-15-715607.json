@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-CELCCS-001-15-715607",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Adquisición de Toners para las Impresoras marca RICOH de la Unidad de Negocio COCA CODO SINCLAIR",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP",
+  "supplier": "COPIADORA ECUATORIANA CIA LTDA ECUACOPIA",
+  "amount": "9886.140000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-11-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-CELCCS-001-15-715607",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}

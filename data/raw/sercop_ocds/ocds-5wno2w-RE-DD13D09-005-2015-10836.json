@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-RE-DD13D09-005-2015-10836",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ADQUISICIÓN DE FORMULA PARA NUTRICION ENTERAL INFANTIL SIN FENILALANINA PARA LA DIRECCION DISTRITAL 13D09 PAJAN SALUD",
+  "institution": "DIRECCION DISTRITAL 13D09-PAJAN-SALUD",
+  "supplier": "ALIMENTOS CLINICOS NUTRIVIDA ECUADOR S.A",
+  "amount": "4140.000000",
+  "procedure_type": "Bienes y Servicios únicos",
+  "award_date": "2015-06-03T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-RE-DD13D09-005-2015-10836",
+  "locality": "PAJAN",
+  "region": "MANABI"
+}

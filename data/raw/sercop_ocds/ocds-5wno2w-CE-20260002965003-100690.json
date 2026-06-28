@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CE-20260002965003-100690",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "Orden de compra para adquirir los siguientes productos:  SERVICIO DE ALIMENTACIÓN PERMANENTE PARA CENTROS DE DESARROLLO INFANTIL CDI",
+  "institution": "GOBIERNO AUTONOMO DECENTRALIZADO DE LA PARROQUIA BOLIVAR",
+  "supplier": "Villalba Benavides Rafael Vitaliano",
+  "amount": "4310.280000",
+  "procedure_type": "Catálogo electrónico - Compra directa",
+  "award_date": "2026-01-26T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20260002965003-100690",
+  "locality": "SAN PEDRO DE PELILEO",
+  "region": "TUNGURAHUA"
+}

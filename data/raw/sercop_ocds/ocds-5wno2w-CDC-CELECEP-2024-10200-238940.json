@@ -1,0 +1,14 @@
+{
+  "external_id": "ocds-5wno2w-CDC-CELECEP-2024-10200-238940",
+  "data_origin": "sercop_ocds",
+  "is_demo": false,
+  "title": "ocds-5wno2w-CDC-CELECEP-2024-10200-238940",
+  "institution": "CORPORACION ELECTRICA DEL ECUADOR CELEC EP.",
+  "supplier": "Proveedor no identificado",
+  "amount": null,
+  "procedure_type": null,
+  "award_date": "2024-11-29T00:00:00-05:00",
+  "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CDC-CELECEP-2024-10200-238940",
+  "locality": "QUITO",
+  "region": "PICHINCHA"
+}
