@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import sqlite3
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -8,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIRS = [ROOT / "data" / "raw" / "sercop_ocds", ROOT / "data" / "raw" / "demo"]
+DB_FILE = ROOT / "data" / "processed" / "monitor.db"
 OUT_FILE = ROOT / "frontend" / "dashboard" / "data.json"
 
 
@@ -37,7 +39,79 @@ def _get_id(name: str, registry: dict[str, int]) -> int:
     return registry[key]
 
 
-def main() -> None:
+def _sqlite_rows(query: str) -> list[sqlite3.Row]:
+    con = sqlite3.connect(DB_FILE)
+    con.row_factory = sqlite3.Row
+    try:
+        return list(con.execute(query))
+    finally:
+        con.close()
+
+
+def _build_from_db() -> dict | None:
+    if not DB_FILE.exists():
+        return None
+
+    contracts = [
+        {
+            "id": row["id"],
+            "external_id": row["external_id"],
+            "title": row["title"],
+            "institution": row["institution"],
+            "institution_id": row["institution_id"],
+            "supplier": row["supplier"],
+            "supplier_id": row["supplier_id"],
+            "amount": _parse_amount(row["amount"]),
+            "currency": row["currency"] or "USD",
+            "award_date": _parse_date(row["award_date"]),
+            "source_url": row["source_url"],
+            "data_origin": row["data_origin"],
+            "is_demo": bool(row["is_demo"]),
+            "procedure_type": row["procedure_type"],
+        }
+        for row in _sqlite_rows(
+            """
+            select
+              c.id, c.external_id, c.title, c.procedure_type, c.amount, c.currency,
+              c.award_date, c.source_url, c.data_origin, c.is_demo,
+              c.institution_id, i.name as institution,
+              c.supplier_id, s.name as supplier
+            from contracts c
+            left join institutions i on i.id = c.institution_id
+            left join suppliers s on s.id = c.supplier_id
+            order by c.award_date desc, c.id desc
+            """
+        )
+    ]
+
+    anomalies = [
+        {
+            "id": row["id"],
+            "contract_id": row["contract_id"],
+            "anomaly_type": row["anomaly_type"],
+            "severity": row["severity"],
+            "score": row["score"],
+            "reason": row["reason"],
+            "details": row["details"],
+            "status": row["status"],
+            "editorial_note": row["editorial_note"],
+            "detected_at": _parse_date(row["detected_at"]),
+        }
+        for row in _sqlite_rows(
+            """
+            select
+              id, contract_id, anomaly_type, severity, score, reason, details,
+              status, editorial_note, detected_at
+            from anomalies
+            order by id desc
+            """
+        )
+    ]
+
+    return _build_payload(contracts, anomalies, source="sqlite")
+
+
+def _build_from_raw() -> dict:
     institutions: dict[str, int] = {}
     suppliers: dict[str, int] = {}
     contracts: list[dict] = []
@@ -76,17 +150,23 @@ def main() -> None:
                 }
             )
 
+    return _build_payload(contracts, [], source="raw_json")
+
+
+def _build_payload(contracts: list[dict], anomalies: list[dict], source: str) -> dict:
     public_contracts = [c for c in contracts if not c["is_demo"]]
     total_amount = sum(c["amount"] or 0 for c in public_contracts)
+    open_anomalies = [a for a in anomalies if a.get("status") == "open"]
 
-    payload = {
+    return {
         "generated_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "source": source,
         "stats": {
             "total_contracts": len(public_contracts),
             "total_institutions": len({c["institution_id"] for c in public_contracts}),
             "total_suppliers": len({c["supplier_id"] for c in public_contracts}),
-            "open_anomalies": 0,
-            "total_anomalies": 0,
+            "open_anomalies": len(open_anomalies),
+            "total_anomalies": len(anomalies),
             "total_amount": total_amount,
         },
         "contracts": sorted(
@@ -94,11 +174,17 @@ def main() -> None:
             key=lambda c: (c["award_date"] or "", c["id"]),
             reverse=True,
         ),
-        "anomalies": [],
+        "anomalies": anomalies,
     }
 
+
+def main() -> None:
+    payload = _build_from_db() or _build_from_raw()
     OUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {OUT_FILE} with {len(contracts)} contracts")
+    print(
+        f"Wrote {OUT_FILE} from {payload['source']} with "
+        f"{len(payload['contracts'])} contracts and {len(payload['anomalies'])} anomalies"
+    )
 
 
 if __name__ == "__main__":
