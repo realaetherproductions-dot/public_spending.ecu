@@ -1392,6 +1392,160 @@ footer a:hover { text-decoration: underline; }
 
 <script>
 const API = window.location.origin;
+const STATIC_DATA_URL = 'data.json';
+let staticDataPromise = null;
+
+function loadStaticData() {
+  if (!staticDataPromise) {
+    staticDataPromise = fetch(STATIC_DATA_URL).then(r => {
+      if (!r.ok) throw new Error(`Static snapshot unavailable: ${r.status}`);
+      return r.json();
+    });
+  }
+  return staticDataPromise;
+}
+
+async function apiGet(path) {
+  try {
+    const r = await fetch(`${API}${path}`);
+    const contentType = r.headers.get('content-type') || '';
+    if (!r.ok || !contentType.includes('application/json')) throw new Error(`API unavailable: ${r.status}`);
+    return await r.json();
+  } catch (_) {
+    return staticEndpoint(path);
+  }
+}
+
+async function staticEndpoint(path) {
+  const data = await loadStaticData();
+  const url = new URL(path, window.location.origin);
+  const pathname = url.pathname;
+
+  if (pathname === '/stats') return data.stats;
+  if (pathname === '/contracts') return filterStaticContracts(data.contracts, url.searchParams);
+  if (pathname === '/anomalies') return filterStaticAnomalies(data.anomalies || [], url.searchParams);
+
+  const contractMatch = pathname.match(/^\/contracts\/(\d+)(\/events)?$/);
+  if (contractMatch) {
+    if (contractMatch[2]) return [];
+    const id = Number(contractMatch[1]);
+    const contract = data.contracts.find(c => c.id === id);
+    if (!contract) throw new Error('Contrato no encontrado en snapshot');
+    return contract;
+  }
+
+  const anomalyMatch = pathname.match(/^\/anomalies\/(\d+)$/);
+  if (anomalyMatch) {
+    const id = Number(anomalyMatch[1]);
+    const anomaly = (data.anomalies || []).find(a => a.id === id);
+    if (!anomaly) throw new Error('Anomalia no encontrada en snapshot');
+    return anomaly;
+  }
+
+  const supplierMatch = pathname.match(/^\/suppliers\/(\d+)\/profile$/);
+  if (supplierMatch) return buildStaticSupplierProfile(data.contracts, Number(supplierMatch[1]));
+
+  const institutionMatch = pathname.match(/^\/institutions\/(\d+)\/profile$/);
+  if (institutionMatch) return buildStaticInstitutionProfile(data.contracts, Number(institutionMatch[1]));
+
+  throw new Error(`Endpoint no disponible en snapshot: ${path}`);
+}
+
+function filterStaticContracts(contracts, params) {
+  const includeDemo = params.get('include_demo') !== 'false';
+  const q = (params.get('q') || '').trim().toLowerCase();
+  const institution = (params.get('institution') || '').trim().toLowerCase();
+  const origin = (params.get('data_origin') || '').trim().toLowerCase();
+  const dateFrom = params.get('date_from');
+  const dateTo = params.get('date_to');
+
+  return contracts.filter(c => {
+    if (!includeDemo && c.is_demo) return false;
+    if (origin && String(c.data_origin || '').toLowerCase() !== origin) return false;
+    if (institution && !String(c.institution || '').toLowerCase().includes(institution)) return false;
+    if (dateFrom && (!c.award_date || c.award_date < dateFrom)) return false;
+    if (dateTo && (!c.award_date || c.award_date > dateTo)) return false;
+    if (q) {
+      const haystack = [c.external_id, c.title, c.institution, c.supplier].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  }).slice(0, 200);
+}
+
+function filterStaticAnomalies(anomalies, params) {
+  const severity = params.get('severity');
+  const status = params.get('status');
+  return anomalies.filter(a =>
+    (!severity || a.severity === severity) &&
+    (!status || a.status === status)
+  );
+}
+
+function groupStaticProfile(contracts, groupField, peerField, id) {
+  const rows = contracts.filter(c => c[groupField] === id && !c.is_demo);
+  const byYear = {};
+  const peers = {};
+
+  rows.forEach(c => {
+    const year = c.award_date ? c.award_date.slice(0, 4) : 'Sin fecha';
+    byYear[year] ||= { count: 0, amount: 0 };
+    byYear[year].count += 1;
+    byYear[year].amount += c.amount || 0;
+
+    const peerId = c[peerField];
+    if (peerId) {
+      peers[peerId] ||= {
+        name: peerField === 'institution_id' ? c.institution : c.supplier,
+        institution_id: peerField === 'institution_id' ? peerId : undefined,
+        supplier_id: peerField === 'supplier_id' ? peerId : undefined,
+        count: 0,
+        amount: 0,
+      };
+      peers[peerId].count += 1;
+      peers[peerId].amount += c.amount || 0;
+    }
+  });
+
+  return {
+    rows,
+    byYear: Object.fromEntries(Object.entries(byYear).sort((a, b) => b[0].localeCompare(a[0]))),
+    peers: Object.values(peers).sort((a, b) => b.amount - a.amount).slice(0, 20),
+  };
+}
+
+function buildStaticSupplierProfile(contracts, supplierId) {
+  const found = contracts.find(c => c.supplier_id === supplierId);
+  if (!found) throw new Error('Proveedor no encontrado en snapshot');
+  const profile = groupStaticProfile(contracts, 'supplier_id', 'institution_id', supplierId);
+  return {
+    id: supplierId,
+    name: found.supplier,
+    tax_id: null,
+    contract_count: profile.rows.length,
+    total_amount: profile.rows.reduce((sum, c) => sum + (c.amount || 0), 0),
+    open_anomalies: 0,
+    by_year: profile.byYear,
+    institutions: profile.peers,
+    contracts: profile.rows.slice(0, 50),
+  };
+}
+
+function buildStaticInstitutionProfile(contracts, institutionId) {
+  const found = contracts.find(c => c.institution_id === institutionId);
+  if (!found) throw new Error('Institucion no encontrada en snapshot');
+  const profile = groupStaticProfile(contracts, 'institution_id', 'supplier_id', institutionId);
+  return {
+    id: institutionId,
+    name: found.institution,
+    contract_count: profile.rows.length,
+    total_amount: profile.rows.reduce((sum, c) => sum + (c.amount || 0), 0),
+    open_anomalies: 0,
+    by_year: profile.byYear,
+    suppliers: profile.peers,
+    contracts: profile.rows.slice(0, 50),
+  };
+}
 
 // ── Utilities ──────────────────────────────────────────
 function formatCurrency(n) {
@@ -1448,7 +1602,7 @@ document.querySelectorAll('#main-nav button').forEach(btn => {
 // ── Landing ────────────────────────────────────────────
 async function loadLanding() {
   try {
-    const stats = await fetch(`${API}/stats`).then(r => r.json());
+    const stats = await apiGet('/stats');
     document.getElementById('ls-contracts').textContent   = stats.total_contracts.toLocaleString();
     document.getElementById('ls-institutions').textContent = stats.total_institutions.toLocaleString();
     document.getElementById('ls-suppliers').textContent   = stats.total_suppliers.toLocaleString();
@@ -1461,8 +1615,8 @@ async function loadLanding() {
 async function loadDashboard() {
   try {
     const [stats, contracts] = await Promise.all([
-      fetch(`${API}/stats`).then(r => r.json()),
-      fetch(`${API}/contracts?include_demo=false`).then(r => r.json()),
+      apiGet('/stats'),
+      apiGet('/contracts?include_demo=false'),
     ]);
 
     document.getElementById('stat-contracts').textContent = stats.total_contracts.toLocaleString();
@@ -1521,7 +1675,7 @@ async function loadContracts() {
   if (dateTo) params.set('date_to', dateTo);
 
   try {
-    const contracts = await fetch(`${API}/contracts?${params}`).then(r => r.json());
+    const contracts = await apiGet(`/contracts?${params}`);
     renderContractsTable('contracts-table', contracts, { showAnalysis: true });
   } catch (e) {
     renderEmpty('contracts-table', 'Error al cargar contratos');
@@ -1625,8 +1779,8 @@ async function showContractDetail(contractId) {
 
   try {
     const [c, events] = await Promise.all([
-      fetch(`${API}/contracts/${contractId}`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-      fetch(`${API}/contracts/${contractId}/events`).then(r => r.json()),
+      apiGet(`/contracts/${contractId}`),
+      apiGet(`/contracts/${contractId}/events`),
     ]);
 
     if (!c) {
@@ -1727,7 +1881,7 @@ async function loadAnomalies() {
   const list = document.getElementById('anomalies-list');
 
   try {
-    const anomalies = await fetch(`${API}/anomalies?${params}`).then(r => r.json());
+    const anomalies = await apiGet(`/anomalies?${params}`);
 
     if (!anomalies.length) {
       list.innerHTML = `<div class="empty-state">
@@ -1783,9 +1937,9 @@ async function showAnomalyDetail(anomalyId, contractId) {
 
   try {
     const [anomaly, contract, events] = await Promise.all([
-      fetch(`${API}/anomalies/${anomalyId}`).then(r => r.json()),
-      fetch(`${API}/contracts/${contractId}`).then(r => r.json()),
-      fetch(`${API}/contracts/${contractId}/events`).then(r => r.json()),
+      apiGet(`/anomalies/${anomalyId}`),
+      apiGet(`/contracts/${contractId}`),
+      apiGet(`/contracts/${contractId}/events`),
     ]);
 
     const sev = anomaly.severity || 'high';
@@ -1949,7 +2103,7 @@ async function showSupplierProfile(supplierId, fromView = 'contracts') {
   const el = document.getElementById('supplier-profile-content');
   el.innerHTML = '<div class="skeleton" style="height:140px;border-radius:6px;"></div>';
   try {
-    const d = await fetch(`${API}/suppliers/${supplierId}/profile`).then(r => r.json());
+    const d = await apiGet(`/suppliers/${supplierId}/profile`);
     el.innerHTML = renderSupplierProfileHTML(d);
   } catch(e) {
     el.innerHTML = '<p style="color:var(--danger);padding:1rem">Error al cargar perfil del proveedor.</p>';
@@ -2027,7 +2181,7 @@ async function showInstitutionProfile(institutionId, fromView = 'contracts') {
   const el = document.getElementById('institution-profile-content');
   el.innerHTML = '<div class="skeleton" style="height:140px;border-radius:6px;"></div>';
   try {
-    const d = await fetch(`${API}/institutions/${institutionId}/profile`).then(r => r.json());
+    const d = await apiGet(`/institutions/${institutionId}/profile`);
     el.innerHTML = renderInstitutionProfileHTML(d);
   } catch(e) {
     el.innerHTML = '<p style="color:var(--danger);padding:1rem">Error al cargar perfil de institución.</p>';
