@@ -5,10 +5,207 @@
   "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
   "institution": "HOSPITAL PROVINCIAL DR VERDI CEVALLOS PORTOVIEJO (MANABI)",
   "supplier": "AGURTO CASTILLO ELVA MARIA",
-  "amount": "4704.000000",
-  "procedure_type": "Catálogo electrónico - Compra directa",
-  "award_date": "2015-01-21T00:00:00-05:00",
+  "supplier_tax_id": "EC-RUC-1101933511001-525674",
+  "amount": 4704,
+  "currency": "USD",
+  "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes",
+  "award_date": "2015-01-21",
   "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000096378-2443",
-  "locality": "PORTOVIEJO",
-  "region": "MANABI"
+  "raw_detail": {
+    "uri": "https://portal.compraspublicas.gob.ec/sercop/datos_abiertos/",
+    "license": "https://creativecommons.org/licenses/by/3.0/ec/",
+    "version": "1.1",
+    "releases": [
+      {
+        "id": "CE-20150000096378-2443-2021-11-28T17:33:39.434Z",
+        "tag": [
+          "tender",
+          "award",
+          "contract"
+        ],
+        "date": "2015-01-21T00:00:00-05:00",
+        "ocid": "ocds-5wno2w-CE-20150000096378-2443",
+        "buyer": {
+          "id": "EC-RUC-1360008370001",
+          "name": "HOSPITAL PROVINCIAL DR VERDI CEVALLOS PORTOVIEJO (MANABI)"
+        },
+        "awards": [
+          {
+            "id": "CE-20150000096378",
+            "items": [
+              {
+                "id": "5079-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 30,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 140,
+                "description": "COBERTOR/CUBRECAMA  CAMA ADULTOS (190CM X 230CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5079-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5079-PE-C",
+                    "value": {
+                      "amount": 30,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5079-PE-C",
+                    "value": {
+                      "amount": 3.6,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5079-PE-C",
+                    "value": {
+                      "amount": 33.6,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              }
+            ],
+            "value": {
+              "amount": 4704,
+              "currency": "USD"
+            },
+            "status": "active",
+            "suppliers": [
+              {
+                "id": "EC-RUC-1101933511001-525674",
+                "name": "AGURTO CASTILLO ELVA MARIA"
+              }
+            ]
+          }
+        ],
+        "tender": {
+          "id": "CE-20150000096378-2443",
+          "title": "Orden de compra CE-20150000096378",
+          "value": {
+            "amount": 4704,
+            "currency": "USD"
+          },
+          "status": "complete",
+          "description": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+          "procuringEntity": {
+            "id": "EC-RUC-1360008370001-2443",
+            "name": "HOSPITAL PROVINCIAL DR VERDI CEVALLOS PORTOVIEJO (MANABI)"
+          },
+          "procurementMethod": "direct",
+          "procurementMethodDetails": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
+        },
+        "parties": [
+          {
+            "id": "EC-RUC-1101933511001-525674",
+            "name": "AGURTO CASTILLO ELVA MARIA",
+            "roles": [
+              "supplier"
+            ],
+            "address": {
+              "region": "AZUAY",
+              "locality": "CUENCA",
+              "postalCode": "+593",
+              "countryName": "ECUADOR",
+              "streetAddress": "CRISTOBAL COLON CALLE DEL RETORNO S/N YANUNCAY"
+            },
+            "identifier": {
+              "id": "EC-RUC-1101933511001-525674",
+              "scheme": "EC-RUC",
+              "legalName": "AGURTO CASTILLO ELVA MARIA"
+            },
+            "contactPoint": {
+              "name": "AGURTO CASTILLO ELVA MARIA"
+            }
+          },
+          {
+            "id": "EC-RUC-1360008370001-2443",
+            "name": "HOSPITAL PROVINCIAL DR VERDI CEVALLOS PORTOVIEJO (MANABI)",
+            "roles": [
+              "buyer",
+              "procuringEntity"
+            ],
+            "address": {
+              "region": "MANABI",
+              "locality": "PORTOVIEJO",
+              "countryName": "ECUADOR",
+              "streetAddress": "12 DE MARZO ROCAFUERTE  12 DE MARZO"
+            },
+            "identifier": {
+              "id": "EC-RUC-1360008370001-2443",
+              "scheme": "EC-RUC",
+              "legalName": "HOSPITAL PROVINCIAL DR VERDI CEVALLOS PORTOVIEJO (MANABI)"
+            },
+            "contactPoint": {
+              "name": "HOSPITAL PROVINCIAL DR VERDI CEVALLOS PORTOVIEJO (MANABI)"
+            }
+          }
+        ],
+        "language": "es",
+        "contracts": [
+          {
+            "id": "CE-20150000096378-contract",
+            "status": "terminated",
+            "awardID": "CE-20150000096378"
+          }
+        ],
+        "initiationType": "tender",
+        "relatedProcesses": [
+          {
+            "id": "CE-INCOP-017-2013-CE-20150000096378-related",
+            "title": "Kit de Uniformes escolares para Educación Inicial y Básica",
+            "scheme": "ocid",
+            "identifier": "ocds-5wno2w-CE-INCOP-017-2013-2014-09-05-20:52:43",
+            "relationship": [
+              "framework"
+            ]
+          }
+        ]
+      }
+    ],
+    "publisher": {
+      "uid": "ocds-5wno2w",
+      "uri": "https://www.compraspublicas.gob.ec",
+      "name": "Servicio Nacional de Contratación Pública (SERCOP)",
+      "scheme": "OCDS"
+    },
+    "extensions": [
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_enquiry_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_techniques_extension/master/extension.json",
+      "https://raw.githubusercontent.com/SERCOPEC/ocds_sercopEnteredValue_extension/master/extension.json",
+      "https://gitlab.com/dncp-opendata/ocds_auctions_extension/raw/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_valueBreakdown_extension/main/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_competitive_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_bid_extension/master/extension.json"
+    ],
+    "publishedDate": "2021-11-28T14:23:40-05:00",
+    "publicationPolicy": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/documentos/politica-publicacion-SERCOP-OCDS.pdf"
+  }
 }

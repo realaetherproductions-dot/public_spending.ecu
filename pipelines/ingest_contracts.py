@@ -11,7 +11,7 @@ from models.institution import Institution
 from models.raw_record import RawRecord
 from models.supplier import Supplier
 from pipelines.hashing import compute_payload_hash
-from pipelines.normalize_data import normalize_name, parse_amount, parse_iso_date
+from pipelines.normalize_data import normalize_name, normalize_tax_id, parse_amount, parse_iso_date
 
 
 @dataclass
@@ -25,6 +25,7 @@ class IngestStats:
 TRACKED_FIELDS = {
     "amount": lambda r: str(parse_amount(r.get("amount")) or ""),
     "supplier": lambda r: str(r.get("supplier") or ""),
+    "supplier_tax_id": lambda r: str(normalize_tax_id(r.get("supplier_tax_id")) or ""),
     "institution": lambda r: str(r.get("institution") or ""),
     "title": lambda r: str(r.get("title") or r.get("description") or ""),
     "procedure_type": lambda r: str(r.get("procedure_type") or ""),
@@ -43,6 +44,7 @@ def _detect_changes(
     contract_values = {
         "amount": str(contract.amount or ""),
         "supplier": contract.supplier.name if contract.supplier else "",
+        "supplier_tax_id": contract.supplier.tax_id if contract.supplier else "",
         "institution": contract.institution.name if contract.institution else "",
         "title": contract.title or "",
         "procedure_type": contract.procedure_type or "",
@@ -105,7 +107,7 @@ def ingest_contract_records(
         db.flush()
 
         safe_id = external_id.replace("/", "_").replace("\\", "_").replace(":", "_")
-        raw_path = raw_dir / f"{safe_id}.json"
+        raw_path = raw_dir / f"{safe_id}__{payload_hash[:12]}.json"
         raw_path.write_text(raw_record.payload, encoding="utf-8")
 
         existing_contract = db.query(Contract).filter(Contract.external_id == external_id).first()
@@ -126,6 +128,7 @@ def ingest_contract_records(
             existing_contract.data_origin = str(record.get("data_origin") or source_name)
             existing_contract.is_demo = bool(record.get("is_demo", is_demo))
             existing_contract.last_raw_record_id = raw_record.id
+            existing_contract.raw_payload_path = str(raw_path)
 
             new_amount = parse_amount(record.get("amount"))
             if new_amount is not None:
@@ -199,10 +202,17 @@ def _get_or_create_institution(db: Session, name: str) -> Institution:
 
 def _get_or_create_supplier(db: Session, name: str, tax_id: str | None = None) -> Supplier:
     normalized = normalize_name(name)
+    normalized_tax_id = normalize_tax_id(tax_id)
+    if normalized_tax_id:
+        supplier = db.query(Supplier).filter(Supplier.tax_id == normalized_tax_id).first()
+        if supplier:
+            return supplier
     supplier = db.query(Supplier).filter(Supplier.normalized_name == normalized).first()
     if supplier:
+        if normalized_tax_id and not supplier.tax_id:
+            supplier.tax_id = normalized_tax_id
         return supplier
-    supplier = Supplier(name=name, normalized_name=normalized, tax_id=tax_id)
+    supplier = Supplier(name=name, normalized_name=normalized, tax_id=normalized_tax_id)
     db.add(supplier)
     db.flush()
     return supplier

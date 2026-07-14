@@ -5,10 +5,264 @@
   "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
   "institution": "HOSPITAL DE INFECTOLOGIA",
   "supplier": "BUSTAMANTE PAREDES ENA PILAR",
-  "amount": "952.000000",
-  "procedure_type": "Catálogo electrónico - Compra directa",
-  "award_date": "2015-02-09T00:00:00-05:00",
+  "supplier_tax_id": "EC-RUC-0301110706001-274639",
+  "amount": 952,
+  "currency": "USD",
+  "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes",
+  "award_date": "2015-02-09",
   "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000118954-123069",
-  "locality": "GUAYAQUIL",
-  "region": "GUAYAS"
+  "raw_detail": {
+    "uri": "https://portal.compraspublicas.gob.ec/sercop/datos_abiertos/",
+    "license": "https://creativecommons.org/licenses/by/3.0/ec/",
+    "version": "1.1",
+    "releases": [
+      {
+        "id": "CE-20150000118954-123069-2021-11-28T17:38:21.119Z",
+        "tag": [
+          "tender",
+          "award",
+          "contract"
+        ],
+        "date": "2015-02-09T00:00:00-05:00",
+        "ocid": "ocds-5wno2w-CE-20150000118954-123069",
+        "buyer": {
+          "id": "EC-RUC-0968504680001",
+          "name": "HOSPITAL DE INFECTOLOGIA"
+        },
+        "awards": [
+          {
+            "id": "CE-20150000118954",
+            "items": [
+              {
+                "id": "5072-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 3.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 100,
+                "description": "FUNDA DE ALMOHADA (50 CM X 75 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5072-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5072-PE-C",
+                    "value": {
+                      "amount": 3.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5072-PE-C",
+                    "value": {
+                      "amount": 0.42,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5072-PE-C",
+                    "value": {
+                      "amount": 3.92,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5074-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 100,
+                "description": "ALMOHADA PARA CAMA",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5074-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5074-PE-C",
+                    "value": {
+                      "amount": 5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5074-PE-C",
+                    "value": {
+                      "amount": 0.6,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5074-PE-C",
+                    "value": {
+                      "amount": 5.6,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              }
+            ],
+            "value": {
+              "amount": 952,
+              "currency": "USD"
+            },
+            "status": "active",
+            "suppliers": [
+              {
+                "id": "EC-RUC-0301110706001-274639",
+                "name": "BUSTAMANTE PAREDES ENA PILAR"
+              }
+            ]
+          }
+        ],
+        "tender": {
+          "id": "CE-20150000118954-123069",
+          "title": "Orden de compra CE-20150000118954",
+          "value": {
+            "amount": 952,
+            "currency": "USD"
+          },
+          "status": "complete",
+          "description": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+          "procuringEntity": {
+            "id": "EC-RUC-0968504680001-123069",
+            "name": "HOSPITAL DE INFECTOLOGIA"
+          },
+          "procurementMethod": "direct",
+          "procurementMethodDetails": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
+        },
+        "parties": [
+          {
+            "id": "EC-RUC-0301110706001-274639",
+            "name": "BUSTAMANTE PAREDES ENA PILAR",
+            "roles": [
+              "supplier"
+            ],
+            "address": {
+              "region": "AZUAY",
+              "locality": "CUENCA",
+              "countryName": "ECUADOR",
+              "streetAddress": "VIA A RICAURTE  S/N RICAURTE"
+            },
+            "identifier": {
+              "id": "EC-RUC-0301110706001-274639",
+              "scheme": "EC-RUC",
+              "legalName": "BUSTAMANTE PAREDES ENA PILAR"
+            },
+            "contactPoint": {
+              "name": "BUSTAMANTE PAREDES ENA PILAR"
+            }
+          },
+          {
+            "id": "EC-RUC-0968504680001-123069",
+            "name": "HOSPITAL DE INFECTOLOGIA",
+            "roles": [
+              "buyer",
+              "procuringEntity"
+            ],
+            "address": {
+              "region": "GUAYAS",
+              "locality": "GUAYAQUIL",
+              "countryName": "ECUADOR",
+              "streetAddress": "JULIAN CORONEL JOSE MASCOTE 900 TARQUI"
+            },
+            "identifier": {
+              "id": "EC-RUC-0968504680001-123069",
+              "scheme": "EC-RUC",
+              "legalName": "HOSPITAL DE INFECTOLOGIA"
+            },
+            "contactPoint": {
+              "name": "HOSPITAL DE INFECTOLOGIA"
+            }
+          }
+        ],
+        "language": "es",
+        "contracts": [
+          {
+            "id": "CE-20150000118954-contract",
+            "status": "terminated",
+            "awardID": "CE-20150000118954"
+          }
+        ],
+        "initiationType": "tender",
+        "relatedProcesses": [
+          {
+            "id": "CE-INCOP-017-2013-CE-20150000118954-related",
+            "title": "Kit de Uniformes escolares para Educación Inicial y Básica",
+            "scheme": "ocid",
+            "identifier": "ocds-5wno2w-CE-INCOP-017-2013-2014-09-05-20:52:43",
+            "relationship": [
+              "framework"
+            ]
+          }
+        ]
+      }
+    ],
+    "publisher": {
+      "uid": "ocds-5wno2w",
+      "uri": "https://www.compraspublicas.gob.ec",
+      "name": "Servicio Nacional de Contratación Pública (SERCOP)",
+      "scheme": "OCDS"
+    },
+    "extensions": [
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_enquiry_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_techniques_extension/master/extension.json",
+      "https://raw.githubusercontent.com/SERCOPEC/ocds_sercopEnteredValue_extension/master/extension.json",
+      "https://gitlab.com/dncp-opendata/ocds_auctions_extension/raw/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_valueBreakdown_extension/main/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_competitive_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_bid_extension/master/extension.json"
+    ],
+    "publishedDate": "2021-11-28T15:36:25-05:00",
+    "publicationPolicy": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/documentos/politica-publicacion-SERCOP-OCDS.pdf"
+  }
 }

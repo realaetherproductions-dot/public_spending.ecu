@@ -5,10 +5,206 @@
   "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
   "institution": "HOSPITAL GENERAL DE MACAS",
   "supplier": "TAPIA MOLINA MARIA PURIFICACION",
-  "amount": "560.000000",
-  "procedure_type": "Catálogo electrónico - Compra directa",
-  "award_date": "2015-02-10T00:00:00-05:00",
+  "supplier_tax_id": "EC-RUC-1400243141001-165825",
+  "amount": 560,
+  "currency": "USD",
+  "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-009-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes",
+  "award_date": "2015-02-10",
   "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000121143-96571",
-  "locality": "MORONA",
-  "region": "MORONA SANTIAGO"
+  "raw_detail": {
+    "uri": "https://portal.compraspublicas.gob.ec/sercop/datos_abiertos/",
+    "license": "https://creativecommons.org/licenses/by/3.0/ec/",
+    "version": "1.1",
+    "releases": [
+      {
+        "id": "CE-20150000121143-96571-2021-11-28T17:38:41.629Z",
+        "tag": [
+          "tender",
+          "award",
+          "contract"
+        ],
+        "date": "2015-02-10T00:00:00-05:00",
+        "ocid": "ocds-5wno2w-CE-20150000121143-96571",
+        "buyer": {
+          "id": "EC-RUC-1460003470001",
+          "name": "HOSPITAL GENERAL DE MACAS"
+        },
+        "awards": [
+          {
+            "id": "CE-20150000121143",
+            "items": [
+              {
+                "id": "5074-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 100,
+                "description": "ALMOHADA PARA CAMA",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5074-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5074-PE-C",
+                    "value": {
+                      "amount": 5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5074-PE-C",
+                    "value": {
+                      "amount": 0.6,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5074-PE-C",
+                    "value": {
+                      "amount": 5.6,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              }
+            ],
+            "value": {
+              "amount": 560,
+              "currency": "USD"
+            },
+            "status": "active",
+            "suppliers": [
+              {
+                "id": "EC-RUC-1400243141001-165825",
+                "name": "TAPIA MOLINA MARIA PURIFICACION"
+              }
+            ]
+          }
+        ],
+        "tender": {
+          "id": "CE-20150000121143-96571",
+          "title": "Orden de compra CE-20150000121143",
+          "value": {
+            "amount": 560,
+            "currency": "USD"
+          },
+          "status": "complete",
+          "description": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud)",
+          "procuringEntity": {
+            "id": "EC-RUC-1460003470001-96571",
+            "name": "HOSPITAL GENERAL DE MACAS"
+          },
+          "procurementMethod": "direct",
+          "procurementMethodDetails": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-009-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
+        },
+        "parties": [
+          {
+            "id": "EC-RUC-1400243141001-165825",
+            "name": "TAPIA MOLINA MARIA PURIFICACION",
+            "roles": [
+              "supplier"
+            ],
+            "address": {
+              "region": "MORONA SANTIAGO",
+              "locality": "MORONA",
+              "countryName": "ECUADOR",
+              "streetAddress": "SOASTI JUAN DE SALINAS S/N MACAS, CABECERA CANTONAL Y CAPITAL PROVINCIAL"
+            },
+            "identifier": {
+              "id": "EC-RUC-1400243141001-165825",
+              "scheme": "EC-RUC",
+              "legalName": "TAPIA MOLINA MARIA PURIFICACION"
+            },
+            "contactPoint": {
+              "name": "TAPIA MOLINA MARIA PURIFICACION"
+            }
+          },
+          {
+            "id": "EC-RUC-1460003470001-96571",
+            "name": "HOSPITAL GENERAL DE MACAS",
+            "roles": [
+              "buyer",
+              "procuringEntity"
+            ],
+            "address": {
+              "region": "MORONA SANTIAGO",
+              "locality": "MORONA",
+              "countryName": "ECUADOR",
+              "streetAddress": "EULALIA VELIN TOBIAS RODRIGUEZ COX s/n MACAS, CABECERA CANTONAL Y CAPITAL PROVINCIAL"
+            },
+            "identifier": {
+              "id": "EC-RUC-1460003470001-96571",
+              "scheme": "EC-RUC",
+              "legalName": "HOSPITAL GENERAL DE MACAS"
+            },
+            "contactPoint": {
+              "name": "HOSPITAL GENERAL DE MACAS"
+            }
+          }
+        ],
+        "language": "es",
+        "contracts": [
+          {
+            "id": "CE-20150000121143-contract",
+            "status": "terminated",
+            "awardID": "CE-20150000121143"
+          }
+        ],
+        "initiationType": "tender",
+        "relatedProcesses": [
+          {
+            "id": "CE-INCOP-009-2013-CE-20150000121143-related",
+            "title": "Kit de Uniformes escolares para Educación Inicial y Básica",
+            "scheme": "ocid",
+            "identifier": "ocds-5wno2w-CE-INCOP-009-2013-2014-09-06-10:01:55",
+            "relationship": [
+              "framework"
+            ]
+          }
+        ]
+      }
+    ],
+    "publisher": {
+      "uid": "ocds-5wno2w",
+      "uri": "https://www.compraspublicas.gob.ec",
+      "name": "Servicio Nacional de Contratación Pública (SERCOP)",
+      "scheme": "OCDS"
+    },
+    "extensions": [
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_enquiry_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_techniques_extension/master/extension.json",
+      "https://raw.githubusercontent.com/SERCOPEC/ocds_sercopEnteredValue_extension/master/extension.json",
+      "https://gitlab.com/dncp-opendata/ocds_auctions_extension/raw/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_valueBreakdown_extension/main/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_competitive_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_bid_extension/master/extension.json"
+    ],
+    "publishedDate": "2021-11-28T15:41:50-05:00",
+    "publicationPolicy": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/documentos/politica-publicacion-SERCOP-OCDS.pdf"
+  }
 }

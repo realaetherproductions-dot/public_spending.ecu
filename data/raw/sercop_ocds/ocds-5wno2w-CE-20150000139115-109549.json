@@ -5,10 +5,1483 @@
   "title": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles)",
   "institution": "HOSPITAL BASICO IV DE",
   "supplier": "AGURTO CASTILLO ELVA MARIA",
-  "amount": "6721.724800",
-  "procedure_type": "Catálogo electrónico - Compra directa",
-  "award_date": "2015-02-24T00:00:00-05:00",
+  "supplier_tax_id": "EC-RUC-1101933511001-525674",
+  "amount": 6721.7248,
+  "currency": "USD",
+  "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes",
+  "award_date": "2015-02-24",
   "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000139115-109549",
-  "locality": "FRANCISCO DE ORELLANA",
-  "region": "ORELLANA"
+  "raw_detail": {
+    "uri": "https://portal.compraspublicas.gob.ec/sercop/datos_abiertos/",
+    "license": "https://creativecommons.org/licenses/by/3.0/ec/",
+    "version": "1.1",
+    "releases": [
+      {
+        "id": "CE-20150000139115-109549-2021-11-28T17:42:20.503Z",
+        "tag": [
+          "tender",
+          "award",
+          "contract"
+        ],
+        "date": "2015-02-24T00:00:00-05:00",
+        "ocid": "ocds-5wno2w-CE-20150000139115-109549",
+        "buyer": {
+          "id": "EC-RUC-2260008790001",
+          "name": "HOSPITAL BASICO IV DE"
+        },
+        "awards": [
+          {
+            "id": "CE-20150000139115",
+            "items": [
+              {
+                "id": "5012-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 7.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 12,
+                "description": "BATA PACIENTE ADULTO UNISEX TALLA S",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5012-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5012-PE-C",
+                    "value": {
+                      "amount": 7.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5012-PE-C",
+                    "value": {
+                      "amount": 0.9,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5012-PE-C",
+                    "value": {
+                      "amount": 8.4,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5013-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 8,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 8,
+                "description": "BATA PACIENTE ADULTO UNISEX TALLA M",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5013-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5013-PE-C",
+                    "value": {
+                      "amount": 8,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5013-PE-C",
+                    "value": {
+                      "amount": 0.96,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5013-PE-C",
+                    "value": {
+                      "amount": 8.96,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5014-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 8.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 8,
+                "description": "BATA PACIENTE ADULTO UNISEX TALLA L",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5014-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5014-PE-C",
+                    "value": {
+                      "amount": 8.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5014-PE-C",
+                    "value": {
+                      "amount": 1.02,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5014-PE-C",
+                    "value": {
+                      "amount": 9.52,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5029-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 19.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 20,
+                "description": "BATA QUIRÚRGICA REUSABLE L (130 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5029-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5029-PE-C",
+                    "value": {
+                      "amount": 19.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5029-PE-C",
+                    "value": {
+                      "amount": 2.34,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5029-PE-C",
+                    "value": {
+                      "amount": 21.84,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5031-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 21.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 20,
+                "description": "BATA QUIRÚRGICA REUSABLE XL (140 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5031-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5031-PE-C",
+                    "value": {
+                      "amount": 21.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5031-PE-C",
+                    "value": {
+                      "amount": 2.58,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5031-PE-C",
+                    "value": {
+                      "amount": 24.08,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5032-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 3,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 10,
+                "description": "BOTAS QUIRÚRGICAS REUSABLES (M)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5032-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5032-PE-C",
+                    "value": {
+                      "amount": 3,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5032-PE-C",
+                    "value": {
+                      "amount": 0.36,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5032-PE-C",
+                    "value": {
+                      "amount": 3.36,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5033-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 3.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 15,
+                "description": "BOTAS QUIRÚRGICAS REUSABLES (L)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5033-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5033-PE-C",
+                    "value": {
+                      "amount": 3.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5033-PE-C",
+                    "value": {
+                      "amount": 0.42,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5033-PE-C",
+                    "value": {
+                      "amount": 3.92,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5071-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 39.51,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 15,
+                "description": "COBERTOR PARA MESA DE RIÑÓN O SEMILUNA REUSABLE DOBLE (250 X 140 CM )",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5071-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5071-PE-C",
+                    "value": {
+                      "amount": 39.51,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5071-PE-C",
+                    "value": {
+                      "amount": 4.7412,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5071-PE-C",
+                    "value": {
+                      "amount": 44.2512,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5072-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 3.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 50,
+                "description": "FUNDA DE ALMOHADA (50 CM X 75 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5072-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5072-PE-C",
+                    "value": {
+                      "amount": 3.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5072-PE-C",
+                    "value": {
+                      "amount": 0.42,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5072-PE-C",
+                    "value": {
+                      "amount": 3.92,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5074-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 40,
+                "description": "ALMOHADA PARA CAMA",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5074-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5074-PE-C",
+                    "value": {
+                      "amount": 5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5074-PE-C",
+                    "value": {
+                      "amount": 0.6,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5074-PE-C",
+                    "value": {
+                      "amount": 5.6,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5075-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 21,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 8,
+                "description": "COBERTOR PARA MESA DE MAYO REUSABLE DOBLE (150 X 67 CM.)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5075-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5075-PE-C",
+                    "value": {
+                      "amount": 21,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5075-PE-C",
+                    "value": {
+                      "amount": 2.52,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5075-PE-C",
+                    "value": {
+                      "amount": 23.52,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5077-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 7.62,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 15,
+                "description": "FUNDAS CABLE REUSABLE DOBLE (160CM X 15CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5077-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5077-PE-C",
+                    "value": {
+                      "amount": 7.62,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5077-PE-C",
+                    "value": {
+                      "amount": 0.9144,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5077-PE-C",
+                    "value": {
+                      "amount": 8.5344,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5084-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 15,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 40,
+                "description": "COBIJA PARA CAMA ADULTOS (180 X 220 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5084-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5084-PE-C",
+                    "value": {
+                      "amount": 15,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5084-PE-C",
+                    "value": {
+                      "amount": 1.8,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5084-PE-C",
+                    "value": {
+                      "amount": 16.8,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5090-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 19,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 40,
+                "description": "JUEGO DE SÁBANAS CAMA ADULTO PLAZA Y MEDIA",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5090-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5090-PE-C",
+                    "value": {
+                      "amount": 19,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5090-PE-C",
+                    "value": {
+                      "amount": 2.28,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5090-PE-C",
+                    "value": {
+                      "amount": 21.28,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5094-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 16.89,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 50,
+                "description": "CAMPOS Y SABANAS QUIRURGICAS REUSABLES DOBLES (100X100)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5094-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5094-PE-C",
+                    "value": {
+                      "amount": 16.89,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5094-PE-C",
+                    "value": {
+                      "amount": 2.0268,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5094-PE-C",
+                    "value": {
+                      "amount": 18.9168,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5098-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 10,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 10,
+                "description": "TOALLA DE BAÑO (140 X 70 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5098-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5098-PE-C",
+                    "value": {
+                      "amount": 10,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5098-PE-C",
+                    "value": {
+                      "amount": 1.2,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5098-PE-C",
+                    "value": {
+                      "amount": 11.2,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5100-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 6,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 20,
+                "description": "TOALLA DE BAÑO (100 X 50 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5100-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5100-PE-C",
+                    "value": {
+                      "amount": 6,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5100-PE-C",
+                    "value": {
+                      "amount": 0.72,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5100-PE-C",
+                    "value": {
+                      "amount": 6.72,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5104-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 32.5,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 15,
+                "description": "CAMPOS Y SABANAS QUIRURGICAS REUSABLES DOBLES (178X178)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5104-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5104-PE-C",
+                    "value": {
+                      "amount": 32.5,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5104-PE-C",
+                    "value": {
+                      "amount": 3.9,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5104-PE-C",
+                    "value": {
+                      "amount": 36.4,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5110-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 38.17,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 3,
+                "description": "CAMPO DE TRAUMATOLOGÍA REUSABLE (153X225 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5110-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5110-PE-C",
+                    "value": {
+                      "amount": 38.17,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5110-PE-C",
+                    "value": {
+                      "amount": 4.5804,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5110-PE-C",
+                    "value": {
+                      "amount": 42.7504,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5113-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 11.52,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 10,
+                "description": "CAMPO DE CIRUGÍA MENOR REUSABLE (110 X 140 CM)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5113-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5113-PE-C",
+                    "value": {
+                      "amount": 11.52,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5113-PE-C",
+                    "value": {
+                      "amount": 1.3824,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5113-PE-C",
+                    "value": {
+                      "amount": 12.9024,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5117-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 37.23,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 6,
+                "description": "SÁBANAS LATERALES REUSABLE (PEQUEÑO-MEDIA SÁBANA)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5117-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5117-PE-C",
+                    "value": {
+                      "amount": 37.23,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5117-PE-C",
+                    "value": {
+                      "amount": 4.4676,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5117-PE-C",
+                    "value": {
+                      "amount": 41.6976,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5120-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 13,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 16,
+                "description": "PIERNERAS REUSABLES (LARGO 84CM Y 50CM DE CIRCUNFERENCIA)",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5120-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5120-PE-C",
+                    "value": {
+                      "amount": 13,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5120-PE-C",
+                    "value": {
+                      "amount": 1.56,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5120-PE-C",
+                    "value": {
+                      "amount": 14.56,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              },
+              {
+                "id": "5124-PE-C",
+                "unit": {
+                  "value": {
+                    "amount": 2.7,
+                    "currency": "USD"
+                  }
+                },
+                "quantity": 20,
+                "description": "TOALLA QUIRÚRGICA REUSABLE",
+                "classification": {
+                  "id": "881220013",
+                  "scheme": "CPC",
+                  "description": "LENCERIA HOSPITALARIA"
+                },
+                "valueBreakdown": [
+                  {
+                    "id": "discount-5124-PE-C",
+                    "value": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "description": "Descuento por producto"
+                  },
+                  {
+                    "id": "net-5124-PE-C",
+                    "value": {
+                      "amount": 2.7,
+                      "currency": "USD"
+                    },
+                    "description": "Precio unitario"
+                  },
+                  {
+                    "id": "tax-iva-12%-5124-PE-C",
+                    "value": {
+                      "amount": 0.324,
+                      "currency": "USD"
+                    },
+                    "description": "Iva por producto 12%"
+                  },
+                  {
+                    "id": "total-iva-12%-5124-PE-C",
+                    "value": {
+                      "amount": 3.024,
+                      "currency": "USD"
+                    },
+                    "description": "Total por producto"
+                  }
+                ],
+                "additionalClassifications": [
+                  {
+                    "id": "88122.00.1",
+                    "uri": "https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/exe/verComProductos_exe.php?tipo=buscar&idProducto=88122.00.1",
+                    "scheme": "CPC",
+                    "description": "SERVICIOS DE CONFECCION DE PRENDAS DE VESTIR"
+                  }
+                ]
+              }
+            ],
+            "value": {
+              "amount": 6721.7248,
+              "currency": "USD"
+            },
+            "status": "active",
+            "suppliers": [
+              {
+                "id": "EC-RUC-1101933511001-525674",
+                "name": "AGURTO CASTILLO ELVA MARIA"
+              }
+            ]
+          }
+        ],
+        "tender": {
+          "id": "CE-20150000139115-109549",
+          "title": "Orden de compra CE-20150000139115",
+          "value": {
+            "amount": 6721.7248,
+            "currency": "USD"
+          },
+          "status": "complete",
+          "description": "Orden de compra para adquirir los siguientes productos:  Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería General  (prendas que se usa dentro de los establecimientos de salud) Lencería Quirúrgica (prendas que se usan en lugares exclusivos donde se realizan procedimientos estériles)",
+          "procuringEntity": {
+            "id": "EC-RUC-2260008790001-109549",
+            "name": "HOSPITAL BASICO IV DE"
+          },
+          "procurementMethod": "direct",
+          "procurementMethodDetails": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
+        },
+        "parties": [
+          {
+            "id": "EC-RUC-1101933511001-525674",
+            "name": "AGURTO CASTILLO ELVA MARIA",
+            "roles": [
+              "supplier"
+            ],
+            "address": {
+              "region": "AZUAY",
+              "locality": "CUENCA",
+              "postalCode": "+593",
+              "countryName": "ECUADOR",
+              "streetAddress": "CRISTOBAL COLON CALLE DEL RETORNO S/N YANUNCAY"
+            },
+            "identifier": {
+              "id": "EC-RUC-1101933511001-525674",
+              "scheme": "EC-RUC",
+              "legalName": "AGURTO CASTILLO ELVA MARIA"
+            },
+            "contactPoint": {
+              "name": "AGURTO CASTILLO ELVA MARIA"
+            }
+          },
+          {
+            "id": "EC-RUC-2260008790001-109549",
+            "name": "HOSPITAL BASICO IV DE",
+            "roles": [
+              "buyer",
+              "procuringEntity"
+            ],
+            "address": {
+              "region": "ORELLANA",
+              "locality": "FRANCISCO DE ORELLANA",
+              "countryName": "ECUADOR",
+              "streetAddress": "VIA LOS ZORROS VIA AL AUCA SIN NUMERO PUERTO FRANCISCO DE ORELLANA"
+            },
+            "identifier": {
+              "id": "EC-RUC-2260008790001-109549",
+              "scheme": "EC-RUC",
+              "legalName": "HOSPITAL BASICO IV DE"
+            },
+            "contactPoint": {
+              "name": "HOSPITAL BASICO IV DE"
+            }
+          }
+        ],
+        "language": "es",
+        "contracts": [
+          {
+            "id": "CE-20150000139115-contract",
+            "status": "terminated",
+            "awardID": "CE-20150000139115"
+          }
+        ],
+        "initiationType": "tender",
+        "relatedProcesses": [
+          {
+            "id": "CE-INCOP-017-2013-CE-20150000139115-related",
+            "title": "Kit de Uniformes escolares para Educación Inicial y Básica",
+            "scheme": "ocid",
+            "identifier": "ocds-5wno2w-CE-INCOP-017-2013-2014-09-05-20:52:43",
+            "relationship": [
+              "framework"
+            ]
+          }
+        ]
+      }
+    ],
+    "publisher": {
+      "uid": "ocds-5wno2w",
+      "uri": "https://www.compraspublicas.gob.ec",
+      "name": "Servicio Nacional de Contratación Pública (SERCOP)",
+      "scheme": "OCDS"
+    },
+    "extensions": [
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_enquiry_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_techniques_extension/master/extension.json",
+      "https://raw.githubusercontent.com/SERCOPEC/ocds_sercopEnteredValue_extension/master/extension.json",
+      "https://gitlab.com/dncp-opendata/ocds_auctions_extension/raw/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_valueBreakdown_extension/main/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_competitive_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_bid_extension/master/extension.json"
+    ],
+    "publishedDate": "2021-11-28T16:37:19-05:00",
+    "publicationPolicy": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/documentos/politica-publicacion-SERCOP-OCDS.pdf"
+  }
 }

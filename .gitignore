@@ -15,6 +15,8 @@ data/processed/*.db
 data/processed/*.sqlite
 data/processed/*.sqlite3
 data/processed/scheduler_state.json
+data/backups/
+data/raw/test/*__*.json
 
 *.exe
 dist/

@@ -7,7 +7,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-os.environ["DATABASE_URL"] = "sqlite:///./data/processed/test_phase1.db"
+TEST_DB = Path("data/processed/test_phase1.db")
+TEST_DB.unlink(missing_ok=True)
+os.environ["DATABASE_URL"] = f"sqlite:///./{TEST_DB.as_posix()}"
 
 from app.database import SessionLocal, init_db
 from models.ingestion_run import IngestionRun

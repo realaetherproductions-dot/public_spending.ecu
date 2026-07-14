@@ -8,9 +8,8 @@ from sqlalchemy.orm import Session
 from models.anomaly import Anomaly
 from models.contract import Contract
 from models.contract_event import ContractEvent
+from services.procurement_rule_service import amount_is_within_rule, threshold_for_contract
 
-
-UMBRAL_CONTRATACION_DIRECTA = Decimal("7105.88")
 MARGEN_BAJO_UMBRAL = Decimal("0.15")
 
 
@@ -78,18 +77,35 @@ def _detect_fraccionamiento(
 ) -> list[Anomaly]:
     """Mismo proveedor + misma institucion con 3+ contratos cuya suma supera
     el umbral de licitacion pero cada uno esta por debajo."""
-    groups: dict[tuple[int | None, int | None], list[Contract]] = defaultdict(list)
+    groups: dict[tuple[int, int, int, str, Decimal, str, int], list[Contract]] = defaultdict(list)
     for c in contracts:
-        if c.supplier_id and c.institution_id and c.amount is not None:
-            groups[(c.supplier_id, c.institution_id)].append(c)
+        if not (c.supplier_id and c.institution_id and c.amount is not None and c.award_date):
+            continue
+        resolved = threshold_for_contract(db, c.award_date.year, c.procedure_type)
+        if resolved is None:
+            continue
+        threshold, rule = resolved
+        groups[(
+            c.supplier_id,
+            c.institution_id,
+            c.award_date.year,
+            rule.procedure_type,
+            threshold,
+            rule.operator,
+            rule.id,
+        )].append(c)
 
     created: list[Anomaly] = []
-    for (sup_id, inst_id), group in groups.items():
-        below_threshold = [c for c in group if c.amount < UMBRAL_CONTRATACION_DIRECTA]
+    for (
+        _sup_id, _inst_id, year, procedure_type, threshold, operator, rule_id,
+    ), group in groups.items():
+        below_threshold = [
+            c for c in group if amount_is_within_rule(c.amount, threshold, operator)
+        ]
         if len(below_threshold) < 3:
             continue
         total = sum(c.amount for c in below_threshold)
-        if total <= UMBRAL_CONTRATACION_DIRECTA:
+        if total <= threshold:
             continue
 
         supplier_name = group[0].supplier.name if group[0].supplier else "?"
@@ -100,11 +116,13 @@ def _detect_fraccionamiento(
             a = _get_or_create_anomaly(
                 db, c.id, "fraccionamiento", "high", score,
                 f"Posible fraccionamiento: {len(below_threshold)} contratos con {supplier_name} "
-                f"en {inst_name} suman ${float(total):,.2f} (cada uno bajo umbral de ${float(UMBRAL_CONTRATACION_DIRECTA):,.2f})",
+                f"en {inst_name} suman ${float(total):,.2f} (cada uno bajo umbral de ${float(threshold):,.2f} para {year})",
                 json.dumps({
                     "supplier": supplier_name, "institution": inst_name,
                     "contract_count": len(below_threshold), "total": float(total),
                     "contract_ids": [c.id for c in below_threshold],
+                    "year": year, "procedure_type": procedure_type,
+                    "threshold": float(threshold), "procurement_rule_id": rule_id,
                 }),
                 run_id,
             )
@@ -220,21 +238,28 @@ def _detect_monto_bajo_umbral(
     db: Session, contracts: list[Contract], run_id: int | None,
 ) -> list[Anomaly]:
     """Contratos con monto entre 85% y 100% del umbral de contratacion directa."""
-    floor = UMBRAL_CONTRATACION_DIRECTA * (1 - MARGEN_BAJO_UMBRAL)
     created: list[Anomaly] = []
     for c in contracts:
-        if c.amount is None:
+        if c.amount is None or c.award_date is None:
             continue
-        if floor <= c.amount < UMBRAL_CONTRATACION_DIRECTA:
-            pct = float(c.amount / UMBRAL_CONTRATACION_DIRECTA) * 100
+        resolved = threshold_for_contract(db, c.award_date.year, c.procedure_type)
+        if resolved is None:
+            continue
+        threshold, rule = resolved
+        floor = threshold * (1 - MARGEN_BAJO_UMBRAL)
+        if floor <= c.amount and amount_is_within_rule(c.amount, threshold, rule.operator):
+            pct = float(c.amount / threshold) * 100
             a = _get_or_create_anomaly(
                 db, c.id, "monto_bajo_umbral", "low", pct,
                 f"Monto ${float(c.amount):,.2f} es {pct:.1f}% del umbral de contratacion directa "
-                f"(${float(UMBRAL_CONTRATACION_DIRECTA):,.2f})",
+                f"(${float(threshold):,.2f}, {c.award_date.year}, regla {rule.id})",
                 json.dumps({
                     "amount": float(c.amount),
-                    "threshold": float(UMBRAL_CONTRATACION_DIRECTA),
+                    "threshold": float(threshold),
                     "percentage": round(pct, 2),
+                    "year": c.award_date.year,
+                    "procedure_type": rule.procedure_type,
+                    "procurement_rule_id": rule.id,
                 }),
                 run_id,
             )

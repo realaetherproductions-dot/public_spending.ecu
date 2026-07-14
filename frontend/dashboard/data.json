@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-28T21:43:53Z",
+  "generated_at": "2026-07-14T01:54:25Z",
   "source": "sqlite",
   "stats": {
     "total_contracts": 1797,
     "total_institutions": 554,
     "total_suppliers": 960,
-    "open_anomalies": 1097,
+    "open_anomalies": 992,
     "total_anomalies": 1097,
     "total_amount": 550092913.18064
   },
@@ -28456,7 +28456,7 @@
       "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000139115-109549",
       "data_origin": "sercop_ocds",
       "is_demo": false,
-      "procedure_type": "Catálogo electrónico - Compra directa"
+      "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
     },
     {
       "id": 348,
@@ -28584,7 +28584,7 @@
       "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000121143-96571",
       "data_origin": "sercop_ocds",
       "is_demo": false,
-      "procedure_type": "Catálogo electrónico - Compra directa"
+      "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-009-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
     },
     {
       "id": 468,
@@ -28632,7 +28632,7 @@
       "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000118954-123069",
       "data_origin": "sercop_ocds",
       "is_demo": false,
-      "procedure_type": "Catálogo electrónico - Compra directa"
+      "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
     },
     {
       "id": 547,
@@ -28744,7 +28744,7 @@
       "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000096378-2443",
       "data_origin": "sercop_ocds",
       "is_demo": false,
-      "procedure_type": "Catálogo electrónico - Compra directa"
+      "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-017-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
     },
     {
       "id": 2,
@@ -28760,7 +28760,7 @@
       "source_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/api/record?ocid=ocds-5wno2w-CE-20150000096376-2443",
       "data_origin": "sercop_ocds",
       "is_demo": false,
-      "procedure_type": "Catálogo electrónico - Compra directa"
+      "procedure_type": "Catálogo electrónico - Compra directa en el convenio CE-INCOP-013-2013, Kit de Uniformes escolares para Educación Inicial y Básica, Confección de kits de uniformes escolares para estudiantes"
     },
     {
       "id": 1,
@@ -28804,8 +28804,8 @@
       "score": 97.73455222998419,
       "reason": "Monto $6,944.90 es 97.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6944.9, \"threshold\": 7105.88, \"percentage\": 97.73}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -28816,8 +28816,8 @@
       "score": 89.43156934820176,
       "reason": "Monto $6,354.90 es 89.4% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6354.9, \"threshold\": 7105.88, \"percentage\": 89.43}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -28828,8 +28828,8 @@
       "score": 98.75342673954528,
       "reason": "Monto $7,017.30 es 98.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 7017.3, \"threshold\": 7105.88, \"percentage\": 98.75}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -28840,8 +28840,8 @@
       "score": 92.62469954460249,
       "reason": "Monto $6,581.80 es 92.6% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6581.8, \"threshold\": 7105.88, \"percentage\": 92.62}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -28852,8 +28852,8 @@
       "score": 89.43156934820176,
       "reason": "Monto $6,354.90 es 89.4% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6354.9, \"threshold\": 7105.88, \"percentage\": 89.43}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30040,8 +30040,8 @@
       "score": 88.35964018531132,
       "reason": "Monto $6,278.73 es 88.4% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6278.73, \"threshold\": 7105.88, \"percentage\": 88.36}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30052,8 +30052,8 @@
       "score": 91.00153675547574,
       "reason": "Monto $6,466.46 es 91.0% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6466.46, \"threshold\": 7105.88, \"percentage\": 91.0}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30064,8 +30064,8 @@
       "score": 87.15992952315547,
       "reason": "Monto $6,193.48 es 87.2% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6193.48, \"threshold\": 7105.88, \"percentage\": 87.16}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30076,8 +30076,8 @@
       "score": 95.35764746941969,
       "reason": "Monto $6,776.00 es 95.4% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6776.0, \"threshold\": 7105.88, \"percentage\": 95.36}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30088,8 +30088,8 @@
       "score": 94.96121521894544,
       "reason": "Monto $6,747.83 es 95.0% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6747.83, \"threshold\": 7105.88, \"percentage\": 94.96}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30100,8 +30100,8 @@
       "score": 86.56211475566714,
       "reason": "Monto $6,151.00 es 86.6% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6151.0, \"threshold\": 7105.88, \"percentage\": 86.56}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30112,8 +30112,8 @@
       "score": 86.63247901737716,
       "reason": "Monto $6,156.00 es 86.6% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6156.0, \"threshold\": 7105.88, \"percentage\": 86.63}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30124,8 +30124,8 @@
       "score": 86.63247901737716,
       "reason": "Monto $6,156.00 es 86.6% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6156.0, \"threshold\": 7105.88, \"percentage\": 86.63}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30136,8 +30136,8 @@
       "score": 96.5817041661272,
       "reason": "Monto $6,862.98 es 96.6% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6862.98, \"threshold\": 7105.88, \"percentage\": 96.58}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30148,8 +30148,8 @@
       "score": 98.11606725697591,
       "reason": "Monto $6,972.01 es 98.1% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6972.01, \"threshold\": 7105.88, \"percentage\": 98.12}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30160,8 +30160,8 @@
       "score": 94.68271347109717,
       "reason": "Monto $6,728.04 es 94.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6728.04, \"threshold\": 7105.88, \"percentage\": 94.68}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30172,8 +30172,8 @@
       "score": 96.7790055559621,
       "reason": "Monto $6,877.00 es 96.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6877.0, \"threshold\": 7105.88, \"percentage\": 96.78}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30184,8 +30184,8 @@
       "score": 99.72360918000304,
       "reason": "Monto $7,086.24 es 99.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 7086.24, \"threshold\": 7105.88, \"percentage\": 99.72}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30196,8 +30196,8 @@
       "score": 86.785873107905,
       "reason": "Monto $6,166.90 es 86.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6166.9, \"threshold\": 7105.88, \"percentage\": 86.79}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30208,8 +30208,8 @@
       "score": 98.79958569522705,
       "reason": "Monto $7,020.58 es 98.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 7020.58, \"threshold\": 7105.88, \"percentage\": 98.8}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30220,8 +30220,8 @@
       "score": 98.79958569522705,
       "reason": "Monto $7,020.58 es 98.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 7020.58, \"threshold\": 7105.88, \"percentage\": 98.8}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30232,8 +30232,8 @@
       "score": 87.71060023529809,
       "reason": "Monto $6,232.61 es 87.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6232.61, \"threshold\": 7105.88, \"percentage\": 87.71}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30244,8 +30244,8 @@
       "score": 87.71060023529809,
       "reason": "Monto $6,232.61 es 87.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6232.61, \"threshold\": 7105.88, \"percentage\": 87.71}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30256,8 +30256,8 @@
       "score": 87.71060023529809,
       "reason": "Monto $6,232.61 es 87.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6232.61, \"threshold\": 7105.88, \"percentage\": 87.71}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30268,8 +30268,8 @@
       "score": 87.71060023529809,
       "reason": "Monto $6,232.61 es 87.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6232.61, \"threshold\": 7105.88, \"percentage\": 87.71}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30280,8 +30280,8 @@
       "score": 87.71060023529809,
       "reason": "Monto $6,232.61 es 87.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6232.61, \"threshold\": 7105.88, \"percentage\": 87.71}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30292,8 +30292,8 @@
       "score": 98.79958569522705,
       "reason": "Monto $7,020.58 es 98.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 7020.58, \"threshold\": 7105.88, \"percentage\": 98.8}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30304,8 +30304,8 @@
       "score": 95.14233282858703,
       "reason": "Monto $6,760.70 es 95.1% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6760.7, \"threshold\": 7105.88, \"percentage\": 95.14}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30316,8 +30316,8 @@
       "score": 98.8251982864895,
       "reason": "Monto $7,022.40 es 98.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 7022.4, \"threshold\": 7105.88, \"percentage\": 98.83}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30328,8 +30328,8 @@
       "score": 89.84108935135409,
       "reason": "Monto $6,384.00 es 89.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6384.0, \"threshold\": 7105.88, \"percentage\": 89.84}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -30340,8 +30340,8 @@
       "score": 97.53274752739985,
       "reason": "Monto $6,930.56 es 97.5% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6930.56, \"threshold\": 7105.88, \"percentage\": 97.53}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33664,8 +33664,8 @@
       "score": 3.0,
       "reason": "Posible fraccionamiento: 3 contratos con ASOCIACIÓN DE SERVICIOS DE LAVANDERÍA Y LIMPIEZA BUEN EJEMPLO ASOLEJEM en DIRECCION DISTRITAL 07D05-ARENILLAS-HUAQUILLAS-LAS LAJAS-SALUD suman $13,762.08 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"ASOCIACI\\u00d3N DE SERVICIOS DE LAVANDER\\u00cdA Y LIMPIEZA BUEN EJEMPLO ASOLEJEM\", \"institution\": \"DIRECCION DISTRITAL 07D05-ARENILLAS-HUAQUILLAS-LAS LAJAS-SALUD\", \"contract_count\": 3, \"total\": 13762.08, \"contract_ids\": [1204, 1232, 1278]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33676,8 +33676,8 @@
       "score": 3.0,
       "reason": "Posible fraccionamiento: 3 contratos con ASOCIACIÓN DE SERVICIOS DE LAVANDERÍA Y LIMPIEZA BUEN EJEMPLO ASOLEJEM en DIRECCION DISTRITAL 07D05-ARENILLAS-HUAQUILLAS-LAS LAJAS-SALUD suman $13,762.08 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"ASOCIACI\\u00d3N DE SERVICIOS DE LAVANDER\\u00cdA Y LIMPIEZA BUEN EJEMPLO ASOLEJEM\", \"institution\": \"DIRECCION DISTRITAL 07D05-ARENILLAS-HUAQUILLAS-LAS LAJAS-SALUD\", \"contract_count\": 3, \"total\": 13762.08, \"contract_ids\": [1204, 1232, 1278]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33688,8 +33688,8 @@
       "score": 3.0,
       "reason": "Posible fraccionamiento: 3 contratos con ASOCIACIÓN DE SERVICIOS DE LAVANDERÍA Y LIMPIEZA BUEN EJEMPLO ASOLEJEM en DIRECCION DISTRITAL 07D05-ARENILLAS-HUAQUILLAS-LAS LAJAS-SALUD suman $13,762.08 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"ASOCIACI\\u00d3N DE SERVICIOS DE LAVANDER\\u00cdA Y LIMPIEZA BUEN EJEMPLO ASOLEJEM\", \"institution\": \"DIRECCION DISTRITAL 07D05-ARENILLAS-HUAQUILLAS-LAS LAJAS-SALUD\", \"contract_count\": 3, \"total\": 13762.08, \"contract_ids\": [1204, 1232, 1278]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33700,8 +33700,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33712,8 +33712,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33724,8 +33724,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33736,8 +33736,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33748,8 +33748,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33760,8 +33760,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33772,8 +33772,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33784,8 +33784,8 @@
       "score": 8.0,
       "reason": "Posible fraccionamiento: 8 contratos con MULTISERVICIOS ALEN CIA LTDA en DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD suman $38,926.87 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"MULTISERVICIOS ALEN CIA LTDA\", \"institution\": \"DIRECCION DISTRITAL 11D04-CELICA-PINDAL-PUYANGO-SALUD\", \"contract_count\": 8, \"total\": 38926.87, \"contract_ids\": [1165, 1166, 1168, 1170, 1171, 1172, 1173, 1175]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33796,8 +33796,8 @@
       "score": 4.0,
       "reason": "Posible fraccionamiento: 4 contratos con TORRES ROMERO MARIA DEL CISNE en DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD suman $28,084.14 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"TORRES ROMERO MARIA DEL CISNE\", \"institution\": \"DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD\", \"contract_count\": 4, \"total\": 28084.14, \"contract_ids\": [1117, 1164, 1176, 1181]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33808,8 +33808,8 @@
       "score": 4.0,
       "reason": "Posible fraccionamiento: 4 contratos con TORRES ROMERO MARIA DEL CISNE en DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD suman $28,084.14 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"TORRES ROMERO MARIA DEL CISNE\", \"institution\": \"DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD\", \"contract_count\": 4, \"total\": 28084.14, \"contract_ids\": [1117, 1164, 1176, 1181]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33820,8 +33820,8 @@
       "score": 4.0,
       "reason": "Posible fraccionamiento: 4 contratos con TORRES ROMERO MARIA DEL CISNE en DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD suman $28,084.14 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"TORRES ROMERO MARIA DEL CISNE\", \"institution\": \"DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD\", \"contract_count\": 4, \"total\": 28084.14, \"contract_ids\": [1117, 1164, 1176, 1181]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33832,8 +33832,8 @@
       "score": 4.0,
       "reason": "Posible fraccionamiento: 4 contratos con TORRES ROMERO MARIA DEL CISNE en DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD suman $28,084.14 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"TORRES ROMERO MARIA DEL CISNE\", \"institution\": \"DIRECCION DISTRITAL 07D03-ATAHUALPA-PORTOVELO-ZARUMA-SALUD\", \"contract_count\": 4, \"total\": 28084.14, \"contract_ids\": [1117, 1164, 1176, 1181]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33844,8 +33844,8 @@
       "score": 5.0,
       "reason": "Posible fraccionamiento: 5 contratos con HIDALGO SILVA ALICIA MARIELA en DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD suman $12,728.62 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"HIDALGO SILVA ALICIA MARIELA\", \"institution\": \"DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD\", \"contract_count\": 5, \"total\": 12728.62, \"contract_ids\": [47, 121, 230, 251, 1151]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33940,8 +33940,8 @@
       "score": 87.25168452042534,
       "reason": "Monto $6,200.00 es 87.3% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6200.0, \"threshold\": 7105.88, \"percentage\": 87.25}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33952,8 +33952,8 @@
       "score": 97.52486673008832,
       "reason": "Monto $6,930.00 es 97.5% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6930.0, \"threshold\": 7105.88, \"percentage\": 97.52}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -33964,8 +33964,8 @@
       "score": 98.88036386767016,
       "reason": "Monto $7,026.32 es 98.9% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 7026.32, \"threshold\": 7105.88, \"percentage\": 98.88}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39724,8 +39724,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39736,8 +39736,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39748,8 +39748,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39760,8 +39760,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39772,8 +39772,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39784,8 +39784,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39796,8 +39796,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39808,8 +39808,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39820,8 +39820,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39832,8 +39832,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39844,8 +39844,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39856,8 +39856,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39868,8 +39868,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39880,8 +39880,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39892,8 +39892,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39904,8 +39904,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39916,8 +39916,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39928,8 +39928,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39940,8 +39940,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39952,8 +39952,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39964,8 +39964,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39976,8 +39976,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -39988,8 +39988,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40000,8 +40000,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40012,8 +40012,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40024,8 +40024,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40036,8 +40036,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40048,8 +40048,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40060,8 +40060,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40072,8 +40072,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40084,8 +40084,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40096,8 +40096,8 @@
       "score": 32.0,
       "reason": "Posible fraccionamiento: 32 contratos con Proveedor no identificado en CORPORACION ELECTRICA DEL ECUADOR CELEC EP. suman $11,700.00 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"Proveedor no identificado\", \"institution\": \"CORPORACION ELECTRICA DEL ECUADOR CELEC EP.\", \"contract_count\": 32, \"total\": 11700.0, \"contract_ids\": [849, 852, 853, 858, 862, 870, 873, 874, 875, 876, 878, 883, 886, 889, 893, 896, 897, 930, 959, 965, 977, 979, 993, 1001, 1004, 1009, 1012, 1043, 1049, 1066, 1071, 1090]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-16"
     },
     {
@@ -40480,8 +40480,8 @@
       "score": 96.62040451006771,
       "reason": "Monto $6,865.73 es 96.6% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6865.73, \"threshold\": 7105.88, \"percentage\": 96.62}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40492,8 +40492,8 @@
       "score": 96.399038542728,
       "reason": "Monto $6,850.00 es 96.4% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6850.0, \"threshold\": 7105.88, \"percentage\": 96.4}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40504,8 +40504,8 @@
       "score": 97.72948600314106,
       "reason": "Monto $6,944.54 es 97.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6944.54, \"threshold\": 7105.88, \"percentage\": 97.73}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40516,8 +40516,8 @@
       "score": 93.70549460446841,
       "reason": "Monto $6,658.60 es 93.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6658.6, \"threshold\": 7105.88, \"percentage\": 93.71}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40528,8 +40528,8 @@
       "score": 96.0472172341779,
       "reason": "Monto $6,825.00 es 96.0% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6825.0, \"threshold\": 7105.88, \"percentage\": 96.05}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40540,8 +40540,8 @@
       "score": 97.1026811598282,
       "reason": "Monto $6,900.00 es 97.1% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6900.0, \"threshold\": 7105.88, \"percentage\": 97.1}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40552,8 +40552,8 @@
       "score": 97.80632377692841,
       "reason": "Monto $6,950.00 es 97.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6950.0, \"threshold\": 7105.88, \"percentage\": 97.81}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40564,8 +40564,8 @@
       "score": 94.99175330852758,
       "reason": "Monto $6,750.00 es 95.0% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6750.0, \"threshold\": 7105.88, \"percentage\": 94.99}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40576,8 +40576,8 @@
       "score": 89.84108935135409,
       "reason": "Monto $6,384.00 es 89.8% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6384.0, \"threshold\": 7105.88, \"percentage\": 89.84}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40588,8 +40588,8 @@
       "score": 86.68877042674518,
       "reason": "Monto $6,160.00 es 86.7% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6160.0, \"threshold\": 7105.88, \"percentage\": 86.69}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40600,8 +40600,8 @@
       "score": 94.54733263156709,
       "reason": "Monto $6,718.42 es 94.5% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6718.42, \"threshold\": 7105.88, \"percentage\": 94.55}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40612,8 +40612,8 @@
       "score": 87.53989653638958,
       "reason": "Monto $6,220.48 es 87.5% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6220.48, \"threshold\": 7105.88, \"percentage\": 87.54}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40624,8 +40624,8 @@
       "score": 95.14233282858703,
       "reason": "Monto $6,760.70 es 95.1% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6760.7, \"threshold\": 7105.88, \"percentage\": 95.14}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40636,8 +40636,8 @@
       "score": 90.19572523037259,
       "reason": "Monto $6,409.20 es 90.2% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6409.2, \"threshold\": 7105.88, \"percentage\": 90.2}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40648,8 +40648,8 @@
       "score": 85.37535111766593,
       "reason": "Monto $6,066.67 es 85.4% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6066.67, \"threshold\": 7105.88, \"percentage\": 85.38}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -40660,8 +40660,8 @@
       "score": 94.59377304429572,
       "reason": "Monto $6,721.72 es 94.6% del umbral de contratacion directa ($7,105.88)",
       "details": "{\"amount\": 6721.72, \"threshold\": 7105.88, \"percentage\": 94.59}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -41632,8 +41632,8 @@
       "score": 3.0,
       "reason": "Posible fraccionamiento: 3 contratos con OLAYA TORRES DARWIN LEONARDO en DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD suman $15,197.10 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"OLAYA TORRES DARWIN LEONARDO\", \"institution\": \"DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD\", \"contract_count\": 3, \"total\": 15197.1, \"contract_ids\": [145, 170, 217]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -41644,8 +41644,8 @@
       "score": 3.0,
       "reason": "Posible fraccionamiento: 3 contratos con OLAYA TORRES DARWIN LEONARDO en DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD suman $15,197.10 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"OLAYA TORRES DARWIN LEONARDO\", \"institution\": \"DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD\", \"contract_count\": 3, \"total\": 15197.1, \"contract_ids\": [145, 170, 217]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -41656,8 +41656,8 @@
       "score": 3.0,
       "reason": "Posible fraccionamiento: 3 contratos con OLAYA TORRES DARWIN LEONARDO en DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD suman $15,197.10 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"OLAYA TORRES DARWIN LEONARDO\", \"institution\": \"DIRECCION DISTRITAL 19D04-EL PANGUI-YANTZAZA-SALUD\", \"contract_count\": 3, \"total\": 15197.1, \"contract_ids\": [145, 170, 217]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -41668,8 +41668,8 @@
       "score": 5.0,
       "reason": "Posible fraccionamiento: 5 contratos con HIDALGO SILVA ALICIA MARIELA en DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD suman $12,728.62 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"HIDALGO SILVA ALICIA MARIELA\", \"institution\": \"DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD\", \"contract_count\": 5, \"total\": 12728.62, \"contract_ids\": [47, 121, 230, 251, 1151]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -41680,8 +41680,8 @@
       "score": 5.0,
       "reason": "Posible fraccionamiento: 5 contratos con HIDALGO SILVA ALICIA MARIELA en DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD suman $12,728.62 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"HIDALGO SILVA ALICIA MARIELA\", \"institution\": \"DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD\", \"contract_count\": 5, \"total\": 12728.62, \"contract_ids\": [47, 121, 230, 251, 1151]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -41692,8 +41692,8 @@
       "score": 5.0,
       "reason": "Posible fraccionamiento: 5 contratos con HIDALGO SILVA ALICIA MARIELA en DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD suman $12,728.62 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"HIDALGO SILVA ALICIA MARIELA\", \"institution\": \"DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD\", \"contract_count\": 5, \"total\": 12728.62, \"contract_ids\": [47, 121, 230, 251, 1151]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {
@@ -41704,8 +41704,8 @@
       "score": 5.0,
       "reason": "Posible fraccionamiento: 5 contratos con HIDALGO SILVA ALICIA MARIELA en DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD suman $12,728.62 (cada uno bajo umbral de $7,105.88)",
       "details": "{\"supplier\": \"HIDALGO SILVA ALICIA MARIELA\", \"institution\": \"DIRECCION DISTRITAL 18D04-PATATE-SANPEDRO DE PELILEO-SALUD\", \"contract_count\": 5, \"total\": 12728.62, \"contract_ids\": [47, 121, 230, 251, 1151]}",
-      "status": "open",
-      "editorial_note": null,
+      "status": "superseded",
+      "editorial_note": "Invalidada como alerta operativa: fue calculada antes del catálogo de reglas SERCOP por año y procedimiento. Debe redetectarse.",
       "detected_at": "2026-06-14"
     },
     {

@@ -23,6 +23,9 @@ class Anomaly(Base):
 
     status: Mapped[str] = mapped_column(String(16), default="open", index=True)
     editorial_note: Mapped[str | None] = mapped_column(Text, nullable=True)
+    reviewed_by: Mapped[str | None] = mapped_column(String(128), nullable=True, index=True)
+    reviewed_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True, index=True)
+    review_evidence_url: Mapped[str | None] = mapped_column(String(1024), nullable=True)
 
     contract = relationship("Contract", backref="anomalies")
     detection_run = relationship("IngestionRun")

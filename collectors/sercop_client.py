@@ -235,6 +235,7 @@ class SercopClient:
             "currency": None,
             "institution": None,
             "supplier": None,
+            "supplier_tax_id": None,
             "procedure_type": None,
             "award_date": None,
         }
@@ -270,19 +271,36 @@ class SercopClient:
                 suppliers = award.get("suppliers") or []
                 if isinstance(suppliers, list) and suppliers:
                     first_supplier = suppliers[0]
-                    if isinstance(first_supplier, dict) and first_supplier.get("name"):
-                        result["supplier"] = first_supplier["name"]
+                    if isinstance(first_supplier, dict):
+                        if first_supplier.get("name"):
+                            result["supplier"] = first_supplier["name"]
+                        identifier = first_supplier.get("identifier") or {}
+                        if isinstance(identifier, dict) and identifier.get("id"):
+                            result["supplier_tax_id"] = identifier["id"]
                 if result["amount"] is not None and result["supplier"]:
                     break
 
-        if not result["supplier"]:
-            for party in release.get("parties") or []:
-                if not isinstance(party, dict):
-                    continue
-                roles = party.get("roles") or []
-                if "supplier" in roles and party.get("name"):
-                    result["supplier"] = party["name"]
-                    break
+        for party in release.get("parties") or []:
+            if not isinstance(party, dict):
+                continue
+            roles = party.get("roles") or []
+            same_supplier = (
+                "supplier" in roles
+                or (result["supplier"] and party.get("name") == result["supplier"])
+            )
+            if not same_supplier:
+                continue
+            if not result["supplier"] and party.get("name"):
+                result["supplier"] = party["name"]
+            identifier = party.get("identifier") or {}
+            if (
+                not result["supplier_tax_id"]
+                and isinstance(identifier, dict)
+                and identifier.get("id")
+            ):
+                result["supplier_tax_id"] = identifier["id"]
+            if result["supplier"] and result["supplier_tax_id"]:
+                break
 
         return result
 

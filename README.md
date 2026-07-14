@@ -98,3 +98,10 @@ El primer hito practico:
 3. Guardar los datos raw y normalizados.
 4. Detectar anomalias simples.
 5. Publicar una busqueda basica y un reporte verificable.
+
+## Validación obligatoria de la cuña salud
+
+Los criterios operativos, el protocolo de revisión de 100 alertas, la carga de
+reglas legales con fuente, el historial y las medidas de seguridad están en
+[`COMPLIANCE.md`](COMPLIANCE.md). El proyecto no debe declarar precisión ni
+publicar alertas como hallazgos confirmados antes de superar esas puertas.

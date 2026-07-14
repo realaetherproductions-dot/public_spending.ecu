@@ -7,7 +7,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-os.environ["DATABASE_URL"] = "sqlite:///./data/processed/test_phase2.db"
+TEST_DB = Path("data/processed/test_phase2.db")
+TEST_DB.unlink(missing_ok=True)
+os.environ["DATABASE_URL"] = f"sqlite:///./{TEST_DB.as_posix()}"
 
 from app.database import SessionLocal, init_db
 from models.anomaly import Anomaly
@@ -120,16 +122,23 @@ def main() -> None:
 
         # --- Test 3: Update anomaly status ---
         anomaly_id = all_anomalies[0].id
-        result = update_anomaly_status(db, anomaly_id, "dismissed", "Falso positivo verificado manualmente")
+        result = update_anomaly_status(
+            db,
+            anomaly_id,
+            "discarded",
+            "Falso positivo verificado manualmente",
+            reviewer="test-reviewer",
+            evidence_url="https://example.org/evidence",
+        )
         assert result is not None
-        assert result["status"] == "dismissed"
+        assert result["status"] == "discarded"
         assert result["editorial_note"] == "Falso positivo verificado manualmente"
-        print("PASS: Anomaly status updated to 'dismissed' with editorial note")
+        print("PASS: Anomaly status updated to 'discarded' with editorial note")
 
         # --- Test 4: Filter anomalies by status ---
         open_anomalies = list_anomalies(db, status="open")
-        dismissed_anomalies = list_anomalies(db, status="dismissed")
-        assert len(dismissed_anomalies) == 1
+        discarded_anomalies = list_anomalies(db, status="discarded")
+        assert len(discarded_anomalies) == 1
         assert len(open_anomalies) == len(all_anomalies) - 1
         print("PASS: Filtering anomalies by status works")
 
@@ -155,7 +164,10 @@ def main() -> None:
         print("PASS: run_detection service works (idempotent)")
 
         # --- Test 8: update nonexistent anomaly ---
-        result_none = update_anomaly_status(db, 99999, "confirmed")
+        result_none = update_anomaly_status(
+            db, 99999, "confirmed", "Evidencia suficiente",
+            reviewer="test-reviewer",
+        )
         assert result_none is None
         print("PASS: Updating nonexistent anomaly returns None")
 

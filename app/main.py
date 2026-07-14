@@ -4,7 +4,7 @@ import threading
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
@@ -23,12 +23,18 @@ _ingest_lock = threading.Lock()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[origin.strip() for origin in settings.cors_origins.split(",") if origin.strip()],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend" / "dashboard"
+
+
+def require_admin(x_admin_token: str | None = Header(default=None)) -> str:
+    if not settings.admin_token or x_admin_token != settings.admin_token:
+        raise HTTPException(status_code=403, detail="Token administrativo requerido")
+    return "admin"
 
 
 @app.on_event("startup")
@@ -192,10 +198,11 @@ def create_merge_request(
     keep_supplier_id: int = Query(...),
     merge_supplier_name: str = Query(...),
     note: str | None = Query(default=None),
+    actor: str = Depends(require_admin),
     db: Session = Depends(get_db),
 ) -> dict:
     import json as _json
-    from datetime import datetime
+    from datetime import datetime, timezone
     from models.supplier import Supplier
 
     supplier = db.get(Supplier, keep_supplier_id)
@@ -203,8 +210,8 @@ def create_merge_request(
         raise HTTPException(status_code=404, detail="Proveedor no encontrado")
 
     entry = {
-        "request_id": datetime.utcnow().strftime("%Y%m%d%H%M%S%f")[:18],
-        "timestamp": datetime.utcnow().isoformat(),
+        "request_id": datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S%f")[:18],
+        "timestamp": datetime.now(timezone.utc).isoformat(),
         "keep_supplier_id": keep_supplier_id,
         "keep_supplier_name": supplier.name,
         "merge_supplier_name": merge_supplier_name,
@@ -223,6 +230,16 @@ def create_merge_request(
     existing.append(entry)
     merge_file.write_text(_json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    from services.audit_service import record_audit
+    record_audit(
+        db,
+        action="supplier.merge_requested",
+        actor=actor,
+        target_type="supplier",
+        target_id=keep_supplier_id,
+        details={"merge_supplier_name": merge_supplier_name, "request_id": entry["request_id"]},
+    )
+    db.commit()
     return {"status": "solicitud_registrada", "request_id": entry["request_id"]}
 
 
@@ -241,6 +258,26 @@ def contract_events(contract_id: int, db: Session = Depends(get_db)) -> list[dic
     return list_contract_events(db=db, contract_id=contract_id)
 
 
+@app.get("/history/metrics")
+def history_metrics(db: Session = Depends(get_db)) -> dict:
+    from sqlalchemy import func
+    from models.contract import Contract
+    from models.contract_event import ContractEvent
+    changed_events = db.query(ContractEvent).join(Contract).filter(
+        Contract.is_demo.is_(False),
+        ContractEvent.event_type == "field_changed",
+    )
+    latest = changed_events.with_entities(func.max(ContractEvent.detected_at)).scalar()
+    return {
+        "field_changed_events": changed_events.count(),
+        "contracts_with_changes": changed_events.with_entities(
+            func.count(func.distinct(ContractEvent.contract_id))
+        ).scalar() or 0,
+        "latest_change_at": latest.isoformat() if latest else None,
+        "history_demonstrated": changed_events.count() > 0,
+    }
+
+
 @app.get("/anomalies")
 def anomalies(
     status: str | None = Query(default=None),
@@ -248,6 +285,119 @@ def anomalies(
     db: Session = Depends(get_db),
 ) -> list[dict]:
     return list_anomalies(db=db, status=status, severity=severity)
+
+
+@app.get("/alerts.rss")
+def confirmed_alerts_rss(db: Session = Depends(get_db)) -> Response:
+    from html import escape
+    from models.anomaly import Anomaly
+    rows = db.query(Anomaly).filter(Anomaly.status == "confirmed").order_by(
+        Anomaly.reviewed_at.desc(), Anomaly.id.desc(),
+    ).limit(50).all()
+    items = []
+    for anomaly in rows:
+        link = f"/anomalies/{anomaly.id}"
+        reviewed = anomaly.reviewed_at.isoformat() if anomaly.reviewed_at else ""
+        items.append(
+            "<item>"
+            f"<title>{escape(anomaly.anomaly_type)} — contrato {anomaly.contract_id}</title>"
+            f"<link>{escape(link)}</link>"
+            f"<guid>anomaly-{anomaly.id}</guid>"
+            f"<description>{escape(anomaly.reason)}</description>"
+            f"<pubDate>{escape(reviewed)}</pubDate>"
+            "</item>"
+        )
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>'
+        '<rss version="2.0"><channel>'
+        '<title>Monitor de Gasto Público — alertas confirmadas</title>'
+        '<description>Solo alertas que completaron revisión humana.</description>'
+        '<link>/</link>' + "".join(items) + '</channel></rss>'
+    )
+    return Response(content=xml, media_type="application/rss+xml")
+
+
+class AlertSubscriptionInput(BaseModel):
+    channel: str
+    destination: str
+    secret: str | None = None
+    anomaly_type: str | None = None
+    active: bool = True
+
+
+@app.get("/alert-subscriptions")
+def alert_subscriptions(
+    db: Session = Depends(get_db),
+    _actor: str = Depends(require_admin),
+) -> list[dict]:
+    from models.alert_subscription import AlertSubscription
+    rows = db.query(AlertSubscription).order_by(AlertSubscription.id.desc()).all()
+    return [{
+        "id": row.id,
+        "channel": row.channel,
+        "destination": row.destination,
+        "anomaly_type": row.anomaly_type,
+        "active": row.active,
+        "created_at": row.created_at,
+    } for row in rows]
+
+
+@app.post("/alert-subscriptions")
+def create_alert_subscription(
+    body: AlertSubscriptionInput,
+    db: Session = Depends(get_db),
+    actor: str = Depends(require_admin),
+) -> dict:
+    from models.alert_subscription import AlertSubscription
+    from services.audit_service import record_audit
+    channel = body.channel.lower().strip()
+    destination = body.destination.strip()
+    if channel not in {"email", "webhook"}:
+        raise HTTPException(status_code=422, detail="Canal debe ser email o webhook")
+    if channel == "email" and "@" not in destination:
+        raise HTTPException(status_code=422, detail="Correo inválido")
+    if channel == "webhook" and not destination.startswith("https://"):
+        raise HTTPException(status_code=422, detail="Webhook debe usar HTTPS")
+    if channel == "webhook" and not body.secret:
+        raise HTTPException(status_code=422, detail="Webhook requiere secreto HMAC")
+    item = AlertSubscription(
+        channel=channel,
+        destination=destination,
+        secret=body.secret,
+        anomaly_type=body.anomaly_type,
+        active=body.active,
+    )
+    db.add(item)
+    db.flush()
+    record_audit(
+        db,
+        action="alert_subscription.created",
+        actor=actor,
+        target_type="alert_subscription",
+        target_id=item.id,
+        details={"channel": channel, "anomaly_type": body.anomaly_type},
+    )
+    db.commit()
+    return {"id": item.id, "channel": item.channel, "active": item.active}
+
+
+@app.post("/alerts/dispatch")
+def dispatch_alerts(
+    db: Session = Depends(get_db),
+    actor: str = Depends(require_admin),
+) -> dict:
+    from services.alert_dispatch_service import dispatch_confirmed_alerts
+    from services.audit_service import record_audit
+    result = dispatch_confirmed_alerts(db)
+    record_audit(
+        db,
+        action="alerts.dispatched",
+        actor=actor,
+        target_type="alert_delivery",
+        details=result,
+    )
+    db.commit()
+    return result
 
 
 @app.get("/anomalies/{anomaly_id}")
@@ -258,9 +408,18 @@ def anomaly_detail(anomaly_id: int, db: Session = Depends(get_db)) -> dict:
     return result
 
 
-@app.post("/anomalies/detect")
-def detect_anomalies(db: Session = Depends(get_db)) -> dict:
+@app.post("/admin/anomalies/detect")
+def detect_anomalies(
+    db: Session = Depends(get_db),
+    actor: str = Depends(require_admin),
+) -> dict:
+    from services.audit_service import record_audit
     count = run_detection(db)
+    record_audit(
+        db, action="anomalies.detected", actor=actor,
+        target_type="anomaly", details={"new_anomalies": count},
+    )
+    db.commit()
     return {"new_anomalies": count}
 
 
@@ -274,9 +433,11 @@ class IngestRequest(BaseModel):
 class AnomalyUpdate(BaseModel):
     status: str
     editorial_note: str | None = None
+    reviewer: str | None = None
+    evidence_url: str | None = None
 
 
-VALID_STATUSES = {"open", "confirmed", "dismissed", "under_review"}
+VALID_STATUSES = {"open", "confirmed", "discarded", "indeterminate", "under_review"}
 
 
 @app.patch("/anomalies/{anomaly_id}")
@@ -284,13 +445,197 @@ def patch_anomaly(
     anomaly_id: int,
     body: AnomalyUpdate,
     db: Session = Depends(get_db),
+    _actor: str = Depends(require_admin),
 ) -> dict:
     if body.status not in VALID_STATUSES:
         raise HTTPException(status_code=422, detail=f"status must be one of {VALID_STATUSES}")
-    result = update_anomaly_status(db, anomaly_id, body.status, body.editorial_note)
+    try:
+        result = update_anomaly_status(
+            db,
+            anomaly_id,
+            body.status,
+            body.editorial_note,
+            reviewer=body.reviewer,
+            evidence_url=body.evidence_url,
+        )
+    except ValueError as error:
+        raise HTTPException(status_code=422, detail=str(error)) from error
     if result is None:
         raise HTTPException(status_code=404, detail="Anomaly not found")
     return result
+
+
+@app.get("/review-metrics")
+def anomaly_review_metrics(db: Session = Depends(get_db)) -> dict:
+    from services.anomaly_service import review_metrics
+    return review_metrics(db, target=100)
+
+
+class CorrectionRequestInput(BaseModel):
+    contract_id: int | None = None
+    requester_name: str | None = None
+    requester_contact: str | None = None
+    reason: str
+    evidence_url: str | None = None
+
+
+class CorrectionResolution(BaseModel):
+    status: str
+    resolution_note: str
+
+
+@app.post("/correction-requests")
+def submit_correction_request(
+    body: CorrectionRequestInput,
+    db: Session = Depends(get_db),
+) -> dict:
+    from models.contract import Contract
+    from models.correction_request import CorrectionRequest
+    from services.audit_service import record_audit
+
+    if len(body.reason.strip()) < 20:
+        raise HTTPException(status_code=422, detail="La solicitud necesita una explicación de al menos 20 caracteres")
+    if body.contract_id is not None and db.get(Contract, body.contract_id) is None:
+        raise HTTPException(status_code=404, detail="Contrato no encontrado")
+    request = CorrectionRequest(
+        contract_id=body.contract_id,
+        requester_name=body.requester_name,
+        requester_contact=body.requester_contact,
+        reason=body.reason.strip(),
+        evidence_url=body.evidence_url,
+    )
+    db.add(request)
+    db.flush()
+    record_audit(
+        db,
+        action="correction.requested",
+        actor="public",
+        target_type="correction_request",
+        target_id=request.id,
+        details={"contract_id": body.contract_id},
+    )
+    db.commit()
+    return {"id": request.id, "status": request.status, "created_at": request.created_at}
+
+
+@app.get("/correction-requests")
+def list_correction_requests(
+    status: str | None = Query(default=None),
+    db: Session = Depends(get_db),
+    _actor: str = Depends(require_admin),
+) -> list[dict]:
+    from models.correction_request import CorrectionRequest
+    query = db.query(CorrectionRequest)
+    if status:
+        query = query.filter(CorrectionRequest.status == status)
+    return [{
+        "id": item.id,
+        "contract_id": item.contract_id,
+        "requester_name": item.requester_name,
+        "requester_contact": item.requester_contact,
+        "reason": item.reason,
+        "evidence_url": item.evidence_url,
+        "status": item.status,
+        "resolution_note": item.resolution_note,
+        "created_at": item.created_at,
+        "resolved_at": item.resolved_at,
+    } for item in query.order_by(CorrectionRequest.id.desc()).all()]
+
+
+@app.patch("/correction-requests/{request_id}")
+def resolve_correction_request(
+    request_id: int,
+    body: CorrectionResolution,
+    db: Session = Depends(get_db),
+    actor: str = Depends(require_admin),
+) -> dict:
+    from datetime import datetime, timezone
+    from models.correction_request import CorrectionRequest
+    from services.audit_service import record_audit
+    if body.status not in {"under_review", "accepted", "rejected"}:
+        raise HTTPException(status_code=422, detail="Estado de rectificación inválido")
+    item = db.get(CorrectionRequest, request_id)
+    if item is None:
+        raise HTTPException(status_code=404, detail="Solicitud no encontrada")
+    item.status = body.status
+    item.resolution_note = body.resolution_note.strip()
+    item.resolved_at = datetime.now(timezone.utc) if body.status in {"accepted", "rejected"} else None
+    record_audit(
+        db,
+        action="correction.resolved",
+        actor=actor,
+        target_type="correction_request",
+        target_id=item.id,
+        details={"status": item.status},
+    )
+    db.commit()
+    return {"id": item.id, "status": item.status, "resolved_at": item.resolved_at}
+
+
+class ProcurementRuleInput(BaseModel):
+    year: int
+    procedure_type: str
+    threshold: float
+    operator: str = "lt"
+    currency: str = "USD"
+    legal_reference: str
+    source_url: str
+    active: bool = True
+
+
+@app.get("/procurement-rules")
+def procurement_rules(db: Session = Depends(get_db)) -> list[dict]:
+    from models.procurement_rule import ProcurementRule
+    from services.procurement_rule_service import serialize_rule
+    rows = db.query(ProcurementRule).order_by(
+        ProcurementRule.year.desc(), ProcurementRule.procedure_type,
+    ).all()
+    return [serialize_rule(row) for row in rows]
+
+
+@app.post("/procurement-rules")
+def upsert_procurement_rule(
+    body: ProcurementRuleInput,
+    db: Session = Depends(get_db),
+    actor: str = Depends(require_admin),
+) -> dict:
+    from decimal import Decimal
+    from models.procurement_rule import ProcurementRule
+    from services.audit_service import record_audit
+    from services.procurement_rule_service import normalize_procedure_type, serialize_rule
+
+    if body.threshold <= 0:
+        raise HTTPException(status_code=422, detail="El umbral debe ser positivo")
+    if body.operator not in {"lt", "lte"}:
+        raise HTTPException(status_code=422, detail="Operador debe ser lt o lte")
+    if not body.source_url.startswith("https://"):
+        raise HTTPException(status_code=422, detail="La regla requiere una fuente HTTPS")
+    procedure_type = normalize_procedure_type(body.procedure_type) or "*"
+    rule = db.query(ProcurementRule).filter(
+        ProcurementRule.year == body.year,
+        ProcurementRule.procedure_type == procedure_type,
+    ).first()
+    if rule is None:
+        rule = ProcurementRule(year=body.year, procedure_type=procedure_type)
+        db.add(rule)
+    rule.threshold = Decimal(str(body.threshold))
+    rule.operator = body.operator
+    rule.currency = body.currency.upper()
+    rule.legal_reference = body.legal_reference.strip()
+    rule.source_url = body.source_url.strip()
+    rule.active = body.active
+    db.flush()
+    record_audit(
+        db,
+        action="procurement_rule.upserted",
+        actor=actor,
+        target_type="procurement_rule",
+        target_id=rule.id,
+        details={"year": rule.year, "procedure_type": rule.procedure_type},
+    )
+    db.commit()
+    db.refresh(rule)
+    return serialize_rule(rule)
 
 
 PREMIUM_TOKEN = settings.premium_token
@@ -327,6 +672,16 @@ def ingest_on_demand(
 
     thread = threading.Thread(target=_bg_ingest, daemon=True)
     thread.start()
+
+    from services.audit_service import record_audit
+    record_audit(
+        db,
+        action="ingestion.started",
+        actor="premium_token",
+        target_type="ingestion_run",
+        details={"years": body.years, "terms": body.search_terms, "limit": body.limit},
+    )
+    db.commit()
 
     return {
         "status": "ingesta_iniciada",

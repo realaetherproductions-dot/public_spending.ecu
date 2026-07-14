@@ -23,17 +23,28 @@ SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
 
 def init_db() -> None:
+    from models.alert_subscription import AlertDelivery, AlertSubscription
     from models.anomaly import Anomaly
+    from models.anomaly_review import AnomalyReview
+    from models.audit_event import AuditEvent
     from models.contract import Contract
     from models.contract_event import ContractEvent
+    from models.correction_request import CorrectionRequest
     from models.ingestion_run import IngestionRun
     from models.institution import Institution
     from models.raw_record import RawRecord
+    from models.procurement_rule import ProcurementRule
     from models.supplier import Supplier
 
-    _ = (Anomaly, Contract, ContractEvent, IngestionRun, Institution, RawRecord, Supplier)
+    _ = (
+        AlertDelivery, AlertSubscription, Anomaly, AnomalyReview, AuditEvent,
+        Contract, ContractEvent, CorrectionRequest,
+        IngestionRun, Institution, ProcurementRule, RawRecord, Supplier,
+    )
     Base.metadata.create_all(bind=engine)
     _ensure_contract_columns()
+    _ensure_anomaly_columns()
+    _ensure_procurement_rule_columns()
 
 
 def _ensure_contract_columns() -> None:
@@ -56,6 +67,35 @@ def _ensure_contract_columns() -> None:
     with engine.begin() as connection:
         for statement in statements:
             connection.execute(text(statement))
+
+
+def _ensure_anomaly_columns() -> None:
+    inspector = inspect(engine)
+    if "anomalies" not in inspector.get_table_names():
+        return
+    existing = {column["name"] for column in inspector.get_columns("anomalies")}
+    statements = []
+    if "reviewed_by" not in existing:
+        statements.append("ALTER TABLE anomalies ADD COLUMN reviewed_by VARCHAR(128)")
+    if "reviewed_at" not in existing:
+        statements.append("ALTER TABLE anomalies ADD COLUMN reviewed_at DATETIME")
+    if "review_evidence_url" not in existing:
+        statements.append("ALTER TABLE anomalies ADD COLUMN review_evidence_url VARCHAR(1024)")
+    with engine.begin() as connection:
+        for statement in statements:
+            connection.execute(text(statement))
+
+
+def _ensure_procurement_rule_columns() -> None:
+    inspector = inspect(engine)
+    if "procurement_rules" not in inspector.get_table_names():
+        return
+    existing = {column["name"] for column in inspector.get_columns("procurement_rules")}
+    if "operator" not in existing:
+        with engine.begin() as connection:
+            connection.execute(text(
+                "ALTER TABLE procurement_rules ADD COLUMN operator VARCHAR(4) DEFAULT 'lt'"
+            ))
 
 
 def get_db() -> Generator[Session, None, None]:
